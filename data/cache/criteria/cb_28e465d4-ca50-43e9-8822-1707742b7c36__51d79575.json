@@ -1,0 +1,39 @@
+{
+  "seed_record_id": "cb:28e465d4-ca50-43e9-8822-1707742b7c36",
+  "seed_name": "Mercury",
+  "user_query": "what fintechs are like Mercury that bank startups?",
+  "fingerprint": "edc7fd4d702033c3",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides FDIC-insured deposit accounts",
+      "rationale": "Distinguishes true banking providers from fintechs that only offer payments, wallets, or non-deposit services without deposit insurance."
+    },
+    {
+      "id": 2,
+      "text": "Offers virtual debit cards",
+      "rationale": "Separates peers that provide programmable or immediate-use card capabilities favored by startups from firms that lack card products."
+    },
+    {
+      "id": 3,
+      "text": "Offers physical debit cards",
+      "rationale": "Identifies companies that support in-person spending and traditional card issuance, a common feature for full-service business banks."
+    },
+    {
+      "id": 4,
+      "text": "Supports domestic and international wire transfers",
+      "rationale": "Differentiates banks that enable traditional bank transfers and cross-border payments from fintechs limited to ACH or card rails."
+    },
+    {
+      "id": 5,
+      "text": "Provides currency exchange or multi-currency account functionality",
+      "rationale": "Separates firms that serve startups operating internationally or handling multiple currencies from those offering only single-currency accounts."
+    },
+    {
+      "id": 6,
+      "text": "Markets or offers business banking services specifically targeted at startups and founders",
+      "rationale": "Encodes the user's intent by distinguishing banks whose primary customer segment is startups from general-purpose or consumer-focused banks."
+    }
+  ]
+}

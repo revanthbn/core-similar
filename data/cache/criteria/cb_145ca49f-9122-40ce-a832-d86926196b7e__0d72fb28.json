@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:145ca49f-9122-40ce-a832-d86926196b7e",
+  "seed_name": "Wiz",
+  "user_query": "cybersecurity startups like Wiz that focus on cloud security",
+  "fingerprint": "1280f1d41a68952b",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides security solutions specifically for public cloud infrastructure",
+      "rationale": "Differentiates cloud-focused vendors from general cybersecurity vendors that target endpoints, networks, or on\u2011premises environments."
+    },
+    {
+      "id": 2,
+      "text": "Enables customers to discover security issues in public cloud infrastructure",
+      "rationale": "Separates companies that actively identify cloud vulnerabilities or misconfigurations from firms that only provide complementary services (e.g., consulting, threat intelligence) without cloud scanning capabilities."
+    },
+    {
+      "id": 3,
+      "text": "Delivers its security product as a cloud-hosted SaaS platform",
+      "rationale": "Filters for vendors that offer a cloud-native software platform rather than on-premise appliances, professional-services-only offerings, or purely open-source projects."
+    },
+    {
+      "id": 4,
+      "text": "Targets business or organizational customers rather than individual consumers",
+      "rationale": "Ensures peers are B2B/cloud-enterprise oriented, excluding consumer-focused security apps or developer utilities that are not sold to organizations."
+    },
+    {
+      "id": 5,
+      "text": "Focuses on securing cloud infrastructure resources (IaaS/PaaS) rather than endpoint devices or on-premises hardware",
+      "rationale": "Distinguishes vendors that secure cloud resources and configurations from vendors whose primary scope is endpoint protection, network appliances, or legacy on-prem security."
+    }
+  ]
+}

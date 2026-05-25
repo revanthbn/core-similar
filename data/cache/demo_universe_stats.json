@@ -1,0 +1,258 @@
+{
+  "n_rows": 349934,
+  "by_source": {
+    "crunchbase": 346440,
+    "yc": 3494
+  },
+  "n_industries_kept": 64,
+  "industries_kept": [
+    "Artificial Intelligence (AI)",
+    "Banking",
+    "Biotechnology",
+    "Cloud Computing",
+    "Cloud Infrastructure",
+    "Cloud Management",
+    "Cloud Security",
+    "Cloud Storage",
+    "Collaboration",
+    "Compliance",
+    "Computer Vision",
+    "Credit",
+    "Credit Cards",
+    "Cyber Security",
+    "Deep Learning",
+    "DevOps",
+    "Developer APIs",
+    "Developer Platform",
+    "Developer Tools",
+    "Digital Health",
+    "Enterprise Software",
+    "FinTech",
+    "Financial Services",
+    "Foundation Models",
+    "Fraud Detection",
+    "Generative AI",
+    "Genetics",
+    "Graphic Design",
+    "Health Care",
+    "Health Diagnostics",
+    "Identity Management",
+    "Information Security",
+    "Infrastructure",
+    "InsurTech",
+    "Insurance",
+    "Knowledge Management",
+    "Legal",
+    "Legal Tech",
+    "Machine Learning",
+    "Medical",
+    "Mobile Apps",
+    "Mobile Payments",
+    "Natural Language Processing",
+    "Network Security",
+    "Open Source",
+    "Payments",
+    "Predictive Analytics",
+    "Product Design",
+    "Productivity Tools",
+    "Project Management",
+    "RegTech",
+    "SaaS",
+    "Security",
+    "Shopping",
+    "Speech Recognition",
+    "Telehealth",
+    "Therapeutics",
+    "UX Design",
+    "Wealth Management",
+    "Web Apps",
+    "Web Design",
+    "Wellness",
+    "Workflow Automation",
+    "mHealth"
+  ],
+  "seed_resolution": [
+    {
+      "name": "Function Health",
+      "domain": "functionhealth.com",
+      "status": "ok",
+      "record_id": "cb:c9b1c7c3-0d40-480b-a83b-b1818201f7a8"
+    },
+    {
+      "name": "Replicate",
+      "domain": "replicate.com",
+      "status": "ok",
+      "record_id": "yc:replicate"
+    },
+    {
+      "name": "Mercury",
+      "domain": "cb:28e465d4-ca50-43e9-8822-1707742b7c36",
+      "status": "ok",
+      "record_id": "cb:28e465d4-ca50-43e9-8822-1707742b7c36"
+    },
+    {
+      "name": "Hugging Face",
+      "domain": "huggingface.co",
+      "status": "ok",
+      "record_id": "cb:b7947f18-b199-45ac-b7da-66f5c52fcfbc"
+    },
+    {
+      "name": "Klarna",
+      "domain": "klarna.com",
+      "status": "ok",
+      "record_id": "cb:2cc3a5de-2303-aa00-cd1a-50bd96420392"
+    },
+    {
+      "name": "Harvey",
+      "domain": "harvey.ai",
+      "status": "ok",
+      "record_id": "cb:d290e89a-261f-4f1a-aebb-ec9b8455128b"
+    },
+    {
+      "name": "Wiz",
+      "domain": "wiz.io",
+      "status": "ok",
+      "record_id": "cb:145ca49f-9122-40ce-a832-d86926196b7e"
+    },
+    {
+      "name": "Vercel",
+      "domain": "vercel.com",
+      "status": "ok",
+      "record_id": "cb:51e84cf4-3438-4321-a702-6f1d4555c535"
+    },
+    {
+      "name": "Notion",
+      "domain": "cb:2f7760cc-4cdd-4dba-9ef6-0745e3420bab",
+      "status": "ok",
+      "record_id": "cb:2f7760cc-4cdd-4dba-9ef6-0745e3420bab"
+    },
+    {
+      "name": "Figma",
+      "domain": "figma.com",
+      "status": "ok",
+      "record_id": "cb:fecdc239-2d5b-8552-fb0e-a6a874e95678"
+    }
+  ],
+  "top_industries_via_seeds": [
+    [
+      "Software",
+      4
+    ],
+    [
+      "Artificial Intelligence (AI)",
+      3
+    ],
+    [
+      "FinTech",
+      2
+    ],
+    [
+      "Web Apps",
+      2
+    ],
+    [
+      "Health Care",
+      1
+    ],
+    [
+      "B2B",
+      1
+    ],
+    [
+      "Infrastructure",
+      1
+    ],
+    [
+      "Banking",
+      1
+    ],
+    [
+      "Financial Services",
+      1
+    ],
+    [
+      "Information Technology",
+      1
+    ],
+    [
+      "InsurTech",
+      1
+    ],
+    [
+      "Generative AI",
+      1
+    ],
+    [
+      "Machine Learning",
+      1
+    ],
+    [
+      "Natural Language Processing",
+      1
+    ],
+    [
+      "Open Source",
+      1
+    ],
+    [
+      "E-Commerce",
+      1
+    ],
+    [
+      "Payments",
+      1
+    ],
+    [
+      "Shopping",
+      1
+    ],
+    [
+      "Legal",
+      1
+    ],
+    [
+      "Legal Tech",
+      1
+    ],
+    [
+      "Cloud Security",
+      1
+    ],
+    [
+      "Cyber Security",
+      1
+    ],
+    [
+      "Enterprise Software",
+      1
+    ],
+    [
+      "Security",
+      1
+    ],
+    [
+      "Apps",
+      1
+    ],
+    [
+      "Developer Platform",
+      1
+    ],
+    [
+      "Internet",
+      1
+    ],
+    [
+      "Collaboration",
+      1
+    ],
+    [
+      "Developer Tools",
+      1
+    ],
+    [
+      "Product Design",
+      1
+    ]
+  ]
+}

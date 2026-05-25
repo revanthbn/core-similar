@@ -1,0 +1,992 @@
+{
+  "seed": {
+    "name": "Mercury",
+    "domain": null,
+    "record_id": "cb:28e465d4-ca50-43e9-8822-1707742b7c36",
+    "industries": [
+      "Banking",
+      "Financial Services",
+      "FinTech",
+      "Information Technology",
+      "InsurTech"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides FDIC-insured deposit accounts",
+      "rationale": "Distinguishes true banking providers from fintechs that only offer payments, wallets, or non-deposit services without deposit insurance."
+    },
+    {
+      "id": 2,
+      "text": "Offers virtual debit cards",
+      "rationale": "Separates peers that provide programmable or immediate-use card capabilities favored by startups from firms that lack card products."
+    },
+    {
+      "id": 3,
+      "text": "Offers physical debit cards",
+      "rationale": "Identifies companies that support in-person spending and traditional card issuance, a common feature for full-service business banks."
+    },
+    {
+      "id": 4,
+      "text": "Supports domestic and international wire transfers",
+      "rationale": "Differentiates banks that enable traditional bank transfers and cross-border payments from fintechs limited to ACH or card rails."
+    },
+    {
+      "id": 5,
+      "text": "Provides currency exchange or multi-currency account functionality",
+      "rationale": "Separates firms that serve startups operating internationally or handling multiple currencies from those offering only single-currency accounts."
+    },
+    {
+      "id": 6,
+      "text": "Markets or offers business banking services specifically targeted at startups and founders",
+      "rationale": "Encodes the user's intent by distinguishing banks whose primary customer segment is startups from general-purpose or consumer-focused banks."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Issues both virtual and physical cards (2/6 criteria); lacks explicit evidence of FDIC deposits, wires, multi-currency, or startup-targeted business banking.",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Issues both virtual and physical cards (2/6 criteria); lacks explicit evidence of FDIC deposits, wires, multi-currency, or startup-targeted business banking.",
+      "criteria_matched": [
+        2,
+        3
+      ],
+      "criteria_missing": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:019ab2c5-cbe3-4bdb-af64-5d569a2755f6",
+          "name": "Dock Financial",
+          "domain": null,
+          "one_liner": "Dock Financial provides fully functional payment accounts, issues physical and virtual Mastercards, leverages payment infrastructure.",
+          "description_full": "Dock Financial provides fully functional payment accounts, issues physical and virtual Mastercards, leverages payment infrastructure.",
+          "cosine": 0.5656,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Issues both virtual and physical cards (2/6 criteria); lacks explicit evidence of FDIC deposits, wires, multi-currency, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description says Dock Financial 'issues physical and virtual Mastercards', indicating they issue virtual debit cards."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description says Dock Financial 'issues physical and virtual Mastercards', indicating they issue physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b5f733ca-f745-437b-b44a-e9729fedb13a",
+          "name": "Fairwinds International Bank",
+          "domain": "fairwinds.com.pr",
+          "one_liner": "Fairwinds International Bank offers multi-currency transaction banking, international debit cards, foreign exchange, and custodian services.",
+          "description_full": "Fairwinds International Bank offers multi-currency transaction banking, international debit cards, foreign exchange, and custodian services.",
+          "cosine": 0.5621,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Provides multi-currency banking and international debit cards (2/6 criteria); lacks explicit mention of FDIC insurance, virtual cards, wires, or startup-focused business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description states Fairwinds offers 'international debit cards', indicating issuance of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description mentions 'multi-currency transaction banking' but provides insufficient explicit evidence to confirm both domestic and international wire transfer support."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description states Fairwinds offers 'multi-currency transaction banking' and 'foreign exchange', indicating currency exchange/multi-currency functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:d52eba36-c95b-45cf-9405-fb30163e03f1",
+          "name": "1STERLING",
+          "domain": "1sterling.com",
+          "one_liner": "1STERLING provides direct payment accounts, currency conversion, debit and prepaid cards, and electronic payment solutions.",
+          "description_full": "1STERLING provides direct payment accounts, currency conversion, debit and prepaid cards, and electronic payment solutions.",
+          "cosine": 0.5327,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Offers debit/prepaid cards and currency conversion (2/6 criteria), but lacks explicit mention of FDIC-insured accounts, wires, virtual cards, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description lists 'debit and prepaid cards' but provides insufficient explicit evidence to confirm virtual debit card offering."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description states 1STERLING provides 'debit and prepaid cards', indicating they offer physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description explicitly mentions 'currency conversion', indicating currency exchange functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:13ee7d2d-c7e9-48a5-9168-2daa188bcb81",
+          "name": "Flashwire",
+          "domain": "flashwire.com",
+          "one_liner": "Flashwire offers digital banking, crypto-backed lending, crypto debit cards, and a DEX.",
+          "description_full": "Flashwire offers digital banking, crypto-backed lending, crypto debit cards, and a DEX.",
+          "cosine": 0.5235,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Offers crypto debit cards and an exchange (2/6 criteria); however, evidence points to crypto-focused services and lacks FDIC, wire, virtual-card, or startup-banking confirmation.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description mentions 'crypto debit cards' but does not explicitly state virtual debit cards; insufficient evidence to confirm virtual card offering."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description lists 'crypto debit cards', indicating they offer debit card products (likely physical or card-based)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description includes a 'DEX' (decentralized exchange), indicating exchange functionality (crypto-focused)."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:98838d07-d962-481f-ac2b-38c1fe2d6ca7",
+          "name": "Fido Merchant Services",
+          "domain": "fidoms.com",
+          "one_liner": "Fido Merchant Services renders trading, forex card, MasterCard, American Express, and prepaid card services.",
+          "description_full": "Fido Merchant Services renders trading, forex card, MasterCard, American Express, and prepaid card services.",
+          "cosine": 0.5146,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Provides card services (1 clear cards criterion plus some card product breadth) but lacks evidence for FDIC accounts, wires, currency exchange, virtual cards, or startup-focused banking; categorized as some overlap (2/6 if counting prepaid separately) but conservatively single strong card match.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description references card products ('MasterCard, American Express, and prepaid card services') but does not explicitly confirm virtual debit cards."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description mentions 'MasterCard, American Express, and prepaid card services', indicating they provide card products (physical or prepaid cards)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:8da1b4a8-cea4-4d7e-a609-a481328bfc76",
+          "name": "Fire Forex",
+          "domain": "fireforex.in",
+          "one_liner": "Fire Forex offers foreign exchange services, including buying and selling forex, forex cards, and education remittance.",
+          "description_full": "Fire Forex offers foreign exchange services, including buying and selling forex, forex cards, and education remittance.",
+          "cosine": 0.5145,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Offers forex cards and foreign exchange (2/6 criteria), but lacks clear evidence of FDIC accounts, wires, virtual cards, or startup-focused business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description mentions 'forex cards' but does not explicitly state virtual debit cards."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description states Fire Forex offers 'forex cards', indicating card products (typically physical prepaid cards)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for both domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description says Fire Forex offers 'foreign exchange services', indicating currency exchange functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:cabc26d3-fb8e-43a2-a108-0d07ee75b693",
+          "name": "Link",
+          "domain": "linkexchange.com.pk",
+          "one_liner": "Link provides a variety of financial services such as currency exchange, demand draft, and telegraphic transfer services.",
+          "description_full": "Link provides a variety of financial services such as currency exchange, demand draft, and telegraphic transfer services.",
+          "cosine": 0.5097,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Provides wire/telegraphic transfer services and currency exchange (2/6 criteria), aligning with payments and FX capabilities though lacking FDIC, card issuance, virtual cards, or startup-focused banking evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Description lists 'demand draft, and telegraphic transfer services', which indicates support for wire/transfer services."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description explicitly states Link provides 'currency exchange', indicating currency exchange functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Focused on credit cards and personal loans with no explicit evidence for deposit accounts, debit cards, wires, currency exchange, or startup banking; weak peer ",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Focused on credit cards and personal loans with no explicit evidence for deposit accounts, debit cards, wires, currency exchange, or startup banking; weak peer to the seed company despite higher cosine similarity.",
+      "criteria_matched": [],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:96155f12-26ab-27d3-f4a0-53b58b5fb059",
+          "name": "Mercury Financial",
+          "domain": "mercuryfinancial.com",
+          "one_liner": "Mercury Financial is a financial services company that develops and manages credit cards and personal loans.",
+          "description_full": "Mercury Financial is a financial services company that develops and manages credit cards and personal loans.",
+          "cosine": 0.664,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Focused on credit cards and personal loans with no explicit evidence for deposit accounts, debit cards, wires, currency exchange, or startup banking; weak peer to the seed company despite higher cosine similarity.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts (description focuses on credit cards and personal loans)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description indicates the company 'develops and manages credit cards and personal loans' but does not mention virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description references credit cards rather than debit cards, so insufficient evidence to confirm physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:adc6e238-b7d6-455d-9b81-a3e045c2efb8",
+          "name": "Mercury",
+          "domain": "mercury-pay.com",
+          "one_liner": "Mercury offers locally relevant, innovative, and cost-effective payment solutions.",
+          "description_full": "Mercury offers locally relevant, innovative, and cost-effective payment solutions.",
+          "cosine": 0.6263,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General payments company with insufficient explicit overlap to Mercury's deposit, card, wire, and startup-banking features.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description notes 'payment solutions' but does not explicitly state virtual debit card offerings."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly confirm physical debit cards; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a2c5d57e-dc99-efbc-fec0-6fc5d3696589",
+          "name": "Mercury Cash",
+          "domain": "mercury.cash",
+          "one_liner": "Mercury Cash is a global cash & crypto management solution designed for fortune 500 companies",
+          "description_full": "Mercury Cash is a global cash & crypto management solution designed for fortune 500 companies",
+          "cosine": 0.5975,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Description focuses on cash & crypto management for large enterprises and lacks evidence for FDIC deposits, debit cards, wire transfers, fiat multi-currency accounts, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly mention virtual debit cards; insufficient evidence to confirm."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly mention physical debit cards; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description mentions 'global cash & crypto management' but provides insufficient explicit evidence to confirm fiat currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description indicates enterprise focus ('fortune 500 companies') and provides insufficient evidence of services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:4269e1f8-6bb8-44e0-99a3-7c7b1c5a12af",
+          "name": "Meridian Currency",
+          "domain": "meridiansolutions.co.uk",
+          "one_liner": "Meridian Currency is a financial solutions company that offers risk management, foreign payments, digital payments and exchange.",
+          "description_full": "Meridian Currency is a financial solutions company that offers risk management, foreign payments, digital payments and exchange.",
+          "cosine": 0.5679,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches currency exchange (1/6); otherwise lacks explicit evidence of FDIC accounts, card issuance, full wire support, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description mentions 'foreign payments' but provides insufficient explicit evidence to confirm both domestic and international wire transfer support."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description lists 'foreign payments... and exchange', indicating currency exchange capabilities."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:72dcc6a3-c2bd-47f7-83b3-c940a83eeb9b",
+          "name": "Mercury",
+          "domain": "mercurytc.com",
+          "one_liner": "Mercury specializes in credit insurance solutions that offers ground up and top up coverage services.",
+          "description_full": "Mercury specializes in credit insurance solutions that offers ground up and top up coverage services.",
+          "cosine": 0.5583,
+          "llm_tier": "tier_4",
+          "tier_rationale": "A credit insurance firm with no explicit banking or payments product overlap to the seed company's profile.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts (company focuses on credit insurance solutions)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of virtual debit cards in the description of credit insurance services."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of physical debit cards in the description of credit insurance services."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:2605d933-5d4f-495a-8440-e7dc0662ceab",
+          "name": "Silverbird",
+          "domain": "silverbird.com",
+          "one_liner": "Digital bank for international merchants",
+          "description_full": "Digital bank for international merchants",
+          "cosine": 0.5392,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Described as a digital bank for merchants but lacks explicit evidence for FDIC deposits, cards, wires, multi-currency accounts, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description 'Digital bank for international merchants' does not explicitly confirm virtual debit card offerings."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly confirm physical debit cards; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description targets 'international merchants' and provides insufficient evidence of services specifically for startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:d37febb0-3eee-4b01-afb5-481a734f66a4",
+          "name": "Mercury Ecommerce",
+          "domain": "mercuryfund.com",
+          "one_liner": "Mercury Ecommerce is private equity and venture capital firm that specializes in financial services and management.",
+          "description_full": "Mercury Ecommerce is private equity and venture capital firm that specializes in financial services and management.",
+          "cosine": 0.5381,
+          "llm_tier": "tier_4",
+          "tier_rationale": "A private equity/VC firm with no explicit banking features in the description; weakly related to the seed company.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of virtual debit cards in the description; insufficient evidence to confirm."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of physical debit cards in the description; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Entity is a private equity/venture capital firm; insufficient evidence to indicate it offers business banking services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b786c1d0-fdb4-4dd9-bc75-d5d746be6914",
+          "name": "Moneywire",
+          "domain": "moneywire.co",
+          "one_liner": "Moneywire provides international payments services that provides better quality & better value to its corporate & private clients.",
+          "description_full": "Moneywire provides international payments services that provides better quality & better value to its corporate & private clients.",
+          "cosine": 0.5372,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides international payments (noted) but lacks evidence of FDIC deposits, card products, explicit multicurrency accounts, or startup-targeted banking; therefore weakly related.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description states Moneywire provides 'international payments services' but provides insufficient evidence to confirm both domestic and international wire-transfer support."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:c3228f2e-29af-4af3-b8ca-f0c0a067ea85",
+          "name": "Mercuryo",
+          "domain": "mercuryo.io",
+          "one_liner": "Mercuryo is an international fintech company focused on providing cryptocurrency payment solutions.",
+          "description_full": "Mercuryo is an international fintech company focused on providing cryptocurrency payment solutions.",
+          "cosine": 0.5314,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Crypto payments specialist with no explicit evidence of FDIC-insured accounts, cards, wires, fiat multi-currency accounts, or startup-targeted banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description focuses on cryptocurrency payment solutions and does not explicitly mention virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on crypto payments and does not explicitly mention physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "While crypto payments are noted, there is insufficient explicit evidence to confirm fiat currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:9eac13b3-d7df-4048-a71b-b6df5e9d7b98",
+          "name": "ACE Money Exchange",
+          "domain": "acemoneyexchange.com.my",
+          "one_liner": "ACE Money Exchange is a financial service firm offering money exchange, remittance, and other banking services to customers.",
+          "description_full": "ACE Money Exchange is a financial service firm offering money exchange, remittance, and other banking services to customers.",
+          "cosine": 0.5311,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches currency exchange (1/6) via money exchange/remittance, but lacks evidence of FDIC accounts, card issuance, full wire support, or startup-focused business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description mentions 'remittance' (international transfers) but provides insufficient explicit evidence to confirm both domestic and international wire transfer support."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description states ACE Money Exchange offers 'money exchange', indicating currency exchange services."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:daeb9058-be5b-4bb0-98c8-974c457e61b1",
+          "name": "PAA CAPITAL SE",
+          "domain": "paacapital.com",
+          "one_liner": "Financial Service Provider, E-Money, E-Wallet, Prepaid Debit Cards",
+          "description_full": "Financial Service Provider, E-Money, E-Wallet, Prepaid Debit Cards",
+          "cosine": 0.5267,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Offers prepaid debit cards (1/6) but lacks explicit evidence for FDIC-insured accounts, wires, multi-currency accounts, or startup-focused services.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description lists 'E-Money, E-Wallet' but does not explicitly confirm virtual debit card issuance."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description explicitly includes 'Prepaid Debit Cards', indicating they provide debit card products."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:d7221423-1432-48a6-b2ef-9843c3d73a7e",
+          "name": "Tellerpay",
+          "domain": "tellerpay.ng",
+          "one_liner": "Tellerpay provides debit cards, savings, investments, end-to-end security, digital, and agency banking services.",
+          "description_full": "Tellerpay provides debit cards, savings, investments, end-to-end security, digital, and agency banking services.",
+          "cosine": 0.5236,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides debit cards (1/6) but lacks explicit evidence of FDIC deposit accounts, virtual cards, wires, currency exchange, or startup-targeted business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description mentions 'debit cards' but does not explicitly confirm virtual debit card offerings."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description states Tellerpay provides 'debit cards', indicating they offer physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:eae35ad6-1bc5-464c-b36d-2eb29da9e434",
+          "name": "Master Exchange",
+          "domain": "masterexchange.com.mx",
+          "one_liner": "Master Exchange is a financial company that facilitates the wholesale purchase and sale of currencies and offers currency exchange services.",
+          "description_full": "Master Exchange is a financial company that facilitates the wholesale purchase and sale of currencies and offers currency exchange services.",
+          "cosine": 0.5176,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches currency exchange (1/6) but lacks evidence for FDIC accounts, cards, wires, or startup-targeted banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description states Master Exchange 'offers currency exchange services', indicating currency exchange functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:dd8b4419-bd29-47a1-b4bf-e4ceb25329be",
+          "name": "FIX Foreign Exchange",
+          "domain": "fixfe.com",
+          "one_liner": "FIX Foreign Exchange offers complete international payment and foreign exchange services to financial institutions and corporations.",
+          "description_full": "FIX Foreign Exchange offers complete international payment and foreign exchange services to financial institutions and corporations.",
+          "cosine": 0.5169,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches foreign exchange (1/6); lacks explicit evidence of FDIC-insured accounts, cards, full wire capabilities, or startup-focused business banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description mentions 'international payment' services but does not explicitly confirm support for both domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description states FIX offers 'foreign exchange services', indicating currency exchange capability."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:18aabdb5-e176-4f17-90d7-c2253e477a0b",
+          "name": "Quick Merchant Account",
+          "domain": "quickmerchantaccount.com",
+          "one_liner": "Quick Merchant Account is a merchant account service provider that offers a comprehensive range of credit & debit card processing solutions.",
+          "description_full": "Quick Merchant Account is a merchant account service provider that offers a comprehensive range of credit & debit card processing solutions.",
+          "cosine": 0.5129,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Merchant acquirer/processor with no explicit evidence of deposit accounts, card issuance, wire transfers, multi-currency accounts, or startup banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description focuses on merchant account/processing solutions and does not explicitly mention virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on card processing and does not indicate they issue physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b65fe191-f0bb-4765-88cd-1cdb6f87cd29",
+          "name": "Srimoney",
+          "domain": "srimoney.com",
+          "one_liner": "Srimoney offers domestic money transfers, bill payments, cash management, insurance, and travel services.",
+          "description_full": "Srimoney offers domestic money transfers, bill payments, cash management, insurance, and travel services.",
+          "cosine": 0.5116,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides domestic money transfers and cash management but lacks evidence of FDIC-insured deposit accounts, card issuance, international wires, currency exchange, or startup-targeted banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly mention virtual debit cards; insufficient evidence to confirm."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly mention physical debit cards; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description mentions 'domestic money transfers' but provides insufficient explicit evidence to confirm both domestic and international wire transfer support."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services specifically targeted at startups and founders."
+            }
+          }
+        },
+        {
+          "record_id": "cb:c40a4513-d47b-4602-a631-4cfec5496a1e",
+          "name": "DCMA",
+          "domain": "dcma.io",
+          "one_liner": "DCMA provides digital banking, currency exchange, trading, and payment solutions for government authorities and central banks.",
+          "description_full": "DCMA provides digital banking, currency exchange, trading, and payment solutions for government authorities and central banks.",
+          "cosine": 0.5088,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides currency exchange (1/6) but focuses on government/central bank clients and lacks evidence of FDIC accounts, cards, wires, or startup banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of virtual debit cards."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm offering of physical debit cards."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm support for domestic and international wire transfers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description lists 'digital banking, currency exchange, trading', indicating they provide currency exchange functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description indicates clients are 'government authorities and central banks' and provides insufficient evidence of startup-targeted business banking."
+            }
+          }
+        },
+        {
+          "record_id": "cb:f01d2243-4b42-4413-8e54-79b08038c66d",
+          "name": "Whats Money",
+          "domain": "whats.money",
+          "one_liner": "Whatsmoney provides digital banks solutions such as digital accounts, P2M transfer, recharges, TEDs, KYC, and online payments.",
+          "description_full": "Whatsmoney provides digital banks solutions such as digital accounts, P2M transfer, recharges, TEDs, KYC, and online payments.",
+          "cosine": 0.5073,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Digital banking features listed but no explicit evidence of FDIC-insured deposits, card issuance, full wire capabilities, currency exchange, or startup-focused banking.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm FDIC-insured deposit accounts; description references 'digital banks solutions' but lacks FDIC mention."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly mention virtual debit cards; insufficient evidence to confirm."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly mention physical debit cards; insufficient evidence to confirm."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description references 'TEDs' and P2M transfers (Brazilian transfer types) but lacks explicit evidence of both domestic and international wire transfer support."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm currency exchange or multi-currency account functionality."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm business banking services targeted at startups and founders."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "what fintechs are like Mercury that bank startups?",
+  "pipeline_seconds": 1534.7,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": false,
+    "n_candidates_prefilter": 76996,
+    "n_new_embeddings": 76996
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "seed": {
+    "name": "Klarna",
+    "domain": "klarna.com",
+    "record_id": "cb:2cc3a5de-2303-aa00-cd1a-50bd96420392",
+    "industries": [
+      "E-Commerce",
+      "FinTech",
+      "Payments",
+      "Shopping"
+    ],
+    "country": "Scandinavia"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "The company offers buy-now-pay-later (BNPL) consumer products that let shoppers defer payment or split purchases into installments at checkout.",
+      "rationale": "BNPL product capability is the core functional distinction between Klarna-like peers and generic payment or fintech firms that do not provide consumer installment credit at checkout."
+    },
+    {
+      "id": 2,
+      "text": "The company provides merchant-facing e-commerce integrations (for example checkout plugins, APIs, or SDKs) to embed BNPL at the point of sale.",
+      "rationale": "Klarna-like peers integrate directly into merchant checkouts; this separates platform/integration providers from consumer-only finance apps or banks that do not integrate with online merchants."
+    },
+    {
+      "id": 3,
+      "text": "The company serves e-commerce merchants and online shoppers as primary customers.",
+      "rationale": "Serving both merchants and consumers in e-commerce distinguishes BNPL vendors from lenders that focus only on consumers or payment processors that target non-retail verticals."
+    },
+    {
+      "id": 4,
+      "text": "The company operates in one or more European countries.",
+      "rationale": "The user explicitly requested European BNPLs; requiring European operations filters out geographically non-relevant BNPL providers."
+    },
+    {
+      "id": 5,
+      "text": "The company provides merchant settlement or a payment guarantee (i.e., it pays merchants for transactions while collecting repayment from consumers over time).",
+      "rationale": "Many Klarna-like competitors differentiate by taking merchant settlement risk or guaranteeing merchant payouts, which separates them from platforms that only broker third-party consumer credit without guaranteeing merchant payment."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 2 \u2014 plausible peers \u2014 Matches 4 of 5 criteria (BNPL/installments, merchant integrations, merchant+shopper customers, Europe) with direct evidence; missing explicit merchant settlemen",
+      "llm_tier": "tier_2",
+      "summary_rationale": "Matches 4 of 5 criteria (BNPL/installments, merchant integrations, merchant+shopper customers, Europe) with direct evidence; missing explicit merchant settlement statement.",
+      "criteria_matched": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "criteria_missing": [
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:4d7a369c-b760-4b3a-8474-911e58747430",
+          "name": "Availabill",
+          "domain": "availabill.ch",
+          "one_liner": "Availabill offers payment solutions for retailers and specializing in purchasing on account and installments.",
+          "cosine": 0.5355,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 4 of 5 criteria (BNPL/installments, merchant integrations, merchant+shopper customers, Europe) with direct evidence; missing explicit merchant settlement statement.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'specializing in purchasing on account and installments' (direct indication of BNPL/installment products)."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'offers payment solutions for retailers' (implies merchant-facing e\u2011commerce payment integrations)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description targets 'retailers' and 'purchasing on account' (serves merchants and consumer purchasers)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Domain .ch (Switzerland) indicates operation in a European country."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state that Availabill pays merchants upfront or provides a merchant settlement/guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Availabill offers payment solutions for retailers and specializing in purchasing on account and installments."
+        },
+        {
+          "record_id": "cb:e23314ed-1dda-40d3-bdd8-561f554d5a90",
+          "name": "HeidiPay",
+          "domain": "heidipay.com",
+          "one_liner": "Swiss fintech enabling merchants, marketplaces and lenders to offer next generation buy-now-pay-later (BNPL)",
+          "cosine": 0.5315,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 4 of 5 criteria (explicit BNPL, merchant integrations, target customers, Europe); lacks explicit mention of merchant settlement/payment guarantee.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'enable... to offer next generation buy-now-pay-later (BNPL)' (explicit BNPL product)."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'enabling merchants, marketplaces and lenders to offer' (implies merchant-facing integrations/APIs/plugins)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description explicitly references 'merchants' and 'marketplaces' and BNPL (serves merchants and end consumers implicitly)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Description: 'Swiss fintech' (operates in Switzerland, a European market)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state that HeidiPay settles/pay merchants up front or provides a payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Swiss fintech enabling merchants, marketplaces and lenders to offer next generation buy-now-pay-later (BNPL)"
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Matches merchant integrations and European operation (2/5) with strong relevance to e\u2011commerce payments; lacks explicit BNPL and settlement claims in the descri",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Matches merchant integrations and European operation (2/5) with strong relevance to e\u2011commerce payments; lacks explicit BNPL and settlement claims in the description.",
+      "criteria_matched": [
+        2,
+        4
+      ],
+      "criteria_missing": [
+        1,
+        3,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:6619ddf7-eb60-448e-96b6-8b8866685961",
+          "name": "Ecster",
+          "domain": "ecster.se",
+          "one_liner": "Ecster offers payment solutions for retail merchants and online stores.",
+          "cosine": 0.5799,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant integrations and European operation (2/5) with strong relevance to e\u2011commerce payments; lacks explicit BNPL and settlement claims in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'offers payment solutions for retail merchants and online stores' but does not explicitly mention buy-now-pay-later or installments; insufficient evidence in description."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'offers payment solutions for retail merchants and online stores' (implies merchant-facing e\u2011commerce integrations/APIs/plugins)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description explicitly targets 'retail merchants and online stores' but does not explicitly mention serving online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Domain .se indicates Sweden (operation in a European country)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state that Ecster provides merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Ecster offers payment solutions for retail merchants and online stores."
+        },
+        {
+          "record_id": "cb:072f3758-a74e-d6f8-be15-00c0423e7283",
+          "name": "Simpl",
+          "domain": "getsimpl.com",
+          "one_liner": "Simpl is a fintech company that offers a cardless payment network with multiple solutions for merchants and consumers.",
+          "cosine": 0.5457,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant integrations and serves both merchants and consumers (2/5) but description lacks explicit BNPL, European operation, and merchant settlement claims.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'cardless payment network' but does not explicitly state deferring payment or installment (no explicit BNPL mention); insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'multiple solutions for merchants' (implies merchant-facing integrations for checkout/acceptance)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description references solutions for 'merchants and consumers' (indicates both sides are customers)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not specify operation in European countries; insufficient evidence and known operations are outside Europe based on domain/brand context."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state merchant settlement/payment guarantee or that Simpl pays merchants while collecting from consumers; insufficient evidence."
+            }
+          },
+          "description_full": "Simpl is a fintech company that offers a cardless payment network with multiple solutions for merchants and consumers."
+        },
+        {
+          "record_id": "cb:8853b4c0-9bf6-ccf5-0d35-07ae1a844ee8",
+          "name": "Payfirma",
+          "domain": "payfirma.com",
+          "one_liner": "Payfirma offers businesses a multi-channel payment platform for mobile, ecommerce and in-store payments.",
+          "cosine": 0.5363,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant-facing e\u2011commerce integrations and serves merchants/online shoppers (2/5) but lacks explicit BNPL, European presence, and settlement guarantee in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'multi-channel payment platform' with no explicit mention of BNPL or installment offerings; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'multi-channel payment platform for mobile, ecommerce and in-store payments' (implies merchant-facing e\u2011commerce integrations)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description covers 'ecommerce' and payment acceptance (serves merchants and the shoppers who pay online in that context)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not specify operation in European countries; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state Payfirma provides merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Payfirma offers businesses a multi-channel payment platform for mobile, ecommerce and in-store payments."
+        },
+        {
+          "record_id": "cb:1c50d303-f861-4037-b102-4f66394e10f3",
+          "name": "payabl.",
+          "domain": "payabl.com",
+          "one_liner": "Payments provider and acquirer, powering the growth of merchants by helping them take payments easily.",
+          "cosine": 0.5316,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant integrations and acquirer/settlement capability (2/5); no explicit BNPL offering or clear European operation in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'Payments provider and acquirer' but does not mention buy-now-pay-later or installments; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'Payments provider and acquirer, powering the growth of merchants by helping them take payments' (implies merchant-facing integrations)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets merchants explicitly; it does not explicitly state online shoppers are primary customers as well; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not explicitly state operation in European countries; insufficient evidence despite brand name."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description calls the company a 'payments provider and acquirer' (acquirer role implies merchant settlement capabilities)."
+            }
+          },
+          "description_full": "Payments provider and acquirer, powering the growth of merchants by helping them take payments easily."
+        },
+        {
+          "record_id": "cb:13f7b006-1a21-4f29-9c28-ebc962ee4807",
+          "name": "Silkpay",
+          "domain": "silkpay.eu",
+          "one_liner": "Silkpay provides secure and omnichannel payment solutions to European merchants for in-store and online payment acceptance.",
+          "cosine": 0.5315,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant-facing integrations and European merchant coverage and serves merchants/shoppers (3/5), but no explicit BNPL or merchant settlement evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'provides secure and omnichannel payment solutions' but does not mention buy-now-pay-later or installment products; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'omnichannel payment solutions to merchants for in-store and online payment acceptance' (indicates merchant-facing integrations)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description specifically addresses 'European merchants' and online payment acceptance (serves e\u2011commerce merchants and the shoppers who pay online)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Domain .eu and description reference 'European merchants' (operates in Europe)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state Silkpay provides merchant settlement or a payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Silkpay provides secure and omnichannel payment solutions to European merchants for in-store and online payment acceptance."
+        },
+        {
+          "record_id": "cb:174905e8-8fce-4a7d-90ef-4f331b0703ba",
+          "name": "Paystrax",
+          "domain": "paystra.com",
+          "one_liner": "Paystrax is a financial company that provides electronic transactions and payment solutions to sell goods & services for European merchants.",
+          "cosine": 0.5308,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant-facing integrations and European operation (2/5) but lacks explicit BNPL and settlement claims in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'electronic transactions and payment solutions' but no explicit mention of BNPL or installments; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'provides electronic transactions and payment solutions to sell goods & services for European merchants' (implies merchant-facing solutions/integrations)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description explicitly targets European merchants but does not state serving online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Description references 'European merchants' (operates in Europe)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not state that Paystrax provides merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Paystrax is a financial company that provides electronic transactions and payment solutions to sell goods & services for European merchants."
+        },
+        {
+          "record_id": "cb:60cc55fd-e9af-46a7-9430-f7ba566d5465",
+          "name": "NordPay Financial",
+          "domain": "nordpay.eu",
+          "one_liner": "NordPay Financial provides hassle-free payment solution to make payments easy, fast, and secure for merchants.",
+          "cosine": 0.5308,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches merchant-facing integrations and European presence (2/5); no explicit BNPL or merchant settlement claims in description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'hassle-free payment solution' but no explicit mention of BNPL or installment features; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'payment solution... for merchants' (implies merchant-facing integrations for online acceptance)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description addresses merchants; it does not explicitly mention online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Domain .eu indicates operation in European markets."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not mention merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "NordPay Financial provides hassle-free payment solution to make payments easy, fast, and secure for merchants."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Appears to be a B2B payments/trading communications platform with no explicit BNPL, e\u2011commerce checkout integration, European focus, or merchant settlement clai",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Appears to be a B2B payments/trading communications platform with no explicit BNPL, e\u2011commerce checkout integration, European focus, or merchant settlement claims in the description.",
+      "criteria_matched": [],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:4912721a-6f9e-4459-a18e-da773895d4ec",
+          "name": "Klearing",
+          "domain": "klearing.com",
+          "one_liner": "Klearing is a trading platform that provides payments and trade communication for businesses.",
+          "cosine": 0.6055,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Appears to be a B2B payments/trading communications platform with no explicit BNPL, e\u2011commerce checkout integration, European focus, or merchant settlement claims in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'trading platform that provides payments and trade communication for businesses' with no mention of BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description references 'payments and trade communication for businesses' but does not describe e\u2011commerce checkout plugins/APIs/SDKs; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets businesses broadly; it does not state serving e\u2011commerce merchants and online shoppers specifically; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description/domain do not indicate operation in European countries; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that Klearing provides merchant settlement or payment guarantees; insufficient evidence."
+            }
+          },
+          "description_full": "Klearing is a trading platform that provides payments and trade communication for businesses."
+        },
+        {
+          "record_id": "cb:86c6e963-64fc-4a14-a5eb-6bb61fb1097a",
+          "name": "Klu.",
+          "domain": "klu.mx",
+          "one_liner": "Klu is a financial solution and card management platform.",
+          "cosine": 0.5897,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Card management/financial platform targeting consumers (likely Mexico) with no evidence of BNPL at checkout, e\u2011commerce integrations, European operation, or merchant settlement.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'financial solution and card management platform' but no mention of BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate merchant-facing e\u2011commerce integrations such as checkout plugins/APIs/SDKs; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description implies consumer financial services rather than serving e\u2011commerce merchants and online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .mx indicates operation in Mexico, not Europe; description gives no European presence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement or payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "Klu is a financial solution and card management platform."
+        },
+        {
+          "record_id": "cb:f9b6a8fd-01fb-4a51-9894-91ee3c220f7f",
+          "name": "Prikl Pay",
+          "domain": "priklpay.com",
+          "one_liner": "Prikl Pay is a merchant services company that provides innovative payment processing, point of sale, and software solutions to businesses.",
+          "cosine": 0.5617,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Primarily a merchant services/payment processor (1/5) with no explicit BNPL, European focus, or settlement guarantee in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'merchant services... payment processing, point of sale' but does not mention BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'merchant services... software solutions' (implies merchant-facing integrations for payments/checkout)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets businesses/merchants; it does not explicitly state serving online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description/domain do not specify operation in European countries; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not indicate merchant settlement/payment guarantee or paying merchants upfront; insufficient evidence."
+            }
+          },
+          "description_full": "Prikl Pay is a merchant services company that provides innovative payment processing, point of sale, and software solutions to businesses."
+        },
+        {
+          "record_id": "cb:8ac45511-8044-4ec0-b5c1-716e4787578a",
+          "name": "VikingPay",
+          "domain": "vikingpay.com",
+          "one_liner": "VikingPay offers customized e-commerce solutions to merchants and acquiring institutions.",
+          "cosine": 0.5591,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides e\u2011commerce merchant solutions (1/5) but no explicit BNPL, merchant settlement, or confirmed European operation in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'offers customized e-commerce solutions to merchants and acquiring institutions' but no explicit BNPL mention; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'e-commerce solutions to merchants' (suggests merchant-facing integrations for checkout/acceptance)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on merchants and acquirers; it does not explicitly say it serves online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not state operation in European countries; insufficient evidence despite Nordic\u2011sounding name."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee or paying merchants while collecting from consumers; insufficient evidence."
+            }
+          },
+          "description_full": "VikingPay offers customized e-commerce solutions to merchants and acquiring institutions."
+        },
+        {
+          "record_id": "cb:ca519fb1-c164-44c5-9265-b81d3ae7b262",
+          "name": "Klar",
+          "domain": "klar.mx",
+          "one_liner": "Klar is a digital bank that provides banking services including credit cards and loan through an app-based platform.",
+          "cosine": 0.558,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Digital bank/consumer lending service (likely Mexico) with no clear BNPL checkout product, merchant integrations, European presence, or settlement guarantee in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'digital bank... credit cards and loan' but does not mention BNPL checkout or installment products; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate merchant-facing e\u2011commerce integrations (APIs/plugins/SDKs); insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets banking customers (consumers) rather than e\u2011commerce merchants and online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .mx (Mexico) indicates no clear European operation in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement about merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Klar is a digital bank that provides banking services including credit cards and loan through an app-based platform."
+        },
+        {
+          "record_id": "cb:22a580ee-53de-40bc-8e80-09ec322c1159",
+          "name": "KoPayments",
+          "domain": "kopayments.com",
+          "one_liner": "KoPayments is a fintech company that provides a secured omnichannel payment gateway for merchants to accept payments online.",
+          "cosine": 0.5563,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Omnichannel payment gateway (1/5) with merchant integrations but no explicit BNPL, European operation, or settlement guarantee mentioned.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'secured omnichannel payment gateway for merchants' but no mention of BNPL or installment products; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'payment gateway for merchants to accept payments online' (indicates merchant-facing integrations/APIs/SDKs)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets merchants; it does not explicitly indicate serving online shoppers as a primary customer; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not specify European operations; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "KoPayments is a fintech company that provides a secured omnichannel payment gateway for merchants to accept payments online."
+        },
+        {
+          "record_id": "cb:c788365b-e597-41f9-ab00-0e5a8d4d45a0",
+          "name": "SKYPAY",
+          "domain": "skypay.ph",
+          "one_liner": "SKYPAY is a Payment Solution provider connecting merchants and consumers delivering convenient and secured customer experience.",
+          "cosine": 0.5545,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Connects merchants and consumers (1/5) but lacks BNPL, merchant settlement, and European operation claims in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'Payment Solution provider' but does not mention BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly describe e\u2011commerce checkout plugins/APIs/SDKs for merchants; insufficient evidence."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description: 'connecting merchants and consumers' (indicates serving both merchants and consumers/shoppers)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .ph indicates Philippines operation; no evidence of European presence in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement of merchant settlement or payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "SKYPAY is a Payment Solution provider connecting merchants and consumers delivering convenient and secured customer experience."
+        },
+        {
+          "record_id": "cb:b837c9f6-e8e5-2d59-279c-b7e6bd4fda39",
+          "name": "KLEAR LENDING AD",
+          "domain": "klearlending.com",
+          "one_liner": "Klear is a FinTech company that offers P2P lending and financial education platform.",
+          "cosine": 0.5527,
+          "llm_tier": "tier_4",
+          "tier_rationale": "P2P lending platform (0/5) without BNPL at checkout, merchant integrations, European focus, or settlement guarantee in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'P2P lending and financial education platform' with no mention of BNPL/installments at checkout; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No description of merchant-facing e\u2011commerce integrations (APIs/plugins/SDKs); insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets P2P lending consumers/borrowers and education rather than e\u2011commerce merchants and online shoppers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description/domain does not indicate European operation; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee or paying merchants upfront; insufficient evidence."
+            }
+          },
+          "description_full": "Klear is a FinTech company that offers P2P lending and financial education platform."
+        },
+        {
+          "record_id": "cb:bb5012c6-a23c-4cf3-a95c-e1475966c8f7",
+          "name": "Payplaza",
+          "domain": "payplaza.com",
+          "one_liner": "Payplaza is an innovative omnichannel payment solution provider.",
+          "cosine": 0.5464,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generic omnichannel payments provider with no explicit BNPL, merchant integrations, European presence, or settlement guarantee in description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'innovative omnichannel payment solution provider' but does not mention BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly mention e\u2011commerce checkout plugins/APIs/SDKs for merchants; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description suggests merchant focus but does not explicitly state online shoppers are served as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit statement of European operations in the description; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement of merchant settlement or payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "Payplaza is an innovative omnichannel payment solution provider."
+        },
+        {
+          "record_id": "cb:b386d1ab-d741-494c-a850-d3fcff0c7872",
+          "name": "KleverPay",
+          "domain": "kleverpay.app",
+          "one_liner": "KleverPay is an app for payment solutions.",
+          "cosine": 0.5436,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Vague payment app listing with no clear BNPL, merchant-integration, European presence, or settlement features in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'app for payment solutions' with no details about BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate merchant-facing e\u2011commerce integrations (APIs/plugins/SDKs); insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description is generic and does not specify serving e\u2011commerce merchants and online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit statement of European operation; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement or payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "KleverPay is an app for payment solutions."
+        },
+        {
+          "record_id": "cb:788aa379-846f-b012-9a37-71615291c2cf",
+          "name": "SEKUR.me",
+          "domain": "sekur.me",
+          "one_liner": "SEKUR.me is software that provides security features for e-commerce via QR payments and for m-commerce through single click payments.",
+          "cosine": 0.5423,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Security-focused e\u2011commerce software (0/5) without BNPL, merchant settlement, or clear European operation in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'software that provides security features for e-commerce via QR payments and single click payments' with no mention of BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description focuses on security features rather than checkout plugins/APIs/SDKs for embedding BNPL; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description indicates e\u2011commerce focus but does not state serving online shoppers and merchants as primary customers of a BNPL product; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .me does not confirm European operation and description gives no geographic detail; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement or payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "SEKUR.me is software that provides security features for e-commerce via QR payments and for m-commerce through single click payments."
+        },
+        {
+          "record_id": "cb:0568cd05-3947-4cbd-90f0-e497ba1d8655",
+          "name": "Klinc",
+          "domain": "klinc.mx",
+          "one_liner": "Klinc is a #payondemand platform, providing employees instant access to earned salary, financial education & every day discounts",
+          "cosine": 0.5407,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Earned-wage/pay-on-demand solution (0/5) rather than a BNPL checkout provider; not a close Klarna peer based on description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'payondemand... employees instant access to earned salary' (earned wage access), not BNPL at checkout."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Offering is employer/employee focused, not merchant-facing checkout integrations; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Primary customers are employees/employers, not e\u2011commerce merchants and shoppers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .mx indicates Mexico; no evidence of European operations in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee in description; insufficient evidence."
+            }
+          },
+          "description_full": "Klinc is a #payondemand platform, providing employees instant access to earned salary, financial education & every day discounts"
+        },
+        {
+          "record_id": "cb:8e33f450-da22-4aed-8c3a-e4a2726e9ddd",
+          "name": "Klavi",
+          "domain": "klavi.ai",
+          "one_liner": "Klavi is a developer of an open finance platform for data aggregation, analytics, and API services.",
+          "cosine": 0.5401,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Open finance/data API provider (0/5) lacking BNPL, merchant checkout integrations, and settlement evidence in its description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'open finance platform for data aggregation, analytics, and API services' with no BNPL or installments mention; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "APIs are for data/analytics rather than merchant checkout BNPL integrations per the description; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description implies B2B fintech/developer focus not serving e\u2011commerce merchants and online shoppers as primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No geographic information indicating European operations; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "Klavi is a developer of an open finance platform for data aggregation, analytics, and API services."
+        },
+        {
+          "record_id": "cb:108cfaae-3b75-4456-96dc-cad679dbb33f",
+          "name": "Klubi",
+          "domain": "klubi.com.br",
+          "one_liner": "Klubi is a fintech company that provides credit facilities in a simple, transparent, secure and truly digital experience.",
+          "cosine": 0.5397,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consumer credit provider in Brazil (0/5) with no indication of BNPL checkout integrations, European presence, or merchant settlement in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'provides credit facilities' but does not mention BNPL or installment-at-checkout products; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate merchant-facing e\u2011commerce integrations (APIs/plugins/SDKs); insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Primary focus appears consumer lending, not e\u2011commerce merchants and online shoppers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain .com.br indicates Brazil; no evidence of European operations in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Klubi is a fintech company that provides credit facilities in a simple, transparent, secure and truly digital experience."
+        },
+        {
+          "record_id": "cb:b5f5c98a-42ac-4296-93ca-7fc087a74031",
+          "name": "Kringle",
+          "domain": "kringle.ai",
+          "one_liner": "Kringle is a provider of an e-commerce intelligence platform to pull valuable back-end data.",
+          "cosine": 0.5317,
+          "llm_tier": "tier_4",
+          "tier_rationale": "E\u2011commerce analytics/intelligence provider (0/5) rather than a BNPL payments/checkout provider.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'e\u2011commerce intelligence platform' focused on data, not BNPL/installments; insufficient evidence."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Intelligence/data platform does not indicate merchant checkout integrations for BNPL per the description; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description serves e\u2011commerce back-end/data needs (merchant side) but does not indicate serving shoppers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No geographic indication of operation in European countries in the description; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of merchant settlement/payment guarantee; insufficient evidence."
+            }
+          },
+          "description_full": "Kringle is a provider of an e-commerce intelligence platform to pull valuable back-end data."
+        },
+        {
+          "record_id": "cb:6b29e239-aa08-4a26-a50f-757c42ea17de",
+          "name": "PiliPay",
+          "domain": "pilibaba.com",
+          "one_liner": "PiliPay is a payment platform that enables e-retailers and provides payment solutions.",
+          "cosine": 0.5301,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Payment platform for e\u2011retailers with merchant integrations (1/5) but no explicit BNPL, settlement guarantee, or European operation in description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'payment platform that enables e-retailers' with no explicit BNPL or installment offering mentioned; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'payment platform that enables e\u2011retailers' (implies merchant-facing payment integrations)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description targets e\u2011retailers (merchants); it does not explicitly state online shoppers are primary customers; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Domain/name suggests non-European footprint; description gives no evidence of European operations; insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement of merchant settlement or payment guarantee in the description; insufficient evidence."
+            }
+          },
+          "description_full": "PiliPay is a payment platform that enables e-retailers and provides payment solutions."
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "European BNPL companies like Klarna",
+  "pipeline_seconds": 1491.2,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 42056,
+    "n_new_embeddings": 36754
+  }
+}

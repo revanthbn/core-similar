@@ -1,0 +1,39 @@
+{
+  "seed_record_id": "cb:d290e89a-261f-4f1a-aebb-ec9b8455128b",
+  "seed_name": "Harvey",
+  "user_query": "vertical AI applications like Harvey for legal",
+  "fingerprint": "305dfb42926e3f92",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Develops generative AI-based software",
+      "rationale": "Distinguishes companies building AI models or apps that generate text/answers from vendors that only provide non-generative tools or services."
+    },
+    {
+      "id": 2,
+      "text": "Focuses on the legal industry or legal professionals",
+      "rationale": "Ensures peers serve the same domain (law firms, in-house legal teams, lawyers) rather than other professional domains."
+    },
+    {
+      "id": 3,
+      "text": "Provides a domain-specific (vertical) AI product tailored to legal use cases",
+      "rationale": "Separates vertical legal AI applications from general-purpose or horizontal AI platforms that require heavy customization."
+    },
+    {
+      "id": 4,
+      "text": "Offers an application that augments legal professional services workflows",
+      "rationale": "Identifies companies that deliver practical workflow improvements (e.g., drafting, research, contract review) rather than research prototypes or infrastructure components."
+    },
+    {
+      "id": 5,
+      "text": "Targets law firms or corporate legal departments as customers",
+      "rationale": "Differentiates vendors selling to legal practitioners from consumer-facing or unrelated enterprise markets."
+    },
+    {
+      "id": 6,
+      "text": "Delivers AI functionality through a productized application or SaaS integrated into legal workflows",
+      "rationale": "Distinguishes product-first legal AI companies from companies that only offer models, APIs, or consulting without an integrated legal application."
+    }
+  ]
+}

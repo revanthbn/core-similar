@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:c9b1c7c3-0d40-480b-a83b-b1818201f7a8",
+  "seed_name": "Function Health",
+  "user_query": "find healthcare AI companies like Function Health",
+  "fingerprint": "5c6856c29e241b53",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Offers clinical laboratory testing panels directly to consumers (direct-to-consumer)",
+      "rationale": "Distinguishes consumer-facing lab/testing providers from B2B diagnostics vendors, hospital labs, or purely enterprise software companies."
+    },
+    {
+      "id": 2,
+      "text": "Operates a subscription or recurring-service model for routine or periodic laboratory testing",
+      "rationale": "Separates companies that sell one-off tests from businesses that position testing as an ongoing preventive-health routine similar to Function Health's 120+ tests offering."
+    },
+    {
+      "id": 3,
+      "text": "Provides physician-led interpretation or expert medical explanations of test results to users",
+      "rationale": "Identifies services that combine diagnostics with clinician interpretation versus platforms that only supply raw lab values or technical reports."
+    },
+    {
+      "id": 4,
+      "text": "Uses artificial intelligence or machine learning to analyze laboratory data or to generate personalized health insights",
+      "rationale": "Encodes the user's explicit intent for 'AI' and distinguishes companies applying ML-driven interpretation from those relying solely on standard clinical rules or human review."
+    },
+    {
+      "id": 5,
+      "text": "Positions its offering around preventive health and longitudinal health monitoring rather than one-time or acute diagnostic testing",
+      "rationale": "Separates companies focused on long-term health optimization and monitoring from those focused on single-event diagnostics or specialized acute-care tests."
+    }
+  ]
+}

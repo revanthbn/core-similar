@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:b7947f18-b199-45ac-b7da-66f5c52fcfbc",
+  "seed_name": "Hugging Face",
+  "user_query": "show me open source AI tooling companies like Hugging Face",
+  "fingerprint": "331de7444cfb1654",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides open-source software (libraries, frameworks, or SDKs) for building, training, or deploying AI models",
+      "rationale": "Hugging Face is primarily an open-source tooling provider; this separates true peers from companies that sell closed-source or purely hosted SaaS ML products."
+    },
+    {
+      "id": 2,
+      "text": "Hosts or operates a public model repository or model hub that distributes pre-trained models under open-source or permissive licenses",
+      "rationale": "A model hub or repository is a distinctive product that enables model discovery and reuse, distinguishing peers that act as community model platforms from tool vendors that do not publish models."
+    },
+    {
+      "id": 3,
+      "text": "Targets developers and ML practitioners with developer-focused tooling such as SDKs, APIs, CLIs, or extensible plugins",
+      "rationale": "Hugging Face serves technical users; this filters out non-developer-focused vendors (e.g., low-code/no-code business apps) even if they mention AI."
+    },
+    {
+      "id": 4,
+      "text": "Enables training, fine-tuning, or deployment workflows for generative or foundation models (for example NLP, vision, or multimodal models)",
+      "rationale": "Peer companies support the end-to-end model lifecycle for large/generative models, which differentiates them from companies that only provide peripheral services (e.g., data labeling or analytics)."
+    },
+    {
+      "id": 5,
+      "text": "Encourages or accepts community contributions such as user-submitted models, datasets, or model metadata",
+      "rationale": "Community-driven contribution and sharing is a core differentiator for open-source AI tooling platforms versus proprietary toolchains that do not accept public contributions."
+    }
+  ]
+}

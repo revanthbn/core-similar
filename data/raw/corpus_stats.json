@@ -1,0 +1,110 @@
+{
+  "total_rows": 2810986,
+  "by_source": {
+    "yc": 3494,
+    "crunchbase": 2807492
+  },
+  "schema_violations": 0,
+  "null_rates": {
+    "name": 0.0,
+    "name_norm": 0.0,
+    "domain": 0.0535,
+    "website": 0.0535,
+    "one_liner": 0.0,
+    "long_description": 0.9988,
+    "industries": 0.0454,
+    "founded_on": 0.1727,
+    "founded_year": 0.1727,
+    "team_size": 0.9988,
+    "num_employees_enum": 0.1568,
+    "locations": 0.0652,
+    "country": 0.0652,
+    "funding_total": 0.9215,
+    "last_funding_type": 0.8987,
+    "founders": 0.7716,
+    "linkedin": 0.2261
+  },
+  "unique_name_norm": 2627327,
+  "top_name_norm_collisions": [
+    {
+      "name_norm": "spark",
+      "count": 56
+    },
+    {
+      "name_norm": "evolve",
+      "count": 51
+    },
+    {
+      "name_norm": "loop",
+      "count": 51
+    },
+    {
+      "name_norm": "beam",
+      "count": 46
+    },
+    {
+      "name_norm": "cornerstone",
+      "count": 46
+    },
+    {
+      "name_norm": "elevate",
+      "count": 45
+    },
+    {
+      "name_norm": "nexus",
+      "count": 43
+    },
+    {
+      "name_norm": "compass",
+      "count": 43
+    },
+    {
+      "name_norm": "apex",
+      "count": 41
+    },
+    {
+      "name_norm": "momentum",
+      "count": 41
+    },
+    {
+      "name_norm": "hatch",
+      "count": 40
+    },
+    {
+      "name_norm": "nova",
+      "count": 40
+    },
+    {
+      "name_norm": "tandem",
+      "count": 39
+    },
+    {
+      "name_norm": "leap",
+      "count": 39
+    },
+    {
+      "name_norm": "rise",
+      "count": 39
+    },
+    {
+      "name_norm": "spectrum",
+      "count": 39
+    },
+    {
+      "name_norm": "shift",
+      "count": 38
+    },
+    {
+      "name_norm": "ace",
+      "count": 38
+    },
+    {
+      "name_norm": "genesis",
+      "count": 38
+    },
+    {
+      "name_norm": "scout",
+      "count": 37
+    }
+  ]
+}

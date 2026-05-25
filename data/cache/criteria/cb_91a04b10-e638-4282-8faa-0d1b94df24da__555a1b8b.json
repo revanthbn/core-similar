@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:91a04b10-e638-4282-8faa-0d1b94df24da",
+  "seed_name": "Replicate",
+  "user_query": "companies similar to Replicate in the ML infrastructure space",
+  "fingerprint": "f3c7ab2ae4cd6c91",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Operates a cloud-based platform for running or serving machine learning models",
+      "rationale": "Replicate is an ML infra provider that runs models in the cloud; this separates infrastructure/serving platforms from vendors that only build research models or desktop tools."
+    },
+    {
+      "id": 2,
+      "text": "Exposes a developer-facing API for invoking models or model endpoints",
+      "rationale": "Replicate's core product is an API for developers to run models; requiring an API-focused interface distinguishes developer-targeted infra from end-user apps or consulting services."
+    },
+    {
+      "id": 3,
+      "text": "Hosts, distributes, or provides access to open-source pre-trained models (a model hub, registry, or marketplace)",
+      "rationale": "Replicate emphasizes running open-source AI; this separates peers that enable community/open models from companies that only serve proprietary models."
+    },
+    {
+      "id": 4,
+      "text": "Positions itself as ML infrastructure (inference/serving/deployment) rather than as a research lab or end-user application",
+      "rationale": "Labeling as infrastructure or deployment-focused distinguishes true peers from organizations whose primary focus is model research, consumer apps, or vertical SaaS."
+    },
+    {
+      "id": 5,
+      "text": "Markets its product toward software developers and engineering teams as primary users",
+      "rationale": "Replicate targets developers; this separates developer-focused ML infra providers from companies that primarily sell to data scientists, nontechnical business users, or end consumers."
+    }
+  ]
+}

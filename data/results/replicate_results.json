@@ -1,0 +1,918 @@
+{
+  "seed": {
+    "name": "Replicate",
+    "domain": "replicate.com",
+    "record_id": "cb:91a04b10-e638-4282-8faa-0d1b94df24da",
+    "industries": [
+      "B2B",
+      "Infrastructure",
+      "Artificial Intelligence (AI)",
+      "Cloud Infrastructure",
+      "Information Technology",
+      "Machine Learning"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Operates a cloud-based platform for running or serving machine learning models",
+      "rationale": "Replicate is an ML infra provider that runs models in the cloud; this separates infrastructure/serving platforms from vendors that only build research models or desktop tools."
+    },
+    {
+      "id": 2,
+      "text": "Exposes a developer-facing API for invoking models or model endpoints",
+      "rationale": "Replicate's core product is an API for developers to run models; requiring an API-focused interface distinguishes developer-targeted infra from end-user apps or consulting services."
+    },
+    {
+      "id": 3,
+      "text": "Hosts, distributes, or provides access to open-source pre-trained models (a model hub, registry, or marketplace)",
+      "rationale": "Replicate emphasizes running open-source AI; this separates peers that enable community/open models from companies that only serve proprietary models."
+    },
+    {
+      "id": 4,
+      "text": "Positions itself as ML infrastructure (inference/serving/deployment) rather than as a research lab or end-user application",
+      "rationale": "Labeling as infrastructure or deployment-focused distinguishes true peers from organizations whose primary focus is model research, consumer apps, or vertical SaaS."
+    },
+    {
+      "id": 5,
+      "text": "Markets its product toward software developers and engineering teams as primary users",
+      "rationale": "Replicate targets developers; this separates developer-focused ML infra providers from companies that primarily sell to data scientists, nontechnical business users, or end consumers."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 1 \u2014 strong peers \u2014 Matches all 5 criteria with explicit description stating cloud model hosting, developer API, open-source models, infrastructure positioning, and developer targe",
+      "llm_tier": "tier_1",
+      "summary_rationale": "Matches all 5 criteria with explicit description stating cloud model hosting, developer API, open-source models, infrastructure positioning, and developer target.",
+      "criteria_matched": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "criteria_missing": [],
+      "candidates": [
+        {
+          "record_id": "yc:replicate",
+          "name": "Replicate",
+          "domain": "replicate.com",
+          "one_liner": "Run machine learning models in the cloud",
+          "cosine": 0.7602,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches all 5 criteria with explicit description stating cloud model hosting, developer API, open-source models, infrastructure positioning, and developer target.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'Run machine learning models in the cloud' \u2014 indicates a cloud-based platform for running models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'Replicate lets software developers run open-source AI with an API.' \u2014 explicit developer-facing API for invoking models."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description: 'lets software developers run open-source AI' \u2014 indicates hosting/distribution/access to open-source pre-trained models."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioning: focused on running/serving models via an API \u2014 framed as ML infrastructure rather than end-user application."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Target: 'software developers' are explicitly named as the product users."
+            }
+          },
+          "description_full": "Run machine learning models in the cloud"
+        },
+        {
+          "record_id": "cb:ef7fac69-1f69-4832-b89d-32bd2a58abab",
+          "name": "Orchestra",
+          "domain": "orchestrahq.com",
+          "one_liner": "Machine learning model deployment platform - deploy models as APIs in minutes",
+          "cosine": 0.6229,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Strong match for deployment and API-driven serving (4/5); missing explicit model-hub evidence but otherwise a close peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'Machine learning model deployment platform' which indicates a platform for running/serving models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'deploy models as APIs in minutes' \u2014 explicit developer-facing API/endpoints for invoking models."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm hosting or distribution of open-source pre-trained models (no mention of a model hub or registry)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioning as a deployment platform indicates ML inference/serving infrastructure rather than an end-user application."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Language about deploying models as APIs suggests the product is marketed toward developers and engineering teams."
+            }
+          },
+          "description_full": "Machine learning model deployment platform - deploy models as APIs in minutes"
+        },
+        {
+          "record_id": "cb:82aee40b-3dcb-4678-adc4-73b8e1c91a7e",
+          "name": "Together AI",
+          "domain": "together.ai",
+          "one_liner": "Together AI is a cloud-based platform designed for constructing open-source generative AI and infrastructure for developing AI models.",
+          "cosine": 0.5775,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Cloud platform that supports open-source models and developer-focused infrastructure \u2014 matches all criteria and is a close peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'cloud-based platform' for constructing generative AI and infrastructure for developing AI models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Platform and infrastructure phrasing implies developer-facing access and integrations for invoking or using models (developer-oriented infrastructure)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Specifically references 'constructing open-source generative AI', indicating support/access to open-source models and related assets."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Explicitly positioned as infrastructure for developing AI models rather than a research lab or consumer app."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Targeting developers/teams is implied by the platform/infrastructure orientation for building models."
+            }
+          },
+          "description_full": "Together AI is a cloud-based platform designed for constructing open-source generative AI and infrastructure for developing AI models."
+        },
+        {
+          "record_id": "cb:028eca99-b82b-4495-ba3d-008238ea7008",
+          "name": "Model Share AI",
+          "domain": "modelshare.ai",
+          "one_liner": "Model Share AI MLOps platform is a versatile hub for driving machine learning innovation.",
+          "cosine": 0.5677,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches all 5 criteria (platform/hub, developer-facing API implied, hosts models, infrastructure positioning, developer/engineering target) making it a strong peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an 'MLOps platform' and 'hub' which implies a platform for running/serving ML models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "As an MLOps platform and hub, it provides developer-facing interfaces/APIs to operate models (description implies platform/API access)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description calls it a 'versatile hub' for ML innovation, indicating hosting/distribution/access to models (model hub/registry behavior)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as an MLOps platform \u2014 explicitly ML infrastructure rather than a research lab or end-user app."
+            },
+            "5": {
+              "match": true,
+              "evidence": "MLOps/platform framing indicates the product is marketed to software engineers and ML teams as users."
+            }
+          },
+          "description_full": "Model Share AI MLOps platform is a versatile hub for driving machine learning innovation."
+        },
+        {
+          "record_id": "cb:807d1e5d-4176-42fe-88ed-19c6e59f0e46",
+          "name": "ModelsLab",
+          "domain": "modelslab.com",
+          "one_liner": "ModelsLab is an API so you can focus on building next-generation AI products and not maintaining GPUs.",
+          "cosine": 0.5501,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Provides a developer API and hosted model execution (4/5); lacks explicit model-hub mention but aligns closely with the seed's inference-oriented infrastructure.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'ModelsLab is an API so you can focus on building ... not maintaining GPUs' \u2014 indicates a hosted platform for running models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Explicit phrasing: 'ModelsLab is an API' \u2014 a developer-facing interface to invoke models."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description does not explicitly state hosting/distribution of open-source pre-trained models or a model hub (insufficient evidence)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as infrastructure to avoid maintaining GPUs, i.e., inference/serving/deployment infrastructure."
+            },
+            "5": {
+              "match": true,
+              "evidence": "API-first messaging targets developers building AI products."
+            }
+          },
+          "description_full": "ModelsLab is an API so you can focus on building next-generation AI products and not maintaining GPUs."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 2 \u2014 plausible peers \u2014 MLOps/infrastructure platform matching running models and developer/engineering targeting (3/5); lacks explicit API and model-hub mentions in the description.",
+      "llm_tier": "tier_2",
+      "summary_rationale": "MLOps/infrastructure platform matching running models and developer/engineering targeting (3/5); lacks explicit API and model-hub mentions in the description.",
+      "criteria_matched": [
+        1,
+        4,
+        5
+      ],
+      "criteria_missing": [
+        2,
+        3
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:1466f976-7314-875d-1f05-1513b759acf8",
+          "name": "Polyaxon",
+          "domain": "polyaxon.com",
+          "one_liner": "An open source platform for reproducible machine learning at scale.",
+          "cosine": 0.6536,
+          "llm_tier": "tier_2",
+          "tier_rationale": "MLOps/infrastructure platform matching running models and developer/engineering targeting (3/5); lacks explicit API and model-hub mentions in the description.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as 'An open source platform for reproducible machine learning at scale' \u2014 indicates a platform to run ML workloads."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the short description to confirm a developer-facing API for invoking deployed model endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as an MLOps platform \u2014 clearly ML infrastructure for reproducibility and operations."
+            },
+            "5": {
+              "match": true,
+              "evidence": "MLOps/open-source platform language indicates the target users are engineering and ML teams."
+            }
+          },
+          "description_full": "An open source platform for reproducible machine learning at scale."
+        },
+        {
+          "record_id": "cb:d5e55c1b-c945-45b0-b87f-bb0f5b78bba0",
+          "name": "Run:AI",
+          "domain": "run.ai",
+          "one_liner": "Run:ai is an AI cluster management platform that helps organizations squeeze more from their GPUs and streamline AI/ML development.",
+          "cosine": 0.5899,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Cluster-management infrastructure for ML that serves engineering teams (3/5); not described as offering an API for model endpoints or a model hub.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an 'AI cluster management platform' that helps organizations get more from GPUs \u2014 indicates a platform to run ML workloads."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm a developer-facing API for invoking model endpoints; description focuses on cluster management."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence in the description of hosting or distributing pre-trained models or operating a model hub."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as infrastructure for GPU/cluster management \u2014 clearly ML infrastructure."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Messaging about helping organizations and streamlining ML development targets engineering and ML teams."
+            }
+          },
+          "description_full": "Run:ai is an AI cluster management platform that helps organizations squeeze more from their GPUs and streamline AI/ML development."
+        },
+        {
+          "record_id": "cb:c085d8b4-7a5c-4376-901e-03d7c9f92a87",
+          "name": "Naogi",
+          "domain": "naogi.com",
+          "one_liner": "Platform for AI model deployments",
+          "cosine": 0.5775,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Deployment-focused platform matching running/serving and team targeting (3/5); lacks explicit API and model-hub details in description.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'Platform for AI model deployments' \u2014 indicates a platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the short description to confirm an exposed developer-facing API for invoking endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Framing as a model deployment platform positions it as ML infrastructure for serving models."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Deployment-platform language suggests the product is aimed at engineering/ML teams."
+            }
+          },
+          "description_full": "Platform for AI model deployments"
+        },
+        {
+          "record_id": "cb:6fdc53ba-c669-4661-871a-ec72ab658f1e",
+          "name": "JarvisLabs",
+          "domain": "jarvislabs.ai",
+          "one_liner": "Train and deploy AI, ML and DL models in few clicks.",
+          "cosine": 0.5743,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Platform for training and deploying models matching infrastructure and team-targeting (3/5); API and model-hub presence not explicit.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'Train and deploy AI, ML and DL models in few clicks.' \u2014 indicates a platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the short description to explicitly confirm a developer-facing API for invoking model endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as a platform to train and deploy models, indicating ML infrastructure functionality."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Self-service 'few clicks' deployment suggests marketing toward engineering/ML teams and users building AI applications."
+            }
+          },
+          "description_full": "Train and deploy AI, ML and DL models in few clicks."
+        },
+        {
+          "record_id": "cb:7e2a6076-6edb-46a0-b779-ecb9141bb539",
+          "name": "RunPod",
+          "domain": "runpod.io",
+          "one_liner": "RunPod is a cloud platform designed for GPUs, enabling developers to deploy customized full-stack AI applications.",
+          "cosine": 0.5576,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Cloud GPU platform for deploying AI applications targeting developers (3/5); lacks explicit API/inference endpoint and model-hub details.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'cloud platform designed for GPUs, enabling developers to deploy customized full-stack AI applications' \u2014 indicates cloud-based model runs."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm a developer-facing API for invoking hosted model endpoints; description focuses on deployment capability."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of a model hub or hosting/distribution of pre-trained open-source models in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as infrastructure for deploying AI applications and providing GPU resources."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Explicit mention of 'developers' indicates the product is marketed to engineering teams."
+            }
+          },
+          "description_full": "RunPod is a cloud platform designed for GPUs, enabling developers to deploy customized full-stack AI applications."
+        },
+        {
+          "record_id": "cb:ec0a8936-706d-44a7-90da-09ca7eae5103",
+          "name": "ResultElf",
+          "domain": "resultelf.com",
+          "one_liner": "SaaS building, deploying and maintaining AI decision models",
+          "cosine": 0.5509,
+          "llm_tier": "tier_2",
+          "tier_rationale": "SaaS for deploying and maintaining decision models fits ML infrastructure for engineering teams (3/5); API and model-hub details are not explicit.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as 'SaaS building, deploying and maintaining AI decision models' \u2014 indicates a platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a developer-facing API for invoking model endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Framed as a SaaS for deploying and maintaining models \u2014 typical ML infrastructure positioning."
+            },
+            "5": {
+              "match": true,
+              "evidence": "SaaS for organizations and maintaining ML models indicates targeting engineering/ML teams."
+            }
+          },
+          "description_full": "SaaS building, deploying and maintaining AI decision models"
+        },
+        {
+          "record_id": "cb:bd608c32-983e-4eff-bf8f-cae290f226e9",
+          "name": "TrainML",
+          "domain": "trainml.ai",
+          "one_liner": "trainML provides deep machine learning infrastructure using cloud-based GPUs and artificial intelligence.",
+          "cosine": 0.5504,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Cloud GPU infrastructure for ML development matches running models and team targeting (3/5), but lacks explicit API and model-hub claims.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as providing 'deep machine learning infrastructure using cloud-based GPUs' \u2014 indicates a cloud platform to run ML workloads."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm a developer-facing API for invoking hosted model endpoints from the short description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Explicitly described as ML infrastructure for compute and training operations."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Cloud GPU infrastructure messaging implies the product is targeted to engineering/ML teams."
+            }
+          },
+          "description_full": "trainML provides deep machine learning infrastructure using cloud-based GPUs and artificial intelligence."
+        },
+        {
+          "record_id": "cb:e54a779f-6edd-4cda-acb6-eae2c68b89bb",
+          "name": "Sizeless",
+          "domain": "sizeless.co",
+          "one_liner": "Sizeless develops platform to support machine learning teams with automatically running, testing, and optimizing their models.",
+          "cosine": 0.5474,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Platform for automating running and optimization of models targeted at ML teams (3/5); API and model-hub presence are not stated.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as developing a platform to support ML teams with automatically running, testing, and optimizing their models \u2014 indicates a platform for running models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm a developer-facing API for invoking model endpoints in the short description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting/distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as platform tooling for running/testing/optimizing models \u2014 ML infrastructure for teams."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Explicit focus on supporting 'machine learning teams' indicates marketing to engineering/ML users."
+            }
+          },
+          "description_full": "Sizeless develops platform to support machine learning teams with automatically running, testing, and optimizing their models."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Cloud research platform matching infrastructure and running workloads (2/5) but lacks evidence of developer API and model-hub orientation; more research-focused",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Cloud research platform matching infrastructure and running workloads (2/5) but lacks evidence of developer API and model-hub orientation; more research-focused than developer-focused.",
+      "criteria_matched": [
+        1,
+        4
+      ],
+      "criteria_missing": [
+        2,
+        3,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:c88f97b7-538c-43cd-98a5-0942a579906b",
+          "name": "CloudCV",
+          "domain": "cloudcv.org",
+          "one_liner": "CloudCV is an open-source cloud platform that provides building platforms for reproducible AI research.",
+          "cosine": 0.592,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Cloud research platform matching infrastructure and running workloads (2/5) but lacks evidence of developer API and model-hub orientation; more research-focused than developer-focused.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an 'open-source cloud platform' for reproducible AI research \u2014 indicates a cloud platform for ML workloads."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a developer-facing API for invoking models or endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No explicit mention of hosting/distributing pre-trained open-source models or operating a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as a cloud platform for reproducible AI research \u2014 infrastructure-oriented rather than an end-user app."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description emphasizes research use; insufficient evidence it is marketed primarily to software developers/engineering teams."
+            }
+          },
+          "description_full": "CloudCV is an open-source cloud platform that provides building platforms for reproducible AI research."
+        },
+        {
+          "record_id": "cb:f8b7aeef-d6bc-b9ab-1514-59e8bb2f2a6a",
+          "name": "CrowdAI",
+          "domain": "crowdai.com",
+          "one_liner": "CrowdAI enables organizations to create and deploy custom models for visual AI and a code-free platform.",
+          "cosine": 0.5652,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Platform for creating and deploying models (2/5) but code-free positioning and lack of explicit API/model-hub reduces similarity to a developer-focused model-serving hub.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as enabling organizations to 'create and deploy custom models' \u2014 indicates a platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description highlights a code-free platform; insufficient evidence of a developer-facing API for invoking endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing open-source pre-trained models or a model hub in the description."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Framed as a platform for deploying visual AI models \u2014 an infrastructure/tooling offering rather than an end-user app."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Marketing appears to target organizations and possibly non-developer users (code-free); insufficient evidence of developer-first targeting."
+            }
+          },
+          "description_full": "CrowdAI enables organizations to create and deploy custom models for visual AI and a code-free platform."
+        },
+        {
+          "record_id": "cb:96da4695-95cd-46fb-b2c6-f8c5575f38db",
+          "name": "Scoopika",
+          "domain": "scoopika.com",
+          "one_liner": "Open source developer platform to create AI agents",
+          "cosine": 0.5651,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Developer-focused open-source platform for building AI agents (3/5) but lacks explicit cloud-hosted serving or model-hub claims, making it adjacent rather than a close peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence that it operates a cloud-based platform for running or serving ML models; description focuses on creating AI agents."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Described as an 'Open source developer platform' \u2014 implies developer-facing interfaces/API for building agents."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained models or operating a model hub."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as a developer platform for AI agents which aligns with infrastructure/tooling for developers rather than end-user app."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Explicitly described as a 'developer platform', indicating marketing to software developers."
+            }
+          },
+          "description_full": "Open source developer platform to create AI agents"
+        },
+        {
+          "record_id": "cb:955ab2ec-0089-40f0-ba0a-896d3a1b4276",
+          "name": "Sapiema",
+          "domain": "sapiema.com",
+          "one_liner": "Plug'n Play Machine Learning - automate your ML development",
+          "cosine": 0.5571,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Tooling/infrastructure for ML development aimed at teams (2/5) but lacks explicit cloud serving, API, or model-hub evidence \u2014 adjacent to the seed.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a cloud-based platform for running/serving models; description is general ('automate your ML development')."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of a developer-facing API for invoking models or endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or a model hub."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioning as 'Plug'n Play Machine Learning' suggests an infrastructure/tooling role in ML development."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Messaging about automating ML development implies the product is aimed at ML engineers/teams."
+            }
+          },
+          "description_full": "Plug'n Play Machine Learning - automate your ML development"
+        },
+        {
+          "record_id": "cb:8c4032dd-9c37-4d5a-8321-971e1cc5ebd1",
+          "name": "Myple",
+          "domain": "myple.io",
+          "one_liner": "Build, scale, and secure AI applications.",
+          "cosine": 0.5535,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Platform/tooling that supports engineering teams in building/scaling applications (2/5) but lacks explicit API, hosting, or model-hub claims, making it adjacent.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the brief description to confirm operation of a cloud platform for running/serving models ('Build, scale, and secure AI applications')."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of a developer-facing API for invoking models in the description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or a model hub."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Language about building, scaling, and securing AI applications indicates an infrastructure/tooling orientation."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Messaging around building/scaling AI applications implies targeting developers and engineering teams."
+            }
+          },
+          "description_full": "Build, scale, and secure AI applications."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 API/SaaS framing indicates some developer-facing capability but lacking explicit cloud model-serving platform, model-hub, or clear infrastructure positioning.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "API/SaaS framing indicates some developer-facing capability but lacking explicit cloud model-serving platform, model-hub, or clear infrastructure positioning.",
+      "criteria_matched": [
+        2
+      ],
+      "criteria_missing": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:f34e83ad-109f-4ad7-b4e2-141f652d633f",
+          "name": "Perigon",
+          "domain": "goperigon.com",
+          "one_liner": "AI/ML API & SaaS",
+          "cosine": 0.5824,
+          "llm_tier": "tier_4",
+          "tier_rationale": "API/SaaS framing indicates some developer-facing capability but lacking explicit cloud model-serving platform, model-hub, or clear infrastructure positioning.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the short description ('AI/ML API & SaaS') to confirm a cloud platform for running/serving ML models."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'AI/ML API & SaaS' \u2014 indicates an API-based product offering."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or a model hub in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence to determine whether the product is positioned primarily as ML infrastructure versus an API/data product or application."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the brief description to confirm developer/engineering team as primary target, though 'API' suggests developer users."
+            }
+          },
+          "description_full": "AI/ML API & SaaS"
+        },
+        {
+          "record_id": "yc:rownd",
+          "name": "Rownd",
+          "domain": "rownd.ai",
+          "one_liner": "Build powerful AI solutions. Deploy anywhere.",
+          "cosine": 0.5774,
+          "llm_tier": "tier_4",
+          "tier_rationale": "High-level product wording but lacks specific signals of cloud model serving, API endpoints, model-hub, or developer-first infrastructure focus.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description 'Build powerful AI solutions. Deploy anywhere.' is too brief to confirm a cloud-based platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm a developer-facing API for invoking models or endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting/distributing open-source pre-trained models or a model hub."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence to confirm whether the product positions itself as ML infrastructure rather than a solutions vendor."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence to determine whether software developers/engineering teams are the primary target."
+            }
+          },
+          "description_full": "Rownd helps enterprises in regulated industries build and deploy AI applications with our open-core model, providing production-ready components for RAG systems, model fine-tuning, and prompt engineering that run entirely on-premise while maintaining complete data sovereignty. \r\n\r\nWith a powerful CLI and YAML configs, teams can create differentiated AI products without vendor lock-in or ML expertise, ensuring compliance and cost control that cloud-only solutions can't match."
+        },
+        {
+          "record_id": "cb:e388ee93-c032-4037-bd9b-dda2468688c8",
+          "name": "Replikante",
+          "domain": "replikante.com.br",
+          "one_liner": "Replikante is an AI & machine learning platform dealing with SAC,charge,researches,RPA,sales & automation services.",
+          "cosine": 0.5771,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Appears service/consulting-oriented with no clear model-serving platform, API or model-hub signals \u2014 weak peer to the seed.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description lists varied services (SAC, charge, researches, RPA, sales & automation services) with no clear cloud model-serving platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence in the description of a developer-facing API for invoking ML models."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or operating a model hub."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description reads like an AI/services vendor rather than ML infrastructure for inference/serving."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description emphasizes services (sales, RPA), not explicitly targeting software developers/engineering teams."
+            }
+          },
+          "description_full": "Replikante is an AI & machine learning platform dealing with SAC,charge,researches,RPA,sales & automation services."
+        },
+        {
+          "record_id": "cb:629e5d56-34c2-4ba7-85ad-de59d15c4f2d",
+          "name": "Tensil",
+          "domain": "tensil.ai",
+          "one_liner": "Open source machine learning accelerators",
+          "cosine": 0.5768,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides ML acceleration infrastructure (1/5) but not a model-serving platform, API, or model-hub \u2014 more of a hardware/software accelerator player.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as 'Open source machine learning accelerators' \u2014 does not indicate a cloud platform for running/serving models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence in the description of a developer-facing API for invoking model endpoints."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting/distributing pre-trained models or operating a model hub."
+            },
+            "4": {
+              "match": true,
+              "evidence": "As machine learning accelerators, the offering is infrastructure-related, though focused on hardware/acceleration rather than serving."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence that the primary market is software developers/engineering teams, though likely technical users."
+            }
+          },
+          "description_full": "Open source machine learning accelerators"
+        },
+        {
+          "record_id": "cb:22ad9a10-da9a-15a3-6219-58d10a0f5d35",
+          "name": "Springs",
+          "domain": "springsapps.com",
+          "one_liner": "Custom AI/ML Software Development",
+          "cosine": 0.5514,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Custom development/consultancy focus with no evidence of cloud model-serving platform, API, or model-hub \u2014 weak match.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as 'Custom AI/ML Software Development' \u2014 indicates consultancy/custom development rather than a hosted cloud model-serving platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence of a developer-facing API product in the description; appears to offer custom development services."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained models or a model hub."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Consultancy framing suggests services rather than infrastructure for inference/serving."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description targets organizations needing custom development rather than a developer-facing product marketed to engineering teams."
+            }
+          },
+          "description_full": "Custom AI/ML Software Development"
+        },
+        {
+          "record_id": "cb:50062a12-fe2e-466c-8b48-76ba68e17864",
+          "name": "Typeblock",
+          "domain": "typeblock.co",
+          "one_liner": "No-code tool to build and monetize AI powered applications",
+          "cosine": 0.5512,
+          "llm_tier": "tier_4",
+          "tier_rationale": "No-code app builder orientation makes it an adjacent but not infrastructure-focused peer; lacks API, model-hub, and developer-first signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a 'No-code tool to build and monetize AI powered applications' \u2014 not explicitly a cloud platform for running/serving ML models as infrastructure."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence that a developer-facing API for invoking models is offered; product is positioned as no-code."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting or distributing pre-trained open-source models or a model hub."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No-code application builder suggests end-user/creator tooling rather than ML infrastructure for inference/serving."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No-code positioning implies the primary users may be non-developer creators rather than engineering teams."
+            }
+          },
+          "description_full": "No-code tool to build and monetize AI powered applications"
+        },
+        {
+          "record_id": "cb:fce72687-3575-4a5a-b199-9491c96b7d80",
+          "name": "Labelf AI",
+          "domain": "labelf.ai",
+          "one_liner": "SaaS platform for no code AI training and implementation",
+          "cosine": 0.5487,
+          "llm_tier": "tier_4",
+          "tier_rationale": "No-code training/implementation SaaS is adjacent but does not present the inference/API/model-hub infrastructure signals required to be a close peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a 'SaaS platform for no code AI training and implementation' \u2014 insufficient evidence of a cloud platform for running/serving models as an inference service."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of a developer-facing API for invoking model endpoints; emphasis is on no-code training/implementation."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of hosting/distributing pre-trained open-source models or a model hub."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Positioning as no-code training/implementation suggests tooling rather than core inference infrastructure, so insufficient evidence."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No-code SaaS suggests target users may be non-developer business users rather than engineering teams."
+            }
+          },
+          "description_full": "SaaS platform for no code AI training and implementation"
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "companies similar to Replicate in the ML infrastructure space",
+  "pipeline_seconds": 1060.2,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 38299,
+    "n_new_embeddings": 35636
+  }
+}

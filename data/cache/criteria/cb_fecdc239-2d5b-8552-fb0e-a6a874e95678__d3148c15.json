@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:fecdc239-2d5b-8552-fb0e-a6a874e95678",
+  "seed_name": "Figma",
+  "user_query": "design collaboration tools like Figma",
+  "fingerprint": "22d8621e8c6d3f83",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides a browser-based application for designing user interfaces",
+      "rationale": "Distinguishes web-first, accessible-in-browser design platforms from native-desktop or non-browser tools."
+    },
+    {
+      "id": 2,
+      "text": "Enables real-time collaborative editing of design files",
+      "rationale": "Separates true collaboration tools where multiple users co-edit simultaneously from single-user or asynchronous-sharing design apps."
+    },
+    {
+      "id": 3,
+      "text": "Provides built-in prototyping features for creating interactive UI flows",
+      "rationale": "Differentiates platforms that support end-to-end interface design and interaction testing from tools focused solely on static visuals."
+    },
+    {
+      "id": 4,
+      "text": "Provides developer handoff features that export design specifications or assets for engineering",
+      "rationale": "Identifies tools that bridge design and engineering workflows versus tools that only produce visual files without handoff capabilities."
+    },
+    {
+      "id": 5,
+      "text": "Supports vector-based graphical editing primitives suitable for interface design",
+      "rationale": "Distinguishes scalable, UI-focused vector editors from raster-only image editors that are less suited to interface layout and scaling."
+    }
+  ]
+}

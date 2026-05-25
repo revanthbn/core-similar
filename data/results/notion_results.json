@@ -1,0 +1,881 @@
+{
+  "seed": {
+    "name": "Notion Labs",
+    "domain": "notionlabs.com",
+    "record_id": "cb:2f7760cc-4cdd-4dba-9ef6-0745e3420bab",
+    "industries": [
+      "Software",
+      "Web Apps"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides a web-based productivity application for creating and organizing documents, notes, or knowledge workspaces",
+      "rationale": "Filters to companies building the same product category as Notion (document/knowledge workspace) rather than generic software vendors."
+    },
+    {
+      "id": 2,
+      "text": "Targets technical teams or software engineers as a primary user segment",
+      "rationale": "Encodes the user's intent for peers that specifically serve engineering/technical workflows instead of general business users."
+    },
+    {
+      "id": 3,
+      "text": "Supports code-focused authoring features such as code blocks, syntax highlighting, or embedded runnable snippets",
+      "rationale": "Distinguishes tools optimized for technical content from generic note-taking or docs apps that lack developer-centric editing capabilities."
+    },
+    {
+      "id": 4,
+      "text": "Provides structured, database-like building blocks or configurable tables for modelling tasks, issues, or technical metadata",
+      "rationale": "Separates offerings that enable structured engineering workflows and project data from simple linear document editors."
+    },
+    {
+      "id": 5,
+      "text": "Offers integrations or a public API for connecting with developer tools and platforms such as Git repositories, issue trackers, or CI/CD systems",
+      "rationale": "Identifies companies that fit into developer toolchains and automation workflows rather than standalone documentation tools."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 1 \u2014 strong peers \u2014 Matches all 5 criteria: is a web-based productivity app with code authoring features, database-like blocks, targets technical teams, and offers integrations/API",
+      "llm_tier": "tier_1",
+      "summary_rationale": "Matches all 5 criteria: is a web-based productivity app with code authoring features, database-like blocks, targets technical teams, and offers integrations/APIs.",
+      "criteria_matched": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "criteria_missing": [],
+      "candidates": [
+        {
+          "record_id": "cb:96e05368-6943-2e17-51f4-9fbf79131dac",
+          "name": "Notion",
+          "domain": "notion.so",
+          "one_liner": "Notion is a note-taking and collaboration application for tasks, wikis, and databases.",
+          "description_full": "Notion is a note-taking and collaboration application for tasks, wikis, and databases.",
+          "cosine": 0.6718,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches all 5 criteria: is a web-based productivity app with code authoring features, database-like blocks, targets technical teams, and offers integrations/APIs.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a note-taking and collaboration application for tasks, wikis, and databases (a web-based productivity app for organizing documents and knowledge)."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Notion is widely used by teams including software engineering and technical teams as a primary collaboration and documentation tool."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Notion supports code-focused authoring such as code blocks and syntax-highlighted snippets within notes and pages."
+            },
+            "4": {
+              "match": true,
+              "evidence": "The description explicitly references databases and Notion provides configurable tables/databases to model tasks, issues, and metadata."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Notion offers integrations and a public API to connect with developer tools, issue trackers, and external services."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Service-focused development firm with no evidence of a productivity product or the specific developer-focused features required.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Service-focused development firm with no evidence of a productivity product or the specific developer-focused features required.",
+      "criteria_matched": [],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:05ee4b70-30e8-49f8-a92b-da7015bebe82",
+          "name": "Notioninfosoft",
+          "domain": "notioninfosoft.com",
+          "one_liner": "Notion Infosoft is a Software development company best in Creating and developing Chatbots, Website business automation.",
+          "description_full": "Notion Infosoft is a Software development company best in Creating and developing Chatbots, Website business automation.",
+          "cosine": 0.6837,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Service-focused development firm with no evidence of a productivity product or the specific developer-focused features required.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a software development company creating chatbots and website automation, with no mention of a web-based productivity app for documents or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Positioned as a software development vendor; description provides no evidence they target technical teams or software engineers as primary end-users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as code blocks or syntax highlighting in the company description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured, database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description lacks any reference to integrations, developer tool connections, or a public API."
+            }
+          }
+        },
+        {
+          "record_id": "cb:94f768a0-b7a2-4609-9891-6921625c9746",
+          "name": "Naylalabs",
+          "domain": "naylalabs.com",
+          "one_liner": "Naylalabs designs and develops software, mobile applications, web applications, game, and UI/UX.",
+          "description_full": "Naylalabs designs and develops software, mobile applications, web applications, game, and UI/UX.",
+          "cosine": 0.6258,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General software studio with no product signals matching the productivity-and-developer-focused criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a designer and developer of software, mobile and web applications, but no evidence of a web-based productivity app for notes or knowledge organization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Provides general software development services; description does not indicate targeting technical teams or engineers as primary users of a product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features like code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering structured database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not reference integrations, connectors, or a public API."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3fc99ecf-bf28-4c7d-863a-990e2925ecc0",
+          "name": "Designeo Creative",
+          "domain": "designeo.cz",
+          "one_liner": "Designeo Creative develops web systems, mobile applications, and smart devices.",
+          "description_full": "Designeo Creative develops web systems, mobile applications, and smart devices.",
+          "cosine": 0.6154,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Agency that builds web/mobile systems with no signal of offering a developer-focused productivity product.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as developing web systems and mobile applications but provides no indication of a web-based productivity app for organizing documents or notes."
+            },
+            "2": {
+              "match": false,
+              "evidence": "A digital design studio; description does not indicate the company targets software engineers or technical teams as product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence in the description of structured, database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, APIs, or developer tool connectivity in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:da3cc3f9-20dd-45fc-875b-05a03f3ab91b",
+          "name": "SoftnoTech",
+          "domain": "softnotech.com",
+          "one_liner": "Softnotech provides software development, web design, and digital services, including apps.",
+          "description_full": "Softnotech provides software development, web design, and digital services, including apps.",
+          "cosine": 0.6114,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General development vendor with no product-level signals relevant to the seed criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers software development and web design services but no evidence of a web-based productivity application for notes or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Described as a service provider; no indication they target technical teams as primary end-users of a product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features in the company description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of providing configurable tables or database-like building blocks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description lacks any mention of integrations or a public API for developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:1d8b52ea-a1dd-49ff-bb17-783a2c704096",
+          "name": "Notum",
+          "domain": "notum.cz",
+          "one_liner": "Notum provides mobile development and product design services.",
+          "description_full": "Notum provides mobile development and product design services.",
+          "cosine": 0.6109,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Design and development services firm without the product capabilities required to be a peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers mobile development and product design services but no evidence of a web-based productivity app for organizing documents or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description does not indicate targeting software engineers or technical teams as primary users of a product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, connectors, or a public API."
+            }
+          }
+        },
+        {
+          "record_id": "cb:ff1798e8-db0c-470d-82f0-a1715ad53626",
+          "name": "AppDev Technolabs",
+          "domain": "appdevtechnolabs.com",
+          "one_liner": "AppDev Technolabs provides mobile apps and web design solutions.",
+          "description_full": "AppDev Technolabs provides mobile apps and web design solutions.",
+          "cosine": 0.6076,
+          "llm_tier": "tier_4",
+          "tier_rationale": "App development vendor with no product signals meeting the seed criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Provides mobile apps and web design solutions but no indication it operates a web-based productivity application for notes or knowledge management."
+            },
+            "2": {
+              "match": false,
+              "evidence": "A development shop description; no evidence they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features like code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering configurable tables or database-like content modeling in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not reference integrations, APIs, or developer tool connectivity."
+            }
+          }
+        },
+        {
+          "record_id": "cb:1d5cc472-9afa-a505-2b38-739dbccc139a",
+          "name": "Concetto Labs",
+          "domain": "concettolabs.com",
+          "one_liner": "Concetto Labs is a mobile app & Android, iOS, ASP.NET development company. We provide a one stop solution for all IT related services.",
+          "description_full": "Concetto Labs is a mobile app & Android, iOS, ASP.NET development company. We provide a one stop solution for all IT related services.",
+          "cosine": 0.6068,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Software development house without product features required for close peer similarity.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a mobile app and ASP.NET development company; no evidence of a web-based productivity app for documents or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Company appears to be a service provider rather than a product targeting technical teams as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code blocks, syntax highlighting, or embedded runnable snippets in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence provided of structured database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations or a public API in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b3112115-65c5-4831-8a4e-b0327082b735",
+          "name": "Novumlogic Technologies",
+          "domain": "novumlogic.com",
+          "one_liner": "Novumlogic Technologies is a web and mobile application development company.",
+          "description_full": "Novumlogic Technologies is a web and mobile application development company.",
+          "cosine": 0.6038,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General development shop lacking the product characteristics to be a Notion peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a web and mobile application development company, not as a provider of a productivity app for notes or knowledge organization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description gives no indication they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not reference integrations, APIs, or connections to developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:2f850ae7-8da0-4439-983a-44d7d0904130",
+          "name": "Usingnet",
+          "domain": "usingnet.com",
+          "one_liner": "Usingnet is a mobile application development company.",
+          "description_full": "Usingnet is a mobile application development company.",
+          "cosine": 0.5996,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Mobile app developer without signals of a productivity product or developer-focused integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described simply as a mobile application development company with no claim to a web-based productivity app for documents or notes."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence that they target technical teams or software engineers as primary end-users of a product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of supporting code blocks, syntax highlighting, or runnable snippets."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured database-like features or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations or a public API in the provided description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a3a0c4ee-1ab3-48da-bfcc-59b627e5e806",
+          "name": "Coidea Agency",
+          "domain": "coidea.agency",
+          "one_liner": "Coidea develops mobile apps for android and iOS devices, wearable device development, and UX/UI design.",
+          "description_full": "Coidea develops mobile apps for android and iOS devices, wearable device development, and UX/UI design.",
+          "cosine": 0.5993,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Design and development agency without the product features to be considered a close peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Develops mobile apps and UX/UI but no evidence of operating a web-based productivity application for organizing knowledge or documents."
+            },
+            "2": {
+              "match": false,
+              "evidence": "An agency focused on app development and design; description does not indicate targeting software engineers as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code authoring support such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description lacks any mention of integrations or APIs for developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:fc31bdd5-686d-4fe2-811d-10204904bbd1",
+          "name": "Notissimus",
+          "domain": "notissimus.com",
+          "one_liner": "Notissimus is an IT company that develops mobile applications and websites.",
+          "description_full": "Notissimus is an IT company that develops mobile applications and websites.",
+          "cosine": 0.5989,
+          "llm_tier": "tier_4",
+          "tier_rationale": "IT services firm without signals of the required product and developer features.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as an IT company developing mobile applications and websites, with no evidence of a productivity app for notes or knowledge organization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service-oriented description gives no indication they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured or configurable database-like building blocks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, APIs, or developer tool connectivity."
+            }
+          }
+        },
+        {
+          "record_id": "cb:89fbdbca-14df-4cd2-8f07-d6411af49888",
+          "name": "Innovedge",
+          "domain": "innovedgesoft.com",
+          "one_liner": "Innovedge designs and develops software, mobile applications, and websites.",
+          "description_full": "Innovedge designs and develops software, mobile applications, and websites.",
+          "cosine": 0.5963,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Software shop with no product-level developer-focused features evident.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Designs and develops software and mobile apps but provides no evidence of a web-based productivity application for notes or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "General software development offering; no indication they market a product to technical teams as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of supporting code blocks, syntax highlighting, or runnable code snippets."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of configurable tables or database-like building blocks in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of integrations or public APIs for connecting with developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:6875f64c-cab8-4c9d-b715-b3edd4b48fc4",
+          "name": "Whatson Web",
+          "domain": "whatson-web.com",
+          "one_liner": "Whatson Web designs and develops web and mobile applications.",
+          "description_full": "Whatson Web designs and develops web and mobile applications.",
+          "cosine": 0.5963,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Web/mobile development firm without the productivity/product integrations required to be a peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Designs and develops web and mobile applications but there is no mention of a productivity app for creating and organizing notes or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "A development services description; no evidence they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of providing database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of integrations or APIs in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:efd696ae-2c1d-4574-affc-f41ce4c78a43",
+          "name": "Noventum",
+          "domain": "noventum.us",
+          "one_liner": "Noventum specializes in software development, web development, data analysis, UI/UX, iOS, android and desktop applications.",
+          "description_full": "Noventum specializes in software development, web development, data analysis, UI/UX, iOS, android and desktop applications.",
+          "cosine": 0.5944,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Broad software development provider without the specific product features to be considered a peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Specializes in software and app development and data analysis but does not claim to provide a web-based productivity app for notes or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Company offers development services rather than a product targeting technical teams as primary users, based on the description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of supporting code authoring features such as syntax-highlighted code blocks."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication of structured database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not reference integrations, APIs, or developer tool connectivity."
+            }
+          }
+        },
+        {
+          "record_id": "cb:80a72bcd-f9e2-40d3-8ed2-9ebcbfb0a1fc",
+          "name": "Obvious",
+          "domain": "obvious.ch",
+          "one_liner": "Obvious is a digital design studio that designs mobile and web applications.",
+          "description_full": "Obvious is a digital design studio that designs mobile and web applications.",
+          "cosine": 0.5941,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Design-focused firm without the product capabilities expected for a Notion peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "A digital design studio that builds mobile and web applications, with no evidence of a productivity app for document or knowledge organization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description indicates a design studio rather than a product targeted at software engineering teams."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code blocks, syntax highlighting, or developer-focused authoring features."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, APIs, or connections to developer tooling."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a374f8eb-c72a-f3b2-c60f-98ad98a92fef",
+          "name": "New Vision",
+          "domain": "nevvision.com",
+          "one_liner": "New Vision is a development company that designs and develops a variety of mobile applications and solutions.",
+          "description_full": "New Vision is a development company that designs and develops a variety of mobile applications and solutions.",
+          "cosine": 0.5939,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General development shop without evidence of the product features required to be a close peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a development company for various mobile applications and solutions, not as a provider of a web-based productivity app for notes or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description does not indicate that they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features or syntax-highlighted code blocks."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering structured database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description lacks any reference to integrations or a public API."
+            }
+          }
+        },
+        {
+          "record_id": "cb:7b9b38f7-a933-2742-0651-a149caa7984f",
+          "name": "Notion",
+          "domain": "getnotion.com",
+          "one_liner": "Notion is a self-monitoring system that provides home-owners to be proactive in protecting their spaces, people, and possessions.",
+          "description_full": "Notion is a self-monitoring system that provides home-owners to be proactive in protecting their spaces, people, and possessions.",
+          "cosine": 0.5917,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Unrelated (home monitoring) product; only name similarity but not a functional peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a home self-monitoring system for homeowners, not a web-based productivity app for creating and organizing documents or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Product targets homeowners for security and monitoring, not technical teams or software engineers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of supporting code-focused authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No mention of structured, database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations with developer tools or a public API in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:ffe4be29-21f1-49d3-8dd1-7d70c383a0ee",
+          "name": "NIT Solution",
+          "domain": "nitsolution.in",
+          "one_liner": "NIT Solution offers mobile app development, software development,website developmen solutions.",
+          "description_full": "NIT Solution offers mobile app development, software development,website developmen solutions.",
+          "cosine": 0.5897,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Typical software development shop without the product and integration features required for a Notion peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers mobile app and software development services, with no evidence of a web-based productivity app for documents or knowledge management."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description does not indicate a product targeting technical teams as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as syntax-highlighted code blocks."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of providing structured database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, APIs, or developer tool connectivity."
+            }
+          }
+        },
+        {
+          "record_id": "cb:327fe90f-7491-4b43-a9f3-73e826b0bed6",
+          "name": "Dotit",
+          "domain": "dotitsrl.it",
+          "one_liner": "Dotit provides design and development of web and mobile applications services.",
+          "description_full": "Dotit provides design and development of web and mobile applications services.",
+          "cosine": 0.5891,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Development house without the product and developer integration features to be a close peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Provides design and development of web and mobile applications but no evidence of a web-based productivity app for notes or knowledge organization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "A development services provider; description does not indicate they target technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code blocks, syntax highlighting, or embedded runnable snippets."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description lacks mention of integrations or a public API for connecting with developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:bfaa4a0e-6d13-405f-93d5-7e9a99ce0a04",
+          "name": "Novateus",
+          "domain": "novateus.com",
+          "one_liner": "Novateus designs and develops web, mobile, and IoT solutions that help businesses streamline operations and become more efficient.",
+          "description_full": "Novateus designs and develops web, mobile, and IoT solutions that help businesses streamline operations and become more efficient.",
+          "cosine": 0.5889,
+          "llm_tier": "tier_4",
+          "tier_rationale": "IoT and app solutions firm without the productivity and developer-focused product features required.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Designs and develops web, mobile, and IoT solutions; description does not indicate a web-based productivity app for documents or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service and solutions provider; no evidence they have a product aimed primarily at technical teams as end-users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as syntax highlighting or code blocks."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, APIs, or developer tool connectivity."
+            }
+          }
+        },
+        {
+          "record_id": "cb:f32b6de9-6d44-4e58-9946-0d6da0b0417c",
+          "name": "Conception I Technology",
+          "domain": "conceptioni.com",
+          "one_liner": "Conception I Technology is a mobile app and web development company that offers internet marketing, SEO, and graphic design services.",
+          "description_full": "Conception I Technology is a mobile app and web development company that offers internet marketing, SEO, and graphic design services.",
+          "cosine": 0.5877,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Full-service development and marketing agency without the product-level developer features needed to be a peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a mobile app and web development company offering marketing and design; no evidence of a web-based productivity application for notes or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Company focuses on building solutions for clients rather than operating a product targeted at technical teams as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring capabilities such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of database-like building blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations or a public API for developer tooling in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:8b1c1637-ad5d-4cc2-b943-bfeb55af110a",
+          "name": "Inventive Mobile",
+          "domain": "inventivemobile.com",
+          "one_liner": "Inventive Mobile is a mobile software development company.",
+          "description_full": "Inventive Mobile is a mobile software development company.",
+          "cosine": 0.5876,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Mobile development specialist with no signals of a productivity product or developer-centric integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a mobile software development company, not as a web-based productivity application for documents or knowledge workspaces."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description does not indicate targeting software engineers or technical teams as primary product users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of configurable tables or database-like building blocks in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, connectors, or a public API for developer tools."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b2f8b2c2-81a6-48fc-bb96-0f6300d3b820",
+          "name": "Devbu Bili\u015fim A.\u015e.",
+          "domain": "it.devbu.com",
+          "one_liner": "We design & develop mobile & web applications",
+          "description_full": "We design & develop mobile & web applications",
+          "cosine": 0.5874,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Development firm without the product features and integrations expected of a Notion peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "States they design & develop mobile & web applications but gives no evidence of a web-based productivity app for organizing knowledge or documents."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Appears to be a development shop; no indication they target technical teams as primary end-users of a product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code-focused authoring features such as code blocks or syntax highlighting."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of structured database-like blocks or configurable tables in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not mention integrations or APIs for connecting with developer platforms."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5897ae6c-4643-406d-8be8-907679bc8a30",
+          "name": "Netweb Technologies",
+          "domain": "netwebtechnologies.com",
+          "one_liner": "Netweb Technologies is an IT company that specializes in mobile application development, web development, and UX design.",
+          "description_full": "Netweb Technologies is an IT company that specializes in mobile application development, web development, and UX design.",
+          "cosine": 0.5871,
+          "llm_tier": "tier_4",
+          "tier_rationale": "IT services and UX firm lacking the productivity product and developer-facing features required to be a peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Specializes in mobile and web development and UX design but does not claim to provide a web-based productivity application for notes or knowledge."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Service provider description does not indicate a product aimed primarily at technical teams as end-users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of code blocks, syntax highlighting, or developer-focused authoring capabilities."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of offering structured, database-like building blocks or configurable tables."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No reference to integrations, public APIs, or developer tool connectivity in the description."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "productivity software like Notion for technical teams",
+  "pipeline_seconds": 5977.3,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": false,
+    "n_candidates_prefilter": 70311,
+    "n_new_embeddings": 45891
+  }
+}

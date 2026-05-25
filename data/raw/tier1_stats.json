@@ -1,0 +1,130 @@
+{
+  "yc_rows": 3494,
+  "runtime_seconds": 32.8,
+  "status_counts": {
+    "tier1_ambiguous": 804,
+    "matched_unique": 1909,
+    "absent_from_crunchbase": 781
+  },
+  "n_matches_distribution": {
+    "0": 781,
+    "1": 1909,
+    "2": 403,
+    "3": 146,
+    "4": 94,
+    "5": 161
+  },
+  "match_method_counts": {
+    "name+year": 2505,
+    "both": 1746,
+    "domain": 422
+  },
+  "absent_failure_reasons": {
+    "no_signal": 689,
+    "cb_null_year": 92
+  },
+  "cross_name_split_yc_rows": 344,
+  "matches_recovered_via_former_name": 1353,
+  "top_ambiguous_yc": [
+    {
+      "yc_record_id": "yc:typeless",
+      "yc_name": "TypeLess",
+      "n_matches": 24
+    },
+    {
+      "yc_record_id": "yc:commery",
+      "yc_name": "Commery",
+      "n_matches": 21
+    },
+    {
+      "yc_record_id": "yc:elpha",
+      "yc_name": "Elpha",
+      "n_matches": 15
+    },
+    {
+      "yc_record_id": "yc:hatch",
+      "yc_name": "Hatch",
+      "n_matches": 15
+    },
+    {
+      "yc_record_id": "yc:scout",
+      "yc_name": "Scout",
+      "n_matches": 15
+    },
+    {
+      "yc_record_id": "yc:recordbook",
+      "yc_name": "RecordBook",
+      "n_matches": 14
+    },
+    {
+      "yc_record_id": "yc:capture",
+      "yc_name": "Capture",
+      "n_matches": 13
+    },
+    {
+      "yc_record_id": "yc:welcome",
+      "yc_name": "Welcome",
+      "n_matches": 12
+    },
+    {
+      "yc_record_id": "yc:flux",
+      "yc_name": "Flux",
+      "n_matches": 11
+    },
+    {
+      "yc_record_id": "yc:cadence",
+      "yc_name": "Cadence",
+      "n_matches": 11
+    },
+    {
+      "yc_record_id": "yc:vizy",
+      "yc_name": "Vizy",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:playground",
+      "yc_name": "Playground",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:flow",
+      "yc_name": "Flow",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:gather",
+      "yc_name": "Gather",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:dataland",
+      "yc_name": "Dataland",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:gather-2",
+      "yc_name": "Gather",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:clear",
+      "yc_name": "Clear",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:scout-2",
+      "yc_name": "Scout",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:stream",
+      "yc_name": "Stream",
+      "n_matches": 10
+    },
+    {
+      "yc_record_id": "yc:capsule",
+      "yc_name": "CAPSULE",
+      "n_matches": 10
+    }
+  ]
+}

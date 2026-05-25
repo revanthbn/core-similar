@@ -1,0 +1,917 @@
+{
+  "seed": {
+    "name": "Wiz",
+    "domain": "wiz.io",
+    "record_id": "cb:145ca49f-9122-40ce-a832-d86926196b7e",
+    "industries": [
+      "Cloud Security",
+      "Cyber Security",
+      "Enterprise Software",
+      "Security"
+    ],
+    "country": "Northeastern US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides security solutions specifically for public cloud infrastructure",
+      "rationale": "Differentiates cloud-focused vendors from general cybersecurity vendors that target endpoints, networks, or on\u2011premises environments."
+    },
+    {
+      "id": 2,
+      "text": "Enables customers to discover security issues in public cloud infrastructure",
+      "rationale": "Separates companies that actively identify cloud vulnerabilities or misconfigurations from firms that only provide complementary services (e.g., consulting, threat intelligence) without cloud scanning capabilities."
+    },
+    {
+      "id": 3,
+      "text": "Delivers its security product as a cloud-hosted SaaS platform",
+      "rationale": "Filters for vendors that offer a cloud-native software platform rather than on-premise appliances, professional-services-only offerings, or purely open-source projects."
+    },
+    {
+      "id": 4,
+      "text": "Targets business or organizational customers rather than individual consumers",
+      "rationale": "Ensures peers are B2B/cloud-enterprise oriented, excluding consumer-focused security apps or developer utilities that are not sold to organizations."
+    },
+    {
+      "id": 5,
+      "text": "Focuses on securing cloud infrastructure resources (IaaS/PaaS) rather than endpoint devices or on-premises hardware",
+      "rationale": "Distinguishes vendors that secure cloud resources and configurations from vendors whose primary scope is endpoint protection, network appliances, or legacy on-prem security."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 1 \u2014 strong peers \u2014 Matches 4/5 criteria (cloud security, discovery/monitoring, B2B target, and cloud infrastructure focus); only SaaS delivery is not evidenced.",
+      "llm_tier": "tier_1",
+      "summary_rationale": "Matches 4/5 criteria (cloud security, discovery/monitoring, B2B target, and cloud infrastructure focus); only SaaS delivery is not evidenced.",
+      "criteria_matched": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "criteria_missing": [
+        3
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:30820d2c-4578-4ac1-b80f-44e1fccdf095",
+          "name": "WCSIT",
+          "domain": "wcsit.mx",
+          "one_liner": "WCSIT is an IT services company that offers security, monitoring, and cloud services.",
+          "description_full": "WCSIT is an IT services company that offers security, monitoring, and cloud services.",
+          "cosine": 0.5634,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches 4/5 criteria (cloud security, discovery/monitoring, B2B target, and cloud infrastructure focus); only SaaS delivery is not evidenced.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description says the company 'offers ... cloud services' together with security, indicating it provides security solutions for cloud infrastructure."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description includes 'monitoring' and 'security', which indicates capabilities to discover or surface security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of delivering its security product as a cloud-hosted SaaS platform in the description; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Described as an 'IT services company' offering security and cloud services, indicating a business/organizational target market."
+            },
+            "5": {
+              "match": true,
+              "evidence": "The combination of 'security, monitoring, and cloud services' implies a focus on securing cloud infrastructure resources."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 2 \u2014 plausible peers \u2014 Matches 3/5 criteria (cloud security provider, B2B, cloud infrastructure focus) but lacks explicit evidence of SaaS delivery and discovery capabilities.",
+      "llm_tier": "tier_2",
+      "summary_rationale": "Matches 3/5 criteria (cloud security provider, B2B, cloud infrastructure focus) but lacks explicit evidence of SaaS delivery and discovery capabilities.",
+      "criteria_matched": [
+        1,
+        4,
+        5
+      ],
+      "criteria_missing": [
+        2,
+        3
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:4d13bd92-e66b-4d1d-ba47-439af576b592",
+          "name": "SecWise",
+          "domain": "secwise.be",
+          "one_liner": "SecWise is an IT company offering end-to-end security strategies, cloud security, and compliance services.",
+          "description_full": "SecWise is an IT company offering end-to-end security strategies, cloud security, and compliance services.",
+          "cosine": 0.6399,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (cloud security provider, B2B, cloud infrastructure focus) but lacks explicit evidence of SaaS delivery and discovery capabilities.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description states SecWise offers 'cloud security', indicating solutions for cloud infrastructure."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery or assessment capabilities for finding security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No statement that the security product is delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Described as an IT company offering end-to-end security strategies and compliance services, indicating a business/organizational customer focus."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Explicit mention of 'cloud security' indicates a focus on securing cloud infrastructure resources rather than endpoints."
+            }
+          }
+        },
+        {
+          "record_id": "cb:115ecb88-f163-4495-bc66-f04d97d9f449",
+          "name": "TechWorx [Partner]",
+          "domain": "techworx.io",
+          "one_liner": "TechWorx provides cloud services, cyber security, IT support and technology strategy.",
+          "description_full": "TechWorx provides cloud services, cyber security, IT support and technology strategy.",
+          "cosine": 0.5825,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (cloud security, organizational target, cloud infrastructure focus) but lacks explicit discovery tooling and SaaS delivery evidence.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description lists 'cloud services' and 'cyber security', indicating offerings for cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery or assessment tools for public cloud security issues; insufficient evidence in description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication that the security solution is delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Provides cloud and cyber security services and IT support, implying business/organizational customers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Offering 'cloud services' and 'cyber security' suggests a focus on securing cloud infrastructure resources."
+            }
+          }
+        },
+        {
+          "record_id": "cb:72dd2d0c-c369-4628-b6c2-cdcc1cd9de36",
+          "name": "WIIT Channel Services",
+          "domain": "wcs.wiit.cloud",
+          "one_liner": "WIIT Channel Services specializes in multi-cloud and cybersecurity services.",
+          "description_full": "WIIT Channel Services specializes in multi-cloud and cybersecurity services.",
+          "cosine": 0.5706,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (cloud-focused security services, organizational target, cloud infrastructure focus) but lacks explicit discovery tooling and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description states it 'specializes in multi-cloud and cybersecurity services', indicating cloud infrastructure security solutions."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit claim of tools or services that discover security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention that security is delivered specifically as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioning as a multi-cloud and cybersecurity services specialist implies business/organizational customers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Focus on 'multi-cloud' and 'cybersecurity services' indicates emphasis on securing cloud infrastructure resources."
+            }
+          }
+        },
+        {
+          "record_id": "cb:4cb56599-ee9f-4a06-9abe-337658c51665",
+          "name": "WannagoCloud",
+          "domain": "wannagocloud.com",
+          "one_liner": "WannagoCloud offers cloud security, cyber security, and IT services.",
+          "description_full": "WannagoCloud offers cloud security, cyber security, and IT services.",
+          "cosine": 0.569,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (cloud security, B2B, cloud infrastructure focus) but lacks explicit SaaS delivery or discovery tooling evidence.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description explicitly states the company 'offers cloud security'."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit description of discovery or assessment functions to find security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No information that the security offering is provided as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Offers cloud security and IT services, indicating a focus on business/organizational customers."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Offering 'cloud security' suggests a focus on securing cloud infrastructure resources rather than endpoints."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Matches discovery (testing) and B2B orientation (2/5); lacks explicit cloud infra, SaaS, and cloud-focused evidence.",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Matches discovery (testing) and B2B orientation (2/5); lacks explicit cloud infra, SaaS, and cloud-focused evidence.",
+      "criteria_matched": [
+        2,
+        4
+      ],
+      "criteria_missing": [
+        1,
+        3,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:2db9aefb-fc71-474b-8cd9-fe5ddf4bee8e",
+          "name": "Whiz Security",
+          "domain": "whizsec.com",
+          "one_liner": "Whiz Security is an IT security firm that provides security testing, incident response, security training, governance, and audit services.",
+          "description_full": "Whiz Security is an IT security firm that provides security testing, incident response, security training, governance, and audit services.",
+          "cosine": 0.7216,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches discovery (testing) and B2B orientation (2/5); lacks explicit cloud infra, SaaS, and cloud-focused evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description lists security testing and services but does not specifically reference public cloud infrastructure; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Provides 'security testing, incident response, security training, governance, and audit services', indicating capability to discover security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of a cloud-hosted SaaS product delivery model; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Offers enterprise-oriented services (testing, incident response, governance), indicating business/organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Focus is on security testing and incident response generally; no explicit focus on cloud infrastructure resources versus endpoints/on-premises."
+            }
+          }
+        },
+        {
+          "record_id": "cb:7d770c58-d92a-447e-a7af-db0f9304540f",
+          "name": "wizdome",
+          "domain": "wizdome.com",
+          "one_liner": "wizdome is an autonomous AI & machine learning based cybersecurity engine",
+          "description_full": "wizdome is an autonomous AI & machine learning based cybersecurity engine",
+          "cosine": 0.6572,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches discovery-like capability and B2B orientation (2/5) but lacks explicit cloud-infrastructure and SaaS delivery evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as an 'autonomous AI & machine learning based cybersecurity engine' but there is no explicit reference to public cloud infrastructure; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Being an autonomous cybersecurity engine implies capabilities to detect or surface security issues, i.e., discovery of security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "The description does not state the product is delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as a cybersecurity engine (product) which implies business/organizational customers rather than individual consumers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No specific indication that the engine focuses on IaaS/PaaS cloud infrastructure rather than endpoints or general security."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3e10fbae-a0aa-4a91-9d93-100f67cca5ec",
+          "name": "Wifix",
+          "domain": "wifixe.com",
+          "one_liner": "Wifix offers cybersecurity solutions for SMEs, including web, network, and Wi-Fi security.",
+          "description_full": "Wifix offers cybersecurity solutions for SMEs, including web, network, and Wi-Fi security.",
+          "cosine": 0.5876,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches discovery capability and B2B target (2/5) but does not demonstrate cloud-infrastructure focus or SaaS delivery.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description lists web, network, and Wi\u2011Fi security for SMEs but does not mention public cloud infrastructure specifically; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Offering cybersecurity solutions (web, network, Wi\u2011Fi security) implies capabilities to discover security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of delivering security as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Explicitly targets SMEs, indicating a business/organizational customer focus."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Focus is on web, network, and Wi\u2011Fi security rather than IaaS/PaaS cloud infrastructure according to the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3be73ca0-ab3e-42af-b164-68409c5781ac",
+          "name": "Wise security Global",
+          "domain": "wsg127.com",
+          "one_liner": "Wise Security Global is a cybersecurity and cybertrust company specialised in ethical hacking.",
+          "description_full": "Wise Security Global is a cybersecurity and cybertrust company specialised in ethical hacking.",
+          "cosine": 0.57,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches discovery (ethical hacking) and B2B orientation (2/5) but lacks explicit cloud-infrastructure and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as specialized in ethical hacking but no explicit mention of public cloud infrastructure security; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Specialization in 'ethical hacking' indicates capability to discover security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication that services are delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Ethical hacking services are typically targeted at organizations, implying a business/organizational customer base."
+            },
+            "5": {
+              "match": false,
+              "evidence": "The description focuses on ethical hacking generally and does not specify a focus on IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:650bc41a-6aa7-4d1d-b6d7-11b92294705f",
+          "name": "CPWorks",
+          "domain": "cpworks.net",
+          "one_liner": "CPWorks is an information technology company that specializes in infrastructure and cybersecurity assessment services.",
+          "description_full": "CPWorks is an information technology company that specializes in infrastructure and cybersecurity assessment services.",
+          "cosine": 0.5664,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches assessment/discovery and B2B orientation (2/5); lacks explicit public-cloud and SaaS delivery evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as specializing in 'infrastructure and cybersecurity assessment services' but no explicit reference to public cloud infrastructure specifically; insufficient evidence."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Specializes in 'infrastructure and cybersecurity assessment services', which implies enabling discovery of security issues."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No statement that services are delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Provides infrastructure and cybersecurity assessment services, indicating a business/organizational customer focus."
+            },
+            "5": {
+              "match": false,
+              "evidence": "While they assess 'infrastructure', the description does not specify IaaS/PaaS cloud infrastructure versus on-premises."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Testing/evaluation firm with only a business-customer signal (1/5); lacks clear cloud-infrastructure or SaaS/discovery evidence.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Testing/evaluation firm with only a business-customer signal (1/5); lacks clear cloud-infrastructure or SaaS/discovery evidence.",
+      "criteria_matched": [
+        4
+      ],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:2e236f0a-9b0b-4211-9e62-12022928a930",
+          "name": "Wizcase",
+          "domain": "wizcase.com",
+          "one_liner": "Wizcase is a testing based firm that tests and evaluates cyber-security tools & products.",
+          "description_full": "Wizcase is a testing based firm that tests and evaluates cyber-security tools & products.",
+          "cosine": 0.7246,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Testing/evaluation firm with only a business-customer signal (1/5); lacks clear cloud-infrastructure or SaaS/discovery evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Tests and evaluates cybersecurity tools & products but does not indicate providing security solutions for public cloud infrastructure."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on testing/evaluation of tools rather than enabling customers to discover issues in their public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of offering a cloud-hosted SaaS security platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Testing and evaluation services imply business/organizational clientele."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not indicate a focus on securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:781fc0dc-c9c4-4c6b-b387-4a5658cace0e",
+          "name": "Whizhack",
+          "domain": "whizhack.com",
+          "one_liner": "Whizhack Technologies is a vertically integrated cyber security company.",
+          "description_full": "Whizhack Technologies is a vertically integrated cyber security company.",
+          "cosine": 0.6978,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generic cybersecurity profile with organizational focus (1/5) but lacking specific cloud or SaaS/discovery evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described only as a vertically integrated cyber security company; no explicit public cloud infrastructure specialization mentioned."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery tools for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence the company delivers security as a cloud-hosted SaaS product; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Cybersecurity company description implies serving organizations/business customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No specific mention of securing IaaS/PaaS cloud infrastructure versus other security domains."
+            }
+          }
+        },
+        {
+          "record_id": "cb:1f832d40-0a04-49bd-a0e4-100a71beebd9",
+          "name": "WardWiz",
+          "domain": "wardwiz.in",
+          "one_liner": "WardWiz is an it security company.",
+          "description_full": "WardWiz is an it security company.",
+          "cosine": 0.6908,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Simple IT security provider with only a B2B signal (1/5) lacking cloud-specific and SaaS/discovery evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Listed simply as an IT security company without explicit public cloud infrastructure offerings."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit description of discovery capabilities for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of a cloud-hosted SaaS platform delivery model; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "As an IT security company, it is implied they serve organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No specific indication of a focus on IaaS/PaaS cloud infrastructure in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:69f805a8-3183-dab5-f6af-c9867420d741",
+          "name": "WizSec",
+          "domain": "wizsec.com",
+          "one_liner": "WizSec is a security specialist firm based in Tokyo.",
+          "description_full": "WizSec is a security specialist firm based in Tokyo.",
+          "cosine": 0.6528,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Security specialist with organizational focus (1/5) but lacking cloud-specific, discovery, or SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a security specialist firm with no explicit public cloud infrastructure mention."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit evidence they enable discovery of security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No statement that services are delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Being a security specialist firm implies serving organizations/businesses."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not specify a focus on securing cloud infrastructure (IaaS/PaaS) explicitly."
+            }
+          }
+        },
+        {
+          "record_id": "cb:ec08b0bb-fea1-4696-86b9-dd20b2aac477",
+          "name": "Wisp IT",
+          "domain": "wispit.net",
+          "one_liner": "Wisp IT is an information technology company that offers cybersecurity, cloud desktops, IT migrations, and consulting services.",
+          "description_full": "Wisp IT is an information technology company that offers cybersecurity, cloud desktops, IT migrations, and consulting services.",
+          "cosine": 0.6501,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides IT and cybersecurity services to organizations (1/5) but lacks explicit cloud-infrastructure, discovery, or SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers cloud desktops and cybersecurity services but does not explicitly state public cloud infrastructure security offerings."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit claim of providing discovery tools for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of delivering security as a cloud-hosted SaaS platform in the description; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Offers IT and cybersecurity services, which implies a business/organizational customer base."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Services include cloud desktops (virtual endpoints) rather than explicit IaaS/PaaS cloud infrastructure security focus."
+            }
+          }
+        },
+        {
+          "record_id": "cb:54783d11-d891-41a9-b938-004af86cc82a",
+          "name": "Wissda",
+          "domain": "wissda.com",
+          "one_liner": "Wissda is a consulting company that provides risk and compliance transformation, cyber security, and data analytics services.",
+          "description_full": "Wissda is a consulting company that provides risk and compliance transformation, cyber security, and data analytics services.",
+          "cosine": 0.6305,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consulting firm with organizational focus (1/5) but lacks cloud-infrastructure, discovery, and SaaS product evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Consulting offering risk and compliance transformation and cyber security but no explicit public cloud infrastructure specialization."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit evidence they provide discovery of security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication that services are delivered as a cloud-hosted SaaS platform."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Consulting on risk, compliance, and cyber security implies serving organizational clients."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Focus is on risk and compliance rather than explicitly on securing IaaS/PaaS cloud resources."
+            }
+          }
+        },
+        {
+          "record_id": "cb:9ed70f24-9601-4b1a-bf81-a55b941f9a90",
+          "name": "Witz Cybersecurity",
+          "domain": "witzcybersecurity.com",
+          "one_liner": "Witz Cybersecurity provides cybersecurity solutions, consulting services, and an automated cybercrime simulator.",
+          "description_full": "Witz Cybersecurity provides cybersecurity solutions, consulting services, and an automated cybercrime simulator.",
+          "cosine": 0.609,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General cybersecurity consultancy serving organizations (1/5) lacking cloud-specific and SaaS/discovery signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Provides cybersecurity solutions and consulting services without explicit mention of public cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit claim about enabling discovery of security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No information that the offering is a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Offers cybersecurity solutions and consulting, indicating a business/organizational target market."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not specify a focus on securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:ae1e4554-ec36-427c-868e-38ea2d4d3607",
+          "name": "North Wonders",
+          "domain": "northwonders.com",
+          "one_liner": "North Wonders is an IT services company offering cybersecurity solutions and security awareness programs.",
+          "description_full": "North Wonders is an IT services company offering cybersecurity solutions and security awareness programs.",
+          "cosine": 0.6009,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides cybersecurity services and training to organizations (1/5) but lacks cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers cybersecurity solutions and awareness programs but no explicit mention of public cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery capabilities for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of providing a cloud-hosted SaaS security platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Positioned as an IT services company offering cybersecurity solutions and programs, implying organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Focus on awareness programs and general cybersecurity rather than explicit IaaS/PaaS cloud infrastructure security."
+            }
+          }
+        },
+        {
+          "record_id": "cb:61b2b130-3421-4fc4-8841-0481d41ac648",
+          "name": "3wSecurity",
+          "domain": "3wsecurity.com",
+          "one_liner": "3wsecurity is a cybersecurity consulting firm that helps organizations conduct business securely over the World Wide Web.",
+          "description_full": "3wsecurity is a cybersecurity consulting firm that helps organizations conduct business securely over the World Wide Web.",
+          "cosine": 0.5831,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Organization-focused web security consultancy (1/5) lacking explicit cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Helps organizations operate securely over the World Wide Web but does not explicitly state public cloud infrastructure security solutions."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit description of discovery tools for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence the offering is delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Consulting for organizations implies business customers rather than consumers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Focus is on web security rather than explicitly on IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:22c1eeba-7926-453f-8de9-aee4af3dcb00",
+          "name": "Witkey",
+          "domain": "witkey.fr",
+          "one_liner": "Witkey is an information technology company that offers management consulting and cybersecurity services.",
+          "description_full": "Witkey is an information technology company that offers management consulting and cybersecurity services.",
+          "cosine": 0.5744,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consulting and cybersecurity services for organizations (1/5) without explicit cloud-infrastructure or SaaS/discovery signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers management consulting and cybersecurity services but no explicit public cloud infrastructure security offering is mentioned."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery capabilities for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a cloud-hosted SaaS security product in the description; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Management consulting and cybersecurity services are aimed at organizations rather than individual consumers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No explicit emphasis on securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:98e934d0-7c10-4e38-9196-255b0c032e48",
+          "name": "WASS Technologies",
+          "domain": "wasstech.com",
+          "one_liner": "WASS Technologies is an IT company that provides website security, disaster recovery, data storage, and information management services.",
+          "description_full": "WASS Technologies is an IT company that provides website security, disaster recovery, data storage, and information management services.",
+          "cosine": 0.5734,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Business-focused IT/security services (1/5) but lacking explicit cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Offers website security, disaster recovery and data storage but no explicit public cloud infrastructure security focus is given."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of discovery or assessment capabilities for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence that services are provided as a cloud-hosted SaaS security platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Provides business-oriented services (website security, disaster recovery), indicating organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Services described are not specifically focused on IaaS/PaaS cloud infrastructure security."
+            }
+          }
+        },
+        {
+          "record_id": "cb:2d557089-4f15-4b8a-8b8f-e06b34c82815",
+          "name": "Wolk Technology",
+          "domain": "wolk.com.au",
+          "one_liner": "Wolk Technology is an information technology company that provides security, business management systems, and managed services.",
+          "description_full": "Wolk Technology is an information technology company that provides security, business management systems, and managed services.",
+          "cosine": 0.5693,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Managed services/security provider with organizational focus (1/5) but lacking cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Provides security and managed services with no explicit mention of public cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit claim of discovery services for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication that security is delivered as a cloud-hosted SaaS product; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Offers managed services and security, which implies serving business customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not explicitly focus on securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:519e5843-56c2-4178-bd9b-a2260faa1855",
+          "name": "Wazo Artificial Intelligence",
+          "domain": "wazoai.com",
+          "one_liner": "Wazo Artificial Intelligence provides business analytics and security system services.",
+          "description_full": "Wazo Artificial Intelligence provides business analytics and security system services.",
+          "cosine": 0.5664,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Business analytics and security services provider (1/5) but lacks explicit cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Provides business analytics and security system services but does not explicitly reference public cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of enabling discovery of security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No statement that services are provided as a cloud-hosted SaaS security platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Provides business analytics and security systems, indicating organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description does not specify a focus on IaaS/PaaS cloud infrastructure security."
+            }
+          }
+        },
+        {
+          "record_id": "cb:e3325d82-d796-4421-8ba5-348aef8fa2c1",
+          "name": "Dawizz",
+          "domain": "dawizz.fr",
+          "one_liner": "Dawizz is a tool that specializes in data governance, cybersecurity, and GDPR.",
+          "description_full": "Dawizz is a tool that specializes in data governance, cybersecurity, and GDPR.",
+          "cosine": 0.5657,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Governance/compliance tool for organizations (1/5) without explicit cloud-infrastructure or SaaS/discovery signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Specializes in data governance, cybersecurity, and GDPR but does not explicitly reference public cloud infrastructure security."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit claim of discovering security issues in public cloud infrastructure; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Although described as a 'tool', the description does not state it is delivered as a cloud-hosted SaaS platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Focus on data governance and GDPR suggests a business/organizational customer base."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Emphasis is on data governance and compliance rather than explicitly on securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:0fa0340b-63b9-4c86-9367-60a218991bd9",
+          "name": "Wazitech",
+          "domain": "wazitech.com",
+          "one_liner": "Wazitech is an IT systems management company for manufacturing, medical, and financial industries.",
+          "description_full": "Wazitech is an IT systems management company for manufacturing, medical, and financial industries.",
+          "cosine": 0.5657,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Industry-focused IT systems management with organizational target (1/5) but lacks cloud-infrastructure, discovery, and SaaS evidence.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "An IT systems management company for industries, with no explicit public cloud infrastructure security offering described."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit evidence of discovery capabilities for public cloud infrastructure security issues; insufficient evidence."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No mention of delivery as a cloud-hosted SaaS security platform; insufficient evidence."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Targets manufacturing, medical, and financial industries, indicating organizational customers."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description focuses on IT systems management rather than explicitly securing IaaS/PaaS cloud infrastructure."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "cybersecurity startups like Wiz that focus on cloud security",
+  "pipeline_seconds": 1030.6,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": false,
+    "n_candidates_prefilter": 18765,
+    "n_new_embeddings": 16914
+  }
+}

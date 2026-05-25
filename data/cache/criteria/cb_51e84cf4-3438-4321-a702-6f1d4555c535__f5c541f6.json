@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:51e84cf4-3438-4321-a702-6f1d4555c535",
+  "seed_name": "Vercel",
+  "user_query": "developer experience tools like Vercel",
+  "fingerprint": "103f3c6d31c7faab",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides a cloud platform for hosting and deploying frontend web applications.",
+      "rationale": "Distinguishes platform-focused frontend hosting/deployment products from non-hosting developer tools such as SDKs, libraries, or analytics."
+    },
+    {
+      "id": 2,
+      "text": "Targets developers as the primary users.",
+      "rationale": "Separates developer-facing tooling from end-user or enterprise business applications that merely operate in the same industry."
+    },
+    {
+      "id": 3,
+      "text": "Prioritizes improving developer experience or developer velocity in its product positioning.",
+      "rationale": "Identifies companies that compete on DX and workflow improvements rather than on unrelated features like billing, CRM, or generic cloud infrastructure."
+    },
+    {
+      "id": 4,
+      "text": "Provides framework-specific tooling or integrations for modern frontend frameworks.",
+      "rationale": "Differentiates peers that optimize for frontend frameworks (e.g., Next.js/React) from generic hosting or backend platforms that lack framework-first features."
+    },
+    {
+      "id": 5,
+      "text": "Operates as a managed platform-as-a-service that abstracts infrastructure for web developers.",
+      "rationale": "Filters for SaaS platforms that remove infrastructure complexity for dev teams rather than self-managed tools or purely on-premise software."
+    }
+  ]
+}

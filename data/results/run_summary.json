@@ -1,0 +1,37 @@
+{
+  "elapsed_seconds": 4927.6,
+  "seeds": [
+    {
+      "seed_name": "Wiz",
+      "slug": "wiz",
+      "user_query": "cybersecurity startups like Wiz that focus on cloud security",
+      "seconds": 652.2,
+      "n_tiers": 3,
+      "tier1_size": 5,
+      "candidates_total": 25,
+      "crustdata_matched": false,
+      "result_path": "/Users/revanthbn/core-similar/data/results/wiz_results.json"
+    },
+    {
+      "seed_name": "Vercel",
+      "slug": "vercel",
+      "user_query": "developer experience tools like Vercel",
+      "seconds": 1225.2,
+      "n_tiers": 3,
+      "tier1_size": 3,
+      "candidates_total": 25,
+      "crustdata_matched": true,
+      "result_path": "/Users/revanthbn/core-similar/data/results/vercel_results.json"
+    },
+    {
+      "seed_name": "Notion",
+      "slug": "notion",
+      "error": "Connection error."
+    },
+    {
+      "seed_name": "Figma",
+      "slug": "figma",
+      "error": "Connection error."
+    }
+  ]
+}

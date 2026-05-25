@@ -1,0 +1,901 @@
+{
+  "seed": {
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "record_id": "cb:51e84cf4-3438-4321-a702-6f1d4555c535",
+    "industries": [
+      "Apps",
+      "Artificial Intelligence (AI)",
+      "Developer Platform",
+      "Internet",
+      "Software"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides a cloud platform for hosting and deploying frontend web applications.",
+      "rationale": "Distinguishes platform-focused frontend hosting/deployment products from non-hosting developer tools such as SDKs, libraries, or analytics."
+    },
+    {
+      "id": 2,
+      "text": "Targets developers as the primary users.",
+      "rationale": "Separates developer-facing tooling from end-user or enterprise business applications that merely operate in the same industry."
+    },
+    {
+      "id": 3,
+      "text": "Prioritizes improving developer experience or developer velocity in its product positioning.",
+      "rationale": "Identifies companies that compete on DX and workflow improvements rather than on unrelated features like billing, CRM, or generic cloud infrastructure."
+    },
+    {
+      "id": 4,
+      "text": "Provides framework-specific tooling or integrations for modern frontend frameworks.",
+      "rationale": "Differentiates peers that optimize for frontend frameworks (e.g., Next.js/React) from generic hosting or backend platforms that lack framework-first features."
+    },
+    {
+      "id": 5,
+      "text": "Operates as a managed platform-as-a-service that abstracts infrastructure for web developers.",
+      "rationale": "Filters for SaaS platforms that remove infrastructure complexity for dev teams rather than self-managed tools or purely on-premise software."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 2 \u2014 plausible peers \u2014 Matches 3/5 criteria (hosting/deployment platform, developer target, managed PaaS); lacks explicit framework-specific tooling and explicit developer-experience ",
+      "llm_tier": "tier_2",
+      "summary_rationale": "Matches 3/5 criteria (hosting/deployment platform, developer target, managed PaaS); lacks explicit framework-specific tooling and explicit developer-experience positioning.",
+      "criteria_matched": [
+        1,
+        2,
+        5
+      ],
+      "criteria_missing": [
+        3,
+        4
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:a6d30239-ce37-977d-3d88-8dbbab0d6222",
+          "name": "XIOS/3",
+          "domain": "xios3.com",
+          "one_liner": "The SaaS supercharger, delivering an Edge Application Platform for web development to increase scalability and performance of any SaaS",
+          "description_full": "The SaaS supercharger, delivering an Edge Application Platform for web development to increase scalability and performance of any SaaS",
+          "cosine": 0.5006,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (hosting/deployment platform, developer target, managed PaaS); lacks explicit framework-specific tooling and explicit developer-experience positioning.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'delivering an Edge Application Platform for web development' indicates a platform for hosting/deploying web applications."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description references 'web development' and 'SaaS supercharger', implying the product is aimed at developers building web apps."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description emphasizes scalability and performance for SaaS rather than explicitly positioning around developer experience or developer velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not mention framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Providing an 'Edge Application Platform' suggests a managed platform-as-a-service that abstracts infrastructure for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3196478c-6e3e-487f-b21e-2943915ad820",
+          "name": "WunderGraph",
+          "domain": "wundergraph.com",
+          "one_liner": "WunderGraph is a next generation BFF framework designed to optimize frontend, fullstack, and backend developer workflows",
+          "description_full": "WunderGraph is a next generation BFF framework designed to optimize frontend, fullstack, and backend developer workflows",
+          "cosine": 0.5004,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (developer targeting, dev experience, framework-specific tooling) but is a framework rather than a managed hosting/PaaS platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a BFF framework, not a cloud hosting or deployment platform for frontend web applications."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'designed to optimize frontend, fullstack, and backend developer workflows' indicates developers are the primary users."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description explicitly says it is designed to 'optimize ... developer workflows', indicating a focus on developer experience/velocity."
+            },
+            "4": {
+              "match": true,
+              "evidence": "As a 'next generation BFF framework' optimized for frontend workflows, it provides framework-level tooling/integration relevant to modern frontends."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a framework rather than a managed cloud platform-as-a-service that abstracts infrastructure."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Matches 2/5 criteria (developer targeting and productivity/dev velocity) but lacks evidence of being a cloud hosting/PaaS or offering framework-specific integra",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Matches 2/5 criteria (developer targeting and productivity/dev velocity) but lacks evidence of being a cloud hosting/PaaS or offering framework-specific integrations.",
+      "criteria_matched": [
+        2,
+        3
+      ],
+      "criteria_missing": [
+        1,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:02cc96cc-7759-4c48-ae2f-b86b70f9a083",
+          "name": "Velt",
+          "domain": "velt.dev",
+          "one_liner": "Velt is a productivity software helps to develop web applicatons.",
+          "description_full": "Velt is a productivity software helps to develop web applicatons.",
+          "cosine": 0.574,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer targeting and productivity/dev velocity) but lacks evidence of being a cloud hosting/PaaS or offering framework-specific integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as 'productivity software' for developing web applications, but no mention of cloud hosting or deployment platform."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'helps to develop web applicatons' indicates the product is intended for developers or builders of web apps."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as 'productivity software' for development, implying a focus on improving developer productivity/velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not state it operates as a managed PaaS abstracting infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:2904dccf-6c2a-d461-50fa-b600c0c0e95e",
+          "name": "Scorocode",
+          "domain": "scorocode.ru",
+          "one_liner": "Cloud backend platform for mobile developers",
+          "description_full": "Cloud backend platform for mobile developers",
+          "cosine": 0.5191,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer targeting and managed cloud platform) but focuses on backend/mobile rather than frontend hosting or frontend framework integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'Cloud backend platform for mobile developers' indicates backend focus for mobile, not hosting/deploying frontend web applications."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description explicitly says it is 'for mobile developers', indicating developers are the primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: description focuses on backend capabilities, not explicitly on developer experience or velocity positioning."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling for modern frontend frameworks."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as a 'Cloud backend platform', which implies a managed cloud service/platform abstraction for backend developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:e0739feb-ced6-49aa-83e0-5f4168651472",
+          "name": "Chainstarters",
+          "domain": "chainstarters.com",
+          "one_liner": "An optimized cloud infrastructure helping the development community save time and money as they build and scale innovative technologies.",
+          "description_full": "An optimized cloud infrastructure helping the development community save time and money as they build and scale innovative technologies.",
+          "cosine": 0.5091,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer targeting and developer productivity) but lacks clear evidence of frontend hosting, framework integrations, or being a managed PaaS.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as 'cloud infrastructure' for the development community, but not explicitly as a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'helping the development community save time and money as they build and scale' indicates it targets developers."
+            },
+            "3": {
+              "match": true,
+              "evidence": "The wording 'helping the development community save time' implies a focus on developer productivity/velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as cloud infrastructure but does not explicitly claim to be a managed PaaS abstracting infrastructure for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:982e6647-1d1b-4308-a623-537a44e80eaf",
+          "name": "RunCode",
+          "domain": "runcode.io",
+          "one_liner": "Cloud Development Environment",
+          "description_full": "Cloud Development Environment",
+          "cosine": 0.494,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer targeting and developer experience) but is a development environment rather than a frontend hosting/PaaS with framework integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a 'Cloud Development Environment' rather than a cloud hosting/deployment platform for frontend web apps."
+            },
+            "2": {
+              "match": true,
+              "evidence": "A 'Cloud Development Environment' is explicitly aimed at developers as primary users."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Providing a cloud development environment implies a focus on improving developer experience and velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: while managed development environments are implied, the description does not state it is a PaaS that abstracts infrastructure for web developers' deployments."
+            }
+          }
+        },
+        {
+          "record_id": "cb:305f94d4-ca08-467c-a9b8-9f6ccb737c31",
+          "name": "Develeforce",
+          "domain": "develeforce.io",
+          "one_liner": "Develeforce reduces monthly cloud costs via shared development Kubernetes environments ( local-to-cloud development )",
+          "description_full": "Develeforce reduces monthly cloud costs via shared development Kubernetes environments ( local-to-cloud development )",
+          "cosine": 0.4932,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (targets developers and improves development workflows) but lacks clear evidence of being a frontend hosting/PaaS or offering framework-specific integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: description focuses on shared development Kubernetes environments and cost reduction, not frontend hosting/deployment."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Offering 'shared development Kubernetes environments' targets developers and development teams as primary users."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description indicates it 'reduces monthly cloud costs via shared development Kubernetes environments', implying improvements to development workflow/velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: while it relates to cloud development environments, it does not explicitly present as a managed PaaS for web developers' deployments."
+            }
+          }
+        },
+        {
+          "record_id": "cb:b7a94c61-9ad5-606f-61da-55ec814670b9",
+          "name": "Allcancode",
+          "domain": "allcancode.com",
+          "one_liner": "An open low-code platform for custom web and mobile applications, that generates high-quality code for all popular frameworks.",
+          "description_full": "An open low-code platform for custom web and mobile applications, that generates high-quality code for all popular frameworks.",
+          "cosine": 0.4828,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer velocity and framework-specific code generation) but is a low-code/code-generation platform rather than a managed frontend hosting/PaaS.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a low-code platform, but there is no explicit claim of being a cloud hosting/deployment platform for frontend apps."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a low-code platform 'for anyone' and not explicitly positioned as primarily for professional developers."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Generating 'high-quality code' for applications implies the platform improves development productivity/velocity."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Description: 'generates high-quality code for all popular frameworks' indicates framework-specific code generation and tooling support."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit statement that it operates as a managed PaaS abstracting infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:45103540-4192-43a2-92b5-0b6cee44ee70",
+          "name": "randevu.tech",
+          "domain": "randevu.tech",
+          "one_liner": "randevu.tech is the headless cloud infrastructure that enables B2B digital platforms & marketplaces with custom & complex customer journey\u2019s",
+          "description_full": "randevu.tech is the headless cloud infrastructure that enables B2B digital platforms & marketplaces with custom & complex customer journey\u2019s",
+          "cosine": 0.4814,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (developer/platform targeting and cloud/headless infrastructure) but lacks explicit frontend hosting, framework integrations, or explicit developer-experience positioning.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as 'headless cloud infrastructure' for B2B platforms, not explicitly as a frontend hosting/deployment service for general frontend apps."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description: 'enables B2B digital platforms & marketplaces' suggests it targets platform builders/developers as users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: description focuses on enabling custom customer journeys rather than explicitly stating a developer-experience or velocity positioning."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'headless cloud infrastructure', indicating a managed cloud offering that abstracts infrastructure for digital platforms."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Primarily a development services company; does not match platform, developer-tools, or managed PaaS criteria.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Primarily a development services company; does not match platform, developer-tools, or managed PaaS criteria.",
+      "criteria_matched": [],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:ff755d9b-24b2-4e04-bc23-195331e4189c",
+          "name": "Vellgus",
+          "domain": "vellgus.com",
+          "one_liner": "Vellgus provides web, mobile app development services, AI-powered solutions, software for startups and businesses.",
+          "description_full": "Vellgus provides web, mobile app development services, AI-powered solutions, software for startups and businesses.",
+          "cosine": 0.5171,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Primarily a development services company; does not match platform, developer-tools, or managed PaaS criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description indicates a web and mobile app development services company, not a cloud hosting or deployment platform for frontend applications."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: company provides development services to startups and businesses rather than developer-targeted tooling or platforms."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: description focuses on providing development services and AI solutions, not on improving developer experience/productivity as a core product positioning."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations in the description."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a services provider, not a managed platform-as-a-service."
+            }
+          }
+        },
+        {
+          "record_id": "cb:894ff0d5-462d-4679-a6f8-0df3004ac44f",
+          "name": "Vires.xyz",
+          "domain": "vires.xyz",
+          "one_liner": "Vires.xyz is a software development Belgian start-up that develops future-proof software applications for even the most demanding companies.",
+          "description_full": "Vires.xyz is a software development Belgian start-up that develops future-proof software applications for even the most demanding companies.",
+          "cosine": 0.517,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Software development services company with no clear alignment to the managed frontend cloud/platform criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'software development start-up that develops ... applications' indicates services rather than a cloud hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as a software development company serving enterprises, not explicitly as a developer-targeted tooling/platform."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit product positioning around improving developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of offering framework-specific tooling or integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a development firm, not a managed platform-as-a-service."
+            }
+          }
+        },
+        {
+          "record_id": "cb:07781a70-b2df-40e8-9fab-78abc3f98514",
+          "name": "vocon IT",
+          "domain": "vocon-it.com",
+          "one_liner": "vocon IT provides cloud infrastructure and software development.",
+          "description_full": "vocon IT provides cloud infrastructure and software development.",
+          "cosine": 0.5106,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General cloud infrastructure and development services provider without clear evidence of being a frontend-focused managed PaaS or developer tooling platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: description states 'provides cloud infrastructure and software development' but does not claim a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as an IT/cloud provider rather than a product aimed primarily at developers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit mention of prioritizing developer experience or velocity in product positioning."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: could be managed cloud services, but the description does not clearly state a managed PaaS that abstracts infrastructure for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:2bd1e837-d77a-4f40-af67-3096805caba6",
+          "name": "Vertosoft",
+          "domain": "vertosoft.com",
+          "one_liner": "Vertosoft is an emerging technology solution that offers cloud, robotic, software development, machine learning, AI, and other services.",
+          "description_full": "Vertosoft is an emerging technology solution that offers cloud, robotic, software development, machine learning, AI, and other services.",
+          "cosine": 0.5072,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Broad technology services firm without clear developer-platform or frontend-hosting product signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: offers cloud and software development services but not described as a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: description lists services (cloud, AI, robotics) rather than developer-targeted platform/products."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit positioning around improving developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a services firm rather than a managed platform-as-a-service."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5ca65b57-82e8-4515-9817-55c521de34a1",
+          "name": "Veecle",
+          "domain": "veecle.io",
+          "one_liner": "Veecle, automotive software development with our innovative runtime, enabling software-defined vehicles within existing vehicle systems.",
+          "description_full": "Veecle, automotive software development with our innovative runtime, enabling software-defined vehicles within existing vehicle systems.",
+          "cosine": 0.5062,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Specialized automotive software/runtime provider; not aligned with frontend cloud platform criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description focuses on automotive software runtime and software-defined vehicles, not frontend web hosting/deployment."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: product targets automotive software builders/companies rather than general web developers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit developer-experience or velocity positioning for web development."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not indicate a managed PaaS for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:94877091-d560-4b4c-91af-57c724e0825d",
+          "name": "VantaSoft",
+          "domain": "vantasoft.com",
+          "one_liner": "VantaSoft specializes in modernizing legacy systems, custom software, web and mobile app development, and automating compliance processes.",
+          "description_full": "VantaSoft specializes in modernizing legacy systems, custom software, web and mobile app development, and automating compliance processes.",
+          "cosine": 0.5018,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consulting/modernization services company; lacks signals of being a developer-facing frontend hosting platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: focuses on modernizing legacy systems and custom software development rather than offering a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a specialist in modernization and compliance automation rather than a developer-targeted platform."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit positioning around improving developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a services/modernization firm rather than a managed PaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:c7384de7-e00f-483e-8a80-526699ad1956",
+          "name": "Evodeck Digital",
+          "domain": "evodeck.digital",
+          "one_liner": "Evodeck Digital specializes in web application engineering and DevOps, focusing on agile collaboration to grow client teams.",
+          "description_full": "Evodeck Digital specializes in web application engineering and DevOps, focusing on agile collaboration to grow client teams.",
+          "cosine": 0.4974,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Professional services/DevOps firm without explicit managed frontend platform or developer-tool positioning.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as specializing in web application engineering and DevOps, not as a cloud hosting/deployment platform for frontend apps."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as a service provider to clients, not explicitly as a product for developers as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: while DevOps focus may improve delivery, the description does not explicitly position the offering around developer experience/velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontends."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as engineering/DevOps services rather than a managed platform-as-a-service product."
+            }
+          }
+        },
+        {
+          "record_id": "cb:82953d1b-c0fb-f053-200f-2404e9006542",
+          "name": "Vernaio",
+          "domain": "vernaio.com",
+          "one_liner": "Vernaio is a software company that provides AI-powered solutions to prevent unwanted occurrences.",
+          "description_full": "Vernaio is a software company that provides AI-powered solutions to prevent unwanted occurrences.",
+          "cosine": 0.491,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI solutions vendor not aligned with frontend cloud/platform or developer-tool categories.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as an AI-powered solutions company to 'prevent unwanted occurrences', not a frontend hosting platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: no indication that the primary users are developers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not indicate a focus on developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: no indication it operates as a managed PaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a10a3628-9af6-4fd6-ad4f-c54e5aeb5747",
+          "name": "Vivanti",
+          "domain": "vivanti.com",
+          "one_liner": "Vivanti provides cloud data services, development operation, and digital CX services.",
+          "description_full": "Vivanti provides cloud data services, development operation, and digital CX services.",
+          "cosine": 0.4904,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Enterprise cloud/data/DevOps services provider without clear alignment to managed frontend cloud or developer-tooling platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: provides cloud data services and DevOps but is described as a services company, not a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: description suggests enterprise services rather than a developer-targeted product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit positioning around improving developer experience or velocity in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or frontend integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: no clear claim of operating as a managed PaaS for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5eaee8a2-bba0-4b58-baba-85c3b9907e00",
+          "name": "Visioncloud",
+          "domain": "visioncloud.cl",
+          "one_liner": "Visioncloud is an internet company that offers IT solutions, efficiency tools, autoML vision, and vertex AI vision solutions.",
+          "description_full": "Visioncloud is an internet company that offers IT solutions, efficiency tools, autoML vision, and vertex AI vision solutions.",
+          "cosine": 0.4866,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI/vision/IT solutions firm without evidence of being a frontend hosting PaaS or developer-focused tooling platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as offering IT solutions and autoML vision, not a frontend hosting platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as an internet/IT solutions company rather than a developer-first product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit focus on developer experience or velocity in the description."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or frontend framework integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not indicate operation as a managed PaaS for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:25208d36-c9a0-4b92-8b42-9fb2b33f8298",
+          "name": "Mindverse",
+          "domain": "mindos.com",
+          "one_liner": "Mindverse is a cutting-edge AI technology firm that creates AI-native websites with personalized chat experiences and interfaces.",
+          "description_full": "Mindverse is a cutting-edge AI technology firm that creates AI-native websites with personalized chat experiences and interfaces.",
+          "cosine": 0.4856,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Product/company focused on building AI-native websites rather than offering a developer-facing managed frontend cloud platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description: 'creates AI-native websites' suggests a service or product that builds sites, not necessarily a hosting/deployment cloud platform for frontends."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as an AI technology firm producing websites and interfaces, not explicitly a developer-targeted platform."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit positioning around improving developer experience or developer velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: no clear indication it operates as a managed PaaS abstracting infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:86e00172-ab43-5301-f192-ccb38dee76d1",
+          "name": "Appivo",
+          "domain": "appivo.com",
+          "one_liner": "Appivo is a low-code platform that enables anyone to build Web and mobile applications.",
+          "description_full": "Appivo is a low-code platform that enables anyone to build Web and mobile applications.",
+          "cosine": 0.4852,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Low-code platform targeted at 'anyone' building apps rather than a developer-first managed frontend hosting platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a low-code platform to build web and mobile apps, but no explicit claim of being a cloud hosting/deployment platform for frontend apps."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description states 'enables anyone' to build apps, indicating the primary users are broader than professional developers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: while low-code can speed delivery, the description does not explicitly position the product on developer experience for professional developers."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not indicate operation as a managed platform-as-a-service for web developers' deployments."
+            }
+          }
+        },
+        {
+          "record_id": "cb:7cd190fa-b6c2-4e87-a9b5-93b9203d7725",
+          "name": "Cloudvalley Technologies",
+          "domain": "cloudvalleytech.com",
+          "one_liner": "Cloudvalley Technologies offers digital solutions including web and mobile development, cloud services, IoT, and AI.",
+          "description_full": "Cloudvalley Technologies offers digital solutions including web and mobile development, cloud services, IoT, and AI.",
+          "cosine": 0.4847,
+          "llm_tier": "tier_4",
+          "tier_rationale": "General cloud and development services vendor without clear signals of being a developer-focused frontend hosting platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: offers digital solutions including cloud services and development, but no explicit claim to be a frontend hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as a digital solutions provider rather than a developer-focused platform."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not explicitly emphasize improving developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or frontend integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: while providing cloud services, no explicit statement that it is a managed PaaS for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5cebf162-8a56-4d84-9ebb-22a7df692781",
+          "name": "Axellero.io",
+          "domain": "axellero.io",
+          "one_liner": "Axellero.io is an AI-driven rapid application development platform that empowers teams to build web and mobile applications in hours.",
+          "description_full": "Axellero.io is an AI-driven rapid application development platform that empowers teams to build web and mobile applications in hours.",
+          "cosine": 0.4815,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Rapid app-development/low-code style platform rather than a managed frontend hosting cloud or developer tooling platform.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as an AI-driven rapid application development platform, not explicitly a frontend hosting/deployment cloud platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as a rapid app-building platform for teams, but not explicitly a developer-targeted managed hosting product."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: while it 'empowers teams to build ... in hours', the description does not explicitly claim developer-experience/productivity positioning for professional frontend developers."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not state it operates as a managed PaaS abstracting infrastructure for web developers."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a00b7b41-5888-5abf-7acc-4562676c7177",
+          "name": "Xamun",
+          "domain": "xamun.ai",
+          "one_liner": "Automated software development platform powered by AI to launch your mobile or web apps 10X faster.",
+          "description_full": "Automated software development platform powered by AI to launch your mobile or web apps 10X faster.",
+          "cosine": 0.4794,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI-driven automated app development platform with no explicit managed frontend cloud or framework-integration signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as an automated software development platform to launch apps faster, but not explicitly a hosting/deployment platform for frontends."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: positioned as a tool for launching apps quickly rather than clearly targeting professional frontend developers as primary users."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: while focused on speed ('10X faster'), the description does not explicitly position the product around developer experience for frontend engineers."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations for modern frontend frameworks."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit statement that it operates as a managed PaaS abstracting infrastructure."
+            }
+          }
+        },
+        {
+          "record_id": "cb:55dd37c7-0417-4398-b53d-d452a97d35d4",
+          "name": "Vistal Tech",
+          "domain": "vistaltech.com",
+          "one_liner": "Vistal Tech is a technology consulting company that develops web sites, mobile applications, cloud platforms, and software.",
+          "description_full": "Vistal Tech is a technology consulting company that develops web sites, mobile applications, cloud platforms, and software.",
+          "cosine": 0.479,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Technology consulting/development firm; lacks signals of being a managed frontend cloud platform or developer-focused product with framework integrations.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence: described as a technology consulting company that develops web and mobile applications, not as a hosting/deployment platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence: appears to be a services/consulting firm rather than a developer-focused product company."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence: no explicit product positioning around improving developer experience or velocity."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence: no mention of framework-specific tooling or integrations."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence: description does not indicate operation as a managed platform-as-a-service."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "developer experience tools like Vercel",
+  "pipeline_seconds": 300.5,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 32877,
+    "n_new_embeddings": 1643
+  }
+}

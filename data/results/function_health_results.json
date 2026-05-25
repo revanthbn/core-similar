@@ -1,0 +1,898 @@
+{
+  "seed": {
+    "name": "Function Health",
+    "domain": "functionhealth.com",
+    "record_id": "cb:c9b1c7c3-0d40-480b-a83b-b1818201f7a8",
+    "industries": [
+      "Health Care"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Offers clinical laboratory testing panels directly to consumers (direct-to-consumer)",
+      "rationale": "Distinguishes consumer-facing lab/testing providers from B2B diagnostics vendors, hospital labs, or purely enterprise software companies."
+    },
+    {
+      "id": 2,
+      "text": "Operates a subscription or recurring-service model for routine or periodic laboratory testing",
+      "rationale": "Separates companies that sell one-off tests from businesses that position testing as an ongoing preventive-health routine similar to Function Health's 120+ tests offering."
+    },
+    {
+      "id": 3,
+      "text": "Provides physician-led interpretation or expert medical explanations of test results to users",
+      "rationale": "Identifies services that combine diagnostics with clinician interpretation versus platforms that only supply raw lab values or technical reports."
+    },
+    {
+      "id": 4,
+      "text": "Uses artificial intelligence or machine learning to analyze laboratory data or to generate personalized health insights",
+      "rationale": "Encodes the user's explicit intent for 'AI' and distinguishes companies applying ML-driven interpretation from those relying solely on standard clinical rules or human review."
+    },
+    {
+      "id": 5,
+      "text": "Positions its offering around preventive health and longitudinal health monitoring rather than one-time or acute diagnostic testing",
+      "rationale": "Separates companies focused on long-term health optimization and monitoring from those focused on single-event diagnostics or specialized acute-care tests."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 2 \u2014 plausible peers \u2014 Matches 3/5 criteria (direct-to-consumer home blood tests, physician-run, preventive/ongoing positioning); missing explicit evidence of subscription model and A",
+      "llm_tier": "tier_2",
+      "summary_rationale": "Matches 3/5 criteria (direct-to-consumer home blood tests, physician-run, preventive/ongoing positioning); missing explicit evidence of subscription model and AI.",
+      "criteria_matched": [
+        1,
+        3,
+        5
+      ],
+      "criteria_missing": [
+        2,
+        4
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:cbb5ba34-780f-49d5-bfc7-0773f57c0218",
+          "name": "Mytamin",
+          "domain": "mytamin.com",
+          "one_liner": "Personalised vitamins tailored to home blood tests, run by doctors",
+          "cosine": 0.525,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (direct-to-consumer home blood tests, physician-run, preventive/ongoing positioning); missing explicit evidence of subscription model and AI.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description states 'Personalised vitamins tailored to home blood tests', indicating they use home blood tests for personalization (direct-to-consumer testing)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine or periodic laboratory testing."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description notes the service is 'run by doctors,' indicating physician involvement in interpretation or oversight."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML to analyze laboratory data or generate insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Providing personalised vitamins based on home blood tests implies an ongoing preventive/management orientation rather than one-time acute testing."
+            }
+          },
+          "description_full": "Personalised vitamins tailored to home blood tests, run by doctors"
+        },
+        {
+          "record_id": "cb:9db2f462-b8e3-4474-81da-0a8553ff3228",
+          "name": "Flip Health",
+          "domain": "flip.health",
+          "one_liner": "Flip Health specializes in long-term disease management, home lab tests, and personal therapy sessions.",
+          "cosine": 0.5007,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (home lab tests, recurring/long-term model, longitudinal/preventive positioning) but lacks explicit evidence of physician-led interpretation and AI usage.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description explicitly mentions 'home lab tests'."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Description focuses on 'long-term disease management', implying recurring/ongoing services for monitoring and testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations to users."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for analyzing lab data or generating insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "The phrase 'long-term disease management' positions the offering around longitudinal monitoring rather than one-time acute testing."
+            }
+          },
+          "description_full": "Flip Health specializes in long-term disease management, home lab tests, and personal therapy sessions."
+        },
+        {
+          "record_id": "cb:3d4a6908-80cb-c077-19ff-8cfece5e1177",
+          "name": "Life Metrics",
+          "domain": "mynewasset.com",
+          "one_liner": "Life Metrics develops a patented process for accurately predicting individual human longevity based on a simple blood test.",
+          "cosine": 0.4902,
+          "llm_tier": "tier_2",
+          "tier_rationale": "Matches 3/5 criteria (blood-test-based service, analytic/predictive process, preventive/longitudinal positioning); lacks explicit subscription model and physician-interpretation details.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description references a 'simple blood test' used to predict individual longevity, indicating laboratory testing."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine or periodic laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Description claims a 'patented process for accurately predicting individual human longevity' based on a blood test, implying algorithmic/analytical methods (insight-generation)."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Positioning around predicting individual longevity from blood tests indicates preventive and longitudinal health focus rather than one-time acute diagnostics."
+            }
+          },
+          "description_full": "Life Metrics develops a patented process for accurately predicting individual human longevity based on a simple blood test."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Matches 2/5 criteria (DTC diagnostic testing and longitudinal/preventive biomarker tracking) but lacks explicit evidence of subscription, physician-led interpre",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Matches 2/5 criteria (DTC diagnostic testing and longitudinal/preventive biomarker tracking) but lacks explicit evidence of subscription, physician-led interpretation, and AI.",
+      "criteria_matched": [
+        1,
+        5
+      ],
+      "criteria_missing": [
+        2,
+        3,
+        4
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:8f42c671-ffb0-4d8b-a09f-8d945f09c740",
+          "name": "Choose Health",
+          "domain": "choosehealth.io",
+          "one_liner": "Choose Health is a diagnostic testing platform, enabling users to track and improve a core panel of biomarkers linked to long term health",
+          "cosine": 0.5233,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (DTC diagnostic testing and longitudinal/preventive biomarker tracking) but lacks explicit evidence of subscription, physician-led interpretation, and AI.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'diagnostic testing platform' enabling users to track biomarkers, indicating consumer-facing testing."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a subscription or recurring-service model for routine lab testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation or expert medical explanations are provided."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML to analyze laboratory data or generate personalized insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description says users can 'track and improve a core panel of biomarkers linked to long term health', indicating preventive and longitudinal monitoring."
+            }
+          },
+          "description_full": "Choose Health is a diagnostic testing platform, enabling users to track and improve a core panel of biomarkers linked to long term health"
+        },
+        {
+          "record_id": "cb:3f2079d6-e91d-4981-9080-7b178db23cbf",
+          "name": "360 Health & Performance",
+          "domain": "360healthperformance.com",
+          "one_liner": "360 Health & Performance provides genetic testing, personalized nutrition, and wellness services.",
+          "cosine": 0.4848,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 2/5 criteria (testing and preventive/wellness orientation) but lacks explicit evidence of subscription, physician interpretation, and AI capabilities.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description explicitly lists 'genetic testing', indicating they provide laboratory testing services."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine or periodic laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations for test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML to analyze lab data or generate personalized insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Offering 'personalized nutrition and wellness services' alongside testing positions the service toward preventive health and ongoing wellness."
+            }
+          },
+          "description_full": "360 Health & Performance provides genetic testing, personalized nutrition, and wellness services."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Matches only 1/5 criterion (preventive health); lacks evidence of DTC lab tests, subscription testing, physician-led interpretation, or AI usage.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Matches only 1/5 criterion (preventive health); lacks evidence of DTC lab tests, subscription testing, physician-led interpretation, or AI usage.",
+      "criteria_matched": [
+        5
+      ],
+      "criteria_missing": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:4e39f256-4783-4c79-99f1-665d13d25000",
+          "name": "AgeForward",
+          "domain": "ageforward.com",
+          "one_liner": "AgeForward is a new healthy aging platform featuring preventive health videos from the world's best experts",
+          "cosine": 0.5619,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only 1/5 criterion (preventive health); lacks evidence of DTC lab tests, subscription testing, physician-led interpretation, or AI usage.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate AgeForward offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing service model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations are provided."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate AgeForward uses AI/ML for analyzing lab data or generating insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description highlights 'preventive health videos', indicating a preventive health focus and educational longitudinal orientation."
+            }
+          },
+          "description_full": "AgeForward is a new healthy aging platform featuring preventive health videos from the world's best experts"
+        },
+        {
+          "record_id": "cb:63f07279-5301-edfb-c814-2b5ed9a59fb1",
+          "name": "PlateJoy",
+          "domain": "platejoy.com",
+          "one_liner": "Discover your healthiest self - Personalized nutrition programs designed for your unique health goals",
+          "cosine": 0.5352,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Only matches the preventive/longitudinal positioning; no explicit evidence of lab testing, subscription testing model, physician interpretation, or AI use.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate PlateJoy offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate PlateJoy operates a subscription model for routine laboratory testing specifically."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the use of AI/ML to analyze laboratory data or generate health insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "PlateJoy is described as 'personalized nutrition programs' aimed at health goals, aligning with preventive health and ongoing lifestyle management."
+            }
+          },
+          "description_full": "Discover your healthiest self - Personalized nutrition programs designed for your unique health goals"
+        },
+        {
+          "record_id": "cb:a2ec79f7-c539-4f25-aaaa-0b1364708385",
+          "name": "KENKORA",
+          "domain": "kenkora.com",
+          "one_liner": "A proven, science-backed system to optimize health",
+          "cosine": 0.5167,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Description is generic ('optimize health') with no clear evidence for any of the seed criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate KENKORA offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of lab results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for analyzing lab data or generating insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to determine if KENKORA is positioned around preventive and longitudinal health monitoring."
+            }
+          },
+          "description_full": "A proven, science-backed system to optimize health"
+        },
+        {
+          "record_id": "cb:a5891367-37f4-4772-b2c0-d9c22da05686",
+          "name": "Healthtuition Media",
+          "domain": "healthtuition.com",
+          "one_liner": "Health Tuition: Trusted expert health information to help you live your best life.",
+          "cosine": 0.5063,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/educational positioning; lacks evidence of lab testing, subscription testing, physician interpretation, or AI.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the organization offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of lab tests."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab data analysis or personalized insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'trusted expert health information to help you live your best life,' which aligns with preventive health education."
+            }
+          },
+          "description_full": "Health Tuition: Trusted expert health information to help you live your best life."
+        },
+        {
+          "record_id": "cb:b520a489-4a9a-4d03-922f-f231d0374978",
+          "name": "Cuure",
+          "domain": "cuure.com",
+          "one_liner": "Building the new health path. Personalized holistic health, powered by science and technology.",
+          "cosine": 0.5049,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Only matches preventive/personalized health positioning; no explicit evidence for DTC lab tests, subscription testing, physician interpretation, or AI use.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate Cuure directly offers clinical laboratory testing panels to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a subscription or recurring-service model specifically for laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation of test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML in lab data analysis or insight generation."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'Personalized holistic health, powered by science and technology', indicating a preventive/ongoing health orientation."
+            }
+          },
+          "description_full": "Building the new health path. Personalized holistic health, powered by science and technology."
+        },
+        {
+          "record_id": "cb:361ff206-6e2c-1f26-5702-0e57a4ec82ec",
+          "name": "Alkmeon",
+          "domain": "alkmeon.com",
+          "one_liner": "Unique intellectual medical bio system designed to maximize human health monitoring,prevention, treatment and minimize visits to the doctor.",
+          "cosine": 0.5036,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/monitoring positioning; lacks explicit evidence for DTC lab panels, subscription testing, physician interpretation, or AI usage.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm Alkmeon offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a subscription or recurring laboratory testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation of tests."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to explicitly state use of AI/ML for lab data analysis, despite mentioning an intellectual medical biosystem."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Description mentions 'maximize human health monitoring [and] prevention', indicating a preventive and monitoring focus."
+            }
+          },
+          "description_full": "Unique intellectual medical bio system designed to maximize human health monitoring,prevention, treatment and minimize visits to the doctor."
+        },
+        {
+          "record_id": "cb:21a93c19-0cd6-4d35-91b5-49b5f0516994",
+          "name": "Health 360 Labs",
+          "domain": "health360labs.com",
+          "one_liner": "Health 360 Labs provides information regarding hematology, toxicology, and pharmacogenetics testing to improve health with medications.",
+          "cosine": 0.4983,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Appears to be a laboratory/information provider but lacks clear signals of DTC subscription monitoring, physician-led consumer interpretation, AI usage, or preventive longitudinal orientation.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description lists testing domains (hematology, toxicology, pharmacogenetics) but provides insufficient evidence that tests are offered directly to consumers DTC."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring testing model for consumers."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or consumer-facing expert explanations."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the use of AI/ML for lab-data analysis or insight generation."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a positioning focused on preventive, longitudinal monitoring rather than diagnostic testing support."
+            }
+          },
+          "description_full": "Health 360 Labs provides information regarding hematology, toxicology, and pharmacogenetics testing to improve health with medications."
+        },
+        {
+          "record_id": "cb:72c87b69-4390-8345-b3ed-875aabd11a4f",
+          "name": "DNA Health",
+          "domain": "dnahealthcorp.com",
+          "one_liner": "DNA Health provides healthcare and integrative medicine protocols for aging, lifestyle management, and chronic disease treatment.",
+          "cosine": 0.4982,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/longevity positioning; no explicit evidence of DTC lab testing, subscription testing model, physician-led test interpretation, or AI usage.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm DNA Health offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of laboratory results for consumers."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML to analyze lab data or generate personalized insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Provides 'integrative medicine protocols for aging, lifestyle management, and chronic disease', consistent with a preventive/longitudinal approach."
+            }
+          },
+          "description_full": "DNA Health provides healthcare and integrative medicine protocols for aging, lifestyle management, and chronic disease treatment."
+        },
+        {
+          "record_id": "cb:b78ede2d-76c1-d86e-26e4-88709affd838",
+          "name": "100Plus",
+          "domain": "100plus.com",
+          "one_liner": "100Plus is the fastest-growing Remote Patient Monitoring Platform for doctors to manage their chronic patients to avoid episodic care.",
+          "cosine": 0.4977,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only longitudinal/preventive monitoring positioning but is clinician-facing and lacks evidence of DTC testing, subscription testing for consumers, physician-to-consumer interpretation, or AI use.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate 100Plus offers clinical laboratory testing panels directly to consumers; it is presented as a remote patient monitoring platform for doctors."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a consumer subscription or recurring lab-testing service; platform is doctor-focused remote monitoring."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation provided directly to end-consumers (service appears clinician-facing)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to show use of AI/ML to analyze laboratory data or generate insights (description focuses on RPM)."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Positioned as a 'Remote Patient Monitoring Platform' to manage chronic patients, which is longitudinal and preventive in orientation."
+            }
+          },
+          "description_full": "100Plus is the fastest-growing Remote Patient Monitoring Platform for doctors to manage their chronic patients to avoid episodic care."
+        },
+        {
+          "record_id": "cb:dac90b59-e594-496e-9dfb-bafa73429adc",
+          "name": "MeditSimple",
+          "domain": "meditsimple.com",
+          "one_liner": "Healthcare, simplified. Easy and quick access to trusted specialists and tests you need. We guide you at every step.",
+          "cosine": 0.4963,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only physician/specialist access (criterion 3); lacks clear evidence of DTC testing panels, subscription testing, AI usage, or explicit preventive longitudinal positioning.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm MeditSimple directly offers clinical laboratory testing panels to consumers; it promises access to specialists and tests."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring laboratory testing model."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Description emphasizes 'trusted specialists' and guided access to tests and specialists, implying access to expert/clinician interpretation."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab data analysis or personalized insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to clearly position the offering around preventive health and longitudinal monitoring rather than episodic testing."
+            }
+          },
+          "description_full": "Healthcare, simplified. Easy and quick access to trusted specialists and tests you need. We guide you at every step."
+        },
+        {
+          "record_id": "cb:be8f6290-9c01-4166-b764-e9a439f25052",
+          "name": "Marvel Path Lab",
+          "domain": "marvelpathlab.com",
+          "one_liner": "Marvel Path Lab Is Blood Testing Laboratory Provides Health Tests At Home",
+          "cosine": 0.4949,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only direct-to-consumer/home blood testing; lacks evidence of subscription testing, physician-led interpretation, AI use, or preventive/longitudinal positioning.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'Blood Testing Laboratory' that 'Provides Health Tests At Home', indicating direct home lab testing."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine or periodic laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations are provided to users."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for analysis or personalized insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm the offering is positioned primarily for preventive, longitudinal monitoring rather than one-time testing."
+            }
+          },
+          "description_full": "Marvel Path Lab Is Blood Testing Laboratory Provides Health Tests At Home"
+        },
+        {
+          "record_id": "cb:cdacf36e-c6ee-4844-ba95-17dabe5a47ca",
+          "name": "De Lune",
+          "domain": "delune.co",
+          "one_liner": "The New Age of Period Health",
+          "cosine": 0.4908,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/ongoing period-health positioning; lacks explicit evidence of DTC lab panels, subscription testing, physician-led interpretation, or AI.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate De Lune offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of test results is provided."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab data analysis or personalization."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'The New Age of Period Health', indicating a focus on ongoing menstrual health and longitudinal monitoring of period-related metrics."
+            }
+          },
+          "description_full": "The New Age of Period Health"
+        },
+        {
+          "record_id": "cb:8e5de835-2c78-4797-a821-71a3ea818fdb",
+          "name": "Plus100years",
+          "domain": "plus100years.com",
+          "one_liner": "Plus100years.com  is dedicated to all people who go online every day looking for doctors appointments and other healthcare services.",
+          "cosine": 0.4908,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Appears to be a general healthcare services resource without clear alignment to the seed's DTC, subscription, physician-interpretation, AI, or preventive-longevity criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate they offer clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of test results for consumers."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab-data analysis or personalized insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description references general access to doctors and services but does not clearly position around preventive longitudinal lab monitoring."
+            }
+          },
+          "description_full": "Plus100years.com  is dedicated to all people who go online every day looking for doctors appointments and other healthcare services."
+        },
+        {
+          "record_id": "cb:1d927148-2b05-4429-add2-dc6fa6f46b99",
+          "name": "Cholesterol Doctors",
+          "domain": "cholesteroldoctors.com",
+          "one_liner": "Maximizing Health by Minimizing Risk Helping You Stay Healthy So You Can Enjoy Life.",
+          "cosine": 0.4891,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/risk-reduction positioning; lacks explicit evidence of DTC lab testing, subscription testing model, physician-led interpretation, or AI usage.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the organization offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation is provided directly to users, despite the clinical-sounding name."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for data analysis or personalized insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "The stated aim of 'Maximizing Health by Minimizing Risk' aligns with preventive health and risk-reduction over time."
+            }
+          },
+          "description_full": "Maximizing Health by Minimizing Risk Helping You Stay Healthy So You Can Enjoy Life."
+        },
+        {
+          "record_id": "cb:0e3a304c-8ce9-e6fb-35e1-f28d538d7134",
+          "name": "Health IQ",
+          "domain": "healthiq.com",
+          "one_liner": "Learn more about your Health IQ with the world's largest health quiz",
+          "cosine": 0.4891,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consumer education/product offering with no explicit evidence for lab testing, subscription testing, physician interpretation, AI usage, or preventive monitoring.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate Health IQ offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation of lab results is provided."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab-data analysis or personalized health insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Description focuses on quizzes and education rather than explicit preventive longitudinal monitoring via lab testing."
+            }
+          },
+          "description_full": "Learn more about your Health IQ with the world's largest health quiz"
+        },
+        {
+          "record_id": "cb:1af020d7-3c8e-49da-a826-1da5274eb55b",
+          "name": "Freedom & Flow",
+          "domain": "freedomandflowcompany.com",
+          "one_liner": "Personalized & preventive medicine to take care of lifestyles",
+          "cosine": 0.4873,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only preventive/longitudinal positioning; no clear evidence of DTC lab panels, subscription testing, physician interpretation, or AI use.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate Freedom & Flow offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a subscription model for routine or periodic lab testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate physician-led interpretation of test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab data analysis or personalization."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'Personalized & preventive medicine', indicating a preventive and longitudinal approach to health."
+            }
+          },
+          "description_full": "Personalized & preventive medicine to take care of lifestyles"
+        },
+        {
+          "record_id": "cb:e5d4e7bb-830f-4f7d-8383-49dfd53c80cc",
+          "name": "Way2B",
+          "domain": "way2byou.com",
+          "one_liner": "The Revolutionary New Way to Support YOUR Health",
+          "cosine": 0.4872,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Description is general and lacks any explicit alignment with the seed criteria.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate Way2B offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate usage of AI/ML for lab-data analysis or insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm a clear preventive or longitudinal monitoring positioning."
+            }
+          },
+          "description_full": "The Revolutionary New Way to Support YOUR Health"
+        },
+        {
+          "record_id": "cb:41c42ee1-7120-40e3-8b30-ec30199f00c1",
+          "name": "Healthylongevity.guide",
+          "domain": "healthylongevity.guide",
+          "one_liner": "Healthy Longevity Guide is a medicine learning platform.",
+          "cosine": 0.486,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Primarily an educational platform with no clear evidence of DTC lab services, subscription testing, physician-led interpretation for consumers, or AI usage.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the platform offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring lab-testing model."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of test results."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for lab-data analysis or personalized insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Described as a 'medicine learning platform' which is educational; insufficient evidence it focuses on preventive longitudinal lab monitoring."
+            }
+          },
+          "description_full": "Healthy Longevity Guide is a medicine learning platform."
+        },
+        {
+          "record_id": "cb:a4bd6f0c-84c7-4cc1-a961-3ffcdb15218f",
+          "name": "Tyler Health",
+          "domain": "tyler.health",
+          "one_liner": "Your personal companion to seamless metabolic health.",
+          "cosine": 0.4846,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches preventive/metabolic longitudinal positioning only; lacks explicit evidence of DTC lab testing, subscription testing, physician interpretation, or AI use.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate Tyler Health offers clinical laboratory testing panels directly to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine lab testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation of results is provided to users."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate AI/ML is used to analyze lab data or produce personalized health insights."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Described as 'Your personal companion to seamless metabolic health', indicating a focus on ongoing metabolic monitoring and preventive care."
+            }
+          },
+          "description_full": "Your personal companion to seamless metabolic health."
+        },
+        {
+          "record_id": "cb:e76f5671-8c40-4d4a-9984-13a3957600f4",
+          "name": "eNational Testing",
+          "domain": "enationaltesting.com",
+          "one_liner": "Your comprehensive resource for laboratory testing services",
+          "cosine": 0.4844,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only the presence of laboratory testing services; lacks evidence for subscription testing, physician-led interpretation, AI use, or explicit preventive longitudinal positioning.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as 'Your comprehensive resource for laboratory testing services', indicating they provide laboratory testing services to consumers."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate a subscription or recurring-service model for routine laboratory testing."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to confirm physician-led interpretation or expert medical explanations are provided directly to users."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate use of AI/ML for analysis or personalized health insights."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Insufficient evidence in the description to indicate the service is positioned primarily around preventive, longitudinal monitoring rather than discrete testing services."
+            }
+          },
+          "description_full": "Your comprehensive resource for laboratory testing services"
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "find healthcare AI companies like Function Health",
+  "pipeline_seconds": 164.0,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 71185,
+    "n_new_embeddings": 0
+  }
+}

@@ -1,0 +1,991 @@
+{
+  "seed": {
+    "name": "Harvey",
+    "domain": "harvey.ai",
+    "record_id": "cb:d290e89a-261f-4f1a-aebb-ec9b8455128b",
+    "industries": [
+      "Artificial Intelligence (AI)",
+      "Legal",
+      "Legal Tech"
+    ],
+    "country": "Western US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Develops generative AI-based software",
+      "rationale": "Distinguishes companies building AI models or apps that generate text/answers from vendors that only provide non-generative tools or services."
+    },
+    {
+      "id": 2,
+      "text": "Focuses on the legal industry or legal professionals",
+      "rationale": "Ensures peers serve the same domain (law firms, in-house legal teams, lawyers) rather than other professional domains."
+    },
+    {
+      "id": 3,
+      "text": "Provides a domain-specific (vertical) AI product tailored to legal use cases",
+      "rationale": "Separates vertical legal AI applications from general-purpose or horizontal AI platforms that require heavy customization."
+    },
+    {
+      "id": 4,
+      "text": "Offers an application that augments legal professional services workflows",
+      "rationale": "Identifies companies that deliver practical workflow improvements (e.g., drafting, research, contract review) rather than research prototypes or infrastructure components."
+    },
+    {
+      "id": 5,
+      "text": "Targets law firms or corporate legal departments as customers",
+      "rationale": "Differentiates vendors selling to legal practitioners from consumer-facing or unrelated enterprise markets."
+    },
+    {
+      "id": 6,
+      "text": "Delivers AI functionality through a productized application or SaaS integrated into legal workflows",
+      "rationale": "Distinguishes product-first legal AI companies from companies that only offer models, APIs, or consulting without an integrated legal application."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 1 \u2014 strong peers \u2014 Matches 5/6 criteria; strong legal-focused AI provider with domain-specific services and workflow augmentation, but no explicit mention of a productized SaaS of",
+      "llm_tier": "tier_1",
+      "summary_rationale": "Matches 5/6 criteria; strong legal-focused AI provider with domain-specific services and workflow augmentation, but no explicit mention of a productized SaaS offering in the description.",
+      "criteria_matched": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "criteria_missing": [
+        6
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:2ad1f8f6-7915-a516-7c14-d6d652d326e3",
+          "name": "Herculex.ai",
+          "domain": "herculex.ai",
+          "one_liner": "Herculex.ai is a provider of legal artificial intelligence services.",
+          "description_full": "Herculex.ai is a provider of legal artificial intelligence services.",
+          "cosine": 0.5412,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches 5/6 criteria; strong legal-focused AI provider with domain-specific services and workflow augmentation, but no explicit mention of a productized SaaS offering in the description.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a provider of \"legal artificial intelligence services,\" indicating generative/AI-based offerings."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Explicitly identifies as providing AI services for the legal domain."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Being a legal AI provider implies domain-specific solutions tailored to legal use cases."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Providing legal AI services implies solutions that augment legal professional workflows."
+            },
+            "5": {
+              "match": true,
+              "evidence": "A vendor of legal AI services is targeted at legal professionals such as law firms or corporate legal teams."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description does not explicitly state delivery via a productized application or SaaS; insufficient evidence to confirm productized/SaaS delivery."
+            }
+          }
+        },
+        {
+          "record_id": "cb:102f383c-d044-4bc8-b457-389b61202f35",
+          "name": "Ivo",
+          "domain": "ivo.ai",
+          "one_liner": "Ivo is a developer of a generative AI contracting assistant for legal teams.",
+          "description_full": "Ivo is a developer of a generative AI contracting assistant for legal teams.",
+          "cosine": 0.5396,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches all 6 criteria: generative AI product explicitly built for legal teams (contracting assistant) and presented as a productized application.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a developer of a generative AI contracting assistant."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Explicitly references that the assistant is for legal teams."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Product is a contracting assistant, i.e., a domain-specific (contracts) AI for legal use cases."
+            },
+            "4": {
+              "match": true,
+              "evidence": "A contracting assistant for legal teams implies an application that augments legal professional services workflows."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Targets legal teams, which maps to law firms or corporate legal departments as customers."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Described as a developer of an assistant product, implying a productized application (SaaS) delivery model."
+            }
+          }
+        },
+        {
+          "record_id": "cb:fafc7610-e649-4dd4-887d-ee26cc9fd736",
+          "name": "JuristAI",
+          "domain": "juristai.org",
+          "one_liner": "Leveraging generative AI for the law. Our first product is Atticus, the first robot Federal defense attorney!",
+          "description_full": "Leveraging generative AI for the law. Our first product is Atticus, the first robot Federal defense attorney!",
+          "cosine": 0.533,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches all 6 criteria: explicitly generative AI built for law with a named product that serves legal workflows and customers.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Description: 'Leveraging generative AI for the law.'"
+            },
+            "2": {
+              "match": true,
+              "evidence": "Explicit focus on 'the law' indicates a legal-industry focus."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Their first product, 'Atticus', is positioned as an AI legal product (robot Federal defense attorney), indicating a domain-specific legal AI."
+            },
+            "4": {
+              "match": true,
+              "evidence": "A product framed as a defense-attorney AI implies augmentation of legal defense workflows and tasks."
+            },
+            "5": {
+              "match": true,
+              "evidence": "A legal-focused product (Atticus) implies customers in legal practice (law firms or legal departments)."
+            },
+            "6": {
+              "match": true,
+              "evidence": "They mention a named product ('Atticus'), indicating a productized application rather than only consulting or research."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Matches only legal-industry criterion (1/6); a law firm rather than an AI product vendor, so only weakly related to the seed.",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Matches only legal-industry criterion (1/6); a law firm rather than an AI product vendor, so only weakly related to the seed.",
+      "criteria_matched": [
+        2
+      ],
+      "criteria_missing": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:edc2ac97-0076-4b8b-99cb-fcced5579b34",
+          "name": "Harvey Esquire",
+          "domain": "harveyesq.com",
+          "one_liner": "Harvey Esquire is a venture capital law firm that provides legal services for capital funds, accelerators, and emerging fund managers.",
+          "description_full": "Harvey Esquire is a venture capital law firm that provides legal services for capital funds, accelerators, and emerging fund managers.",
+          "cosine": 0.6221,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches only legal-industry criterion (1/6); a law firm rather than an AI product vendor, so only weakly related to the seed.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as a venture capital law firm providing legal services; no mention of generative AI or AI software."
+            },
+            "2": {
+              "match": true,
+              "evidence": "Is a law firm, clearly operating within the legal industry."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a domain-specific AI product tailored to legal use cases in the description; insufficient evidence."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No mention of an application that augments legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "The firm provides legal services to clients rather than targeting law firms or corporate legal departments as customers."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No evidence of delivering AI functionality through a productized application or SaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:78f0864f-7822-4c3f-ab6f-1a28b894d10c",
+          "name": "White Matter",
+          "domain": "whitematter.ai",
+          "one_liner": "Generative AI training, consulting and professional services.",
+          "description_full": "Generative AI training, consulting and professional services.",
+          "cosine": 0.6097,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consulting/training firm related to generative AI but not focused on legal or delivering a visible legal SaaS product; weak peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as 'Generative AI training, consulting and professional services' with no explicit statement that they develop a generative AI software product."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a focus on the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a domain-specific legal AI product; description references general consulting and training."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they offer an application to augment legal professional workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No evidence of delivering AI via a productized application or SaaS in the description."
+            }
+          }
+        },
+        {
+          "record_id": "cb:7e5a2dc0-9f06-4c8b-ac13-0bee3c142e2e",
+          "name": "TinderProfile.ai",
+          "domain": "tinderprofile.ai",
+          "one_liner": "generative AI service",
+          "description_full": "generative AI service",
+          "cosine": 0.5807,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative AI consumer service unrelated to legal industry; weak/adjacent match.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described generally as a generative AI service."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of focus on the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Product appears consumer-focused (dating profiles), not a legal vertical AI."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of augmenting legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No mention of a productized legal SaaS or workflow integration."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3065823d-1b11-4491-8908-3d82a0660fa1",
+          "name": "VOX AI",
+          "domain": "thevoxasia.com",
+          "one_liner": "B2B SaaS Generative AI startup",
+          "description_full": "B2B SaaS Generative AI startup",
+          "cosine": 0.5763,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative AI B2B SaaS but not legal-focused; productized delivery is present but industry mismatch keeps it a weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a 'B2B SaaS Generative AI startup.'"
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a legal-industry focus or serving legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a domain-specific legal AI product."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Self-described as B2B SaaS, indicating productized application delivery."
+            }
+          }
+        },
+        {
+          "record_id": "cb:7ad1ea99-0c2f-4b0d-b3b1-095485664365",
+          "name": "Sharktower AI",
+          "domain": "sharktower.com",
+          "one_liner": "Sharktower AI is a data and AI software company aimed to transform how businesses deliver change using our AI project management platform",
+          "description_full": "Sharktower AI is a data and AI software company aimed to transform how businesses deliver change using our AI project management platform",
+          "cosine": 0.5606,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI platform company with productized SaaS but no legal focus; adjacent but not a peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a data and AI software company with an AI project management platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a specific focus on the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Product is a project management platform, not indicated to be tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Offers an AI project management platform, indicating a productized application (SaaS)."
+            }
+          }
+        },
+        {
+          "record_id": "cb:556d8d49-d802-4c7c-8abb-00b35685ad44",
+          "name": "Try it on AI",
+          "domain": "tryitonai.com",
+          "one_liner": "Generative AI Platform",
+          "description_full": "Generative AI Platform",
+          "cosine": 0.5569,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generic generative AI platform without legal vertical focus; weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a generative AI platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of serving the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a domain-specific legal AI product."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description does not specify delivery as a legal workflow-integrated SaaS product."
+            }
+          }
+        },
+        {
+          "record_id": "cb:6789bc83-d509-48dd-8649-81323be0d268",
+          "name": "HaiVE",
+          "domain": "haive.tech",
+          "one_liner": "HaiVE is an AI as a service platform that optimises the customer experience for business teams in pre-Sales and product/service support.",
+          "description_full": "HaiVE is an AI as a service platform that optimises the customer experience for business teams in pre-Sales and product/service support.",
+          "cosine": 0.5552,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI-as-a-service for customer experience; productized but not legal-focused.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an 'AI as a service' platform optimizing customer experience."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on pre-Sales and product/service support, not legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Solution targets customer experience rather than legal-specific use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence of augmenting legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit claim of delivering a legal SaaS integrated into legal workflows."
+            }
+          }
+        },
+        {
+          "record_id": "cb:dd9cdbd6-c17b-46bb-b062-8de20ba5f45a",
+          "name": "Apollo",
+          "domain": "apollohr.co.jp",
+          "one_liner": "Apollo develops a marketing SaaS delivering professional services driven by AI.",
+          "description_full": "Apollo develops a marketing SaaS delivering professional services driven by AI.",
+          "cosine": 0.5551,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI-driven SaaS for marketing/professional services but not legal-specific; weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Develops a marketing SaaS 'delivering professional services driven by AI.'"
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description indicates marketing/HR focus rather than serving legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a legal vertical AI product tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication the application augments legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Described as a SaaS product, indicating productized delivery."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a20d0f54-2b8c-4fc3-a6ea-d4f4583dc0d7",
+          "name": "xPub",
+          "domain": "xpub.ai",
+          "one_liner": "B2B Enterprise Generative AI SaaS",
+          "description_full": "B2B Enterprise Generative AI SaaS",
+          "cosine": 0.5538,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Enterprise generative AI SaaS company but no stated legal vertical; adjacent but not a true peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as 'B2B Enterprise Generative AI SaaS.'"
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a particular focus on the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of domain-specific legal AI tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence they target law firms or corporate legal departments specifically."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Self-described as enterprise SaaS, indicating productized application delivery."
+            }
+          }
+        },
+        {
+          "record_id": "cb:e8daa6ae-e302-4a1c-837d-de8b082a1367",
+          "name": "Casie AI",
+          "domain": "casie.ai",
+          "one_liner": "Generative AI platform",
+          "description_full": "Generative AI platform",
+          "cosine": 0.5537,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generic generative AI platform with no legal vertical evidence; weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a generative AI platform."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of serving legal professionals or a legal-industry focus."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a domain-specific legal product tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description lacks evidence of productized legal workflow integration or SaaS delivery for legal teams."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5b9ecb3c-f21a-4ac3-a42b-8d6719ac3e4d",
+          "name": "Wurkzen",
+          "domain": "wurkzen.com",
+          "one_liner": "An AI company that builds business AI products that improve revenue performance management.",
+          "description_full": "An AI company that builds business AI products that improve revenue performance management.",
+          "cosine": 0.5502,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Business AI product company unrelated to legal vertical; not a close peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Builds business AI products to improve revenue performance management."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a legal-industry focus or legal professionals in the description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Product focus is revenue performance management, not legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit mention of delivering AI functionality as a legal workflow-integrated SaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:9b959da2-bd86-41fd-8458-db25bbc5b646",
+          "name": "Kendra Labs",
+          "domain": "kendralabs.com",
+          "one_liner": "A Data and Generative AI Platform Company",
+          "description_full": "A Data and Generative AI Platform Company",
+          "cosine": 0.5477,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative AI/data platform but lacks legal vertical focus; weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a Data and Generative AI Platform Company."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a legal focus or serving legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a legal vertical or domain-specific legal AI product."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of targeting law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "Description does not state delivery through a legal-focused productized application or SaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:9cf24542-d2ee-45b7-baa8-010042c8dd91",
+          "name": "Spellz",
+          "domain": "spellz.ai",
+          "one_liner": "Customer Service meets Generative AI",
+          "description_full": "Customer Service meets Generative AI",
+          "cosine": 0.5415,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative AI applied to customer service, not legal; adjacent but not a peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Positioned as 'Customer Service meets Generative AI.'"
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on customer service rather than the legal industry."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a domain-specific legal product tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of targeting law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit mention of a legal SaaS or integrated legal workflow product."
+            }
+          }
+        },
+        {
+          "record_id": "cb:ec137266-7c5f-4bf7-94aa-8f9bcc948c18",
+          "name": "Talent Mesh AI",
+          "domain": "talentmesh.ai",
+          "one_liner": "SaaS AI powered team builder for companies who want predictably successful teams and projects.",
+          "description_full": "SaaS AI powered team builder for companies who want predictably successful teams and projects.",
+          "cosine": 0.538,
+          "llm_tier": "tier_4",
+          "tier_rationale": "SaaS AI for team building; productized but not legal-focused.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a SaaS AI-powered team builder."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a legal-industry focus or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Product targets team building rather than legal-specific use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Described as SaaS, implying a productized application."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a64185be-e155-45a3-ba78-e7728386c9f9",
+          "name": "Kanerika Inc.",
+          "domain": "kanerika.com",
+          "one_liner": "Premier IT Global Consulting firm for AI/ML, Generative AI, Analytics, Automation, and Integration Services.",
+          "description_full": "Premier IT Global Consulting firm for AI/ML, Generative AI, Analytics, Automation, and Integration Services.",
+          "cosine": 0.5379,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Consulting/IT services firm focusing on AI/ML integration rather than a legal vertical SaaS vendor.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Described as an IT consulting firm for AI/ML and generative AI services; no explicit indication they develop a productized generative AI software."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No evidence of a legal-industry focus in the description."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a domain-specific legal AI product tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit mention of delivering AI via a legal-focused productized application or SaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:398df18c-ca39-4f27-b5b1-f1f6cb004ff1",
+          "name": "Future AI",
+          "domain": "futureai.studio",
+          "one_liner": "At Future AI, we are building a software company specializing in AI-powered solutions for the SaaS and eCommerce industries.",
+          "description_full": "At Future AI, we are building a software company specializing in AI-powered solutions for the SaaS and eCommerce industries.",
+          "cosine": 0.5362,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI solutions for SaaS/eCommerce verticals not related to legal; not a peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Building AI-powered solutions for SaaS and eCommerce industries."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on SaaS and eCommerce, not the legal industry."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of domain-specific legal AI tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of targeting law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No evidence of delivering AI functionality as a legal SaaS integrated into legal workflows."
+            }
+          }
+        },
+        {
+          "record_id": "cb:a7710a59-0bb8-4c3c-91d8-b28e3d73df38",
+          "name": "ACCETION",
+          "domain": "accetion.com",
+          "one_liner": "A startup working on Augmented intelligence - a human-centric partnership model of people and AI and transforming businesses through AI.",
+          "description_full": "A startup working on Augmented intelligence - a human-centric partnership model of people and AI and transforming businesses through AI.",
+          "cosine": 0.5354,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI/augmented intelligence company without stated legal vertical focus; adjacent at best.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as working on augmented intelligence and transforming businesses through AI."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No specific mention of the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No indication of a legal domain-specific AI product."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit claim of delivering AI via a legal-focused SaaS application."
+            }
+          }
+        },
+        {
+          "record_id": "cb:90db5553-72a6-4d4f-9b9d-46b3473d743b",
+          "name": "Foundational AI LLC",
+          "domain": "foundationalai.io",
+          "one_liner": "Aiming to solve challenges faced by enterprises in their pre-sales process through latest advancements in Generative AI technology.",
+          "description_full": "Aiming to solve challenges faced by enterprises in their pre-sales process through latest advancements in Generative AI technology.",
+          "cosine": 0.5352,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative AI for enterprise pre-sales; not legal-specific.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Aiming to solve enterprise challenges through generative AI in pre-sales processes."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description is focused on pre-sales and enterprise processes, not the legal industry."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a domain-specific legal AI product tailored to legal use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit claim of delivering AI via a legal-focused productized application or SaaS."
+            }
+          }
+        },
+        {
+          "record_id": "cb:3d21b7a9-bdf2-46b3-b347-3a098021ec9c",
+          "name": "Typetone",
+          "domain": "typetone.ai",
+          "one_liner": "AI content platform - Personalized generative AI for organizations.",
+          "description_full": "AI content platform - Personalized generative AI for organizations.",
+          "cosine": 0.535,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI content platform for organizations but not legal-focused; weak peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an AI content platform providing personalized generative AI for organizations."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a legal-industry focus or serving legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Focus is on content generation rather than legal-specific use cases."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No evidence of delivering a legal-focused SaaS integrated into legal workflows."
+            }
+          }
+        },
+        {
+          "record_id": "cb:68e9bf15-0508-4a9e-b9f2-eac293299829",
+          "name": "SevnAI",
+          "domain": "sevn.ai",
+          "one_liner": "SevnAI is a Platform which offering generative design AI services",
+          "description_full": "SevnAI is a Platform which offering generative design AI services",
+          "cosine": 0.5349,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Generative design AI platform unrelated to legal vertical; not a peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as a platform offering generative design AI services."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No indication of a focus on the legal industry or legal professionals."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Services described are generative design, not legal-specific."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement that they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit mention of a productized legal SaaS integrated into legal workflows."
+            }
+          }
+        },
+        {
+          "record_id": "cb:5a42ba75-adea-44e9-9290-e1cf94c6fe6e",
+          "name": "Morada AI",
+          "domain": "morada.ai",
+          "one_liner": "SaaS company building Artificial Intelligence products for the Real Estate Industry",
+          "description_full": "SaaS company building Artificial Intelligence products for the Real Estate Industry",
+          "cosine": 0.532,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Vertical AI SaaS but for real estate rather than legal; adjacent but not a peer.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "SaaS company building AI products for the Real Estate industry."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on real estate rather than the legal industry."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Product is tailored to real estate use cases, not legal ones."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": true,
+              "evidence": "Described as a SaaS company, indicating productized delivery."
+            }
+          }
+        },
+        {
+          "record_id": "cb:1448bb17-4350-d74e-e3d4-18db2c24a29e",
+          "name": "HACARUS",
+          "domain": "hacarus.com",
+          "one_liner": "Hacarus is a provider of AI tools for the medical and industrial fields.",
+          "description_full": "Hacarus is a provider of AI tools for the medical and industrial fields.",
+          "cosine": 0.5317,
+          "llm_tier": "tier_4",
+          "tier_rationale": "AI tools vendor focused on medical and industrial verticals; not relevant to legal vertical.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Provider of AI tools for medical and industrial fields."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Focus is on medical and industrial fields, not legal."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No evidence of a legal domain-specific AI product."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No indication they augment legal professional services workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence they target law firms or corporate legal departments."
+            },
+            "6": {
+              "match": false,
+              "evidence": "No explicit mention of delivering AI via a legal-focused productized application or SaaS."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "vertical AI applications like Harvey for legal",
+  "pipeline_seconds": 1386.4,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 40538,
+    "n_new_embeddings": 37652
+  }
+}

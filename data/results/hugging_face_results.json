@@ -1,0 +1,903 @@
+{
+  "seed": {
+    "name": "Hugging Face",
+    "domain": "huggingface.co",
+    "record_id": "cb:b7947f18-b199-45ac-b7da-66f5c52fcfbc",
+    "industries": [
+      "Artificial Intelligence (AI)",
+      "Generative AI",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Open Source",
+      "Software"
+    ],
+    "country": "Northeastern US"
+  },
+  "criteria": [
+    {
+      "id": 1,
+      "text": "Provides open-source software (libraries, frameworks, or SDKs) for building, training, or deploying AI models",
+      "rationale": "Hugging Face is primarily an open-source tooling provider; this separates true peers from companies that sell closed-source or purely hosted SaaS ML products."
+    },
+    {
+      "id": 2,
+      "text": "Hosts or operates a public model repository or model hub that distributes pre-trained models under open-source or permissive licenses",
+      "rationale": "A model hub or repository is a distinctive product that enables model discovery and reuse, distinguishing peers that act as community model platforms from tool vendors that do not publish models."
+    },
+    {
+      "id": 3,
+      "text": "Targets developers and ML practitioners with developer-focused tooling such as SDKs, APIs, CLIs, or extensible plugins",
+      "rationale": "Hugging Face serves technical users; this filters out non-developer-focused vendors (e.g., low-code/no-code business apps) even if they mention AI."
+    },
+    {
+      "id": 4,
+      "text": "Enables training, fine-tuning, or deployment workflows for generative or foundation models (for example NLP, vision, or multimodal models)",
+      "rationale": "Peer companies support the end-to-end model lifecycle for large/generative models, which differentiates them from companies that only provide peripheral services (e.g., data labeling or analytics)."
+    },
+    {
+      "id": 5,
+      "text": "Encourages or accepts community contributions such as user-submitted models, datasets, or model metadata",
+      "rationale": "Community-driven contribution and sharing is a core differentiator for open-source AI tooling platforms versus proprietary toolchains that do not accept public contributions."
+    }
+  ],
+  "tiers": [
+    {
+      "tier_label": "Tier 1 \u2014 strong peers \u2014 Matches 4/5 criteria (open-source library, developer tooling, training/workflows, community contributions); the only missing signal is an explicit public model ",
+      "llm_tier": "tier_1",
+      "summary_rationale": "Matches 4/5 criteria (open-source library, developer tooling, training/workflows, community contributions); the only missing signal is an explicit public model hub.",
+      "criteria_matched": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "criteria_missing": [
+        2
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:2f7e4c8e-0f08-44ce-b132-f30a9dda5fa2",
+          "name": "Gluon Open Source Project",
+          "domain": "gluon.mxnet.io",
+          "one_liner": "Open source deep learning interface which allows developers to more easily and quickly build machine learning models.",
+          "cosine": 0.4882,
+          "llm_tier": "tier_1",
+          "tier_rationale": "Matches 4/5 criteria (open-source library, developer tooling, training/workflows, community contributions); the only missing signal is an explicit public model hub.",
+          "evidence": {
+            "1": {
+              "match": true,
+              "evidence": "Described as an \"Open source deep learning interface\" which is an open-source library for building ML models."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of hosting a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "The project \"allows developers to more easily and quickly build machine learning models,\" indicating developer-focused tooling."
+            },
+            "4": {
+              "match": true,
+              "evidence": "As a deep learning interface for building models it supports training/workflows developers use to build and run models."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Being an open source project implies it accepts community contributions (code/educational contributions)."
+            }
+          },
+          "description_full": "Open source deep learning interface which allows developers to more easily and quickly build machine learning models."
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 3 \u2014 adjacent \u2014 Matches the platform/dev tooling and model workflow criteria (2/5), making it a plausible adjacent peer though no evidence of open-source libraries or a public ",
+      "llm_tier": "tier_3",
+      "summary_rationale": "Matches the platform/dev tooling and model workflow criteria (2/5), making it a plausible adjacent peer though no evidence of open-source libraries or a public model hub.",
+      "criteria_matched": [
+        3,
+        4
+      ],
+      "criteria_missing": [
+        1,
+        2,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:7224bf92-186e-471e-822b-b3266322bbc8",
+          "name": "Openfabric AI",
+          "domain": "openfabric.ai",
+          "one_liner": "Openfabric is a platform for building and connecting AI applications",
+          "cosine": 0.5018,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches the platform/dev tooling and model workflow criteria (2/5), making it a plausible adjacent peer though no evidence of open-source libraries or a public model hub.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not state that Openfabric provides open-source libraries or SDKs (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of a public model repository or hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as a \"platform for building and connecting AI applications,\" which indicates developer-facing tooling."
+            },
+            "4": {
+              "match": true,
+              "evidence": "A platform for building AI applications typically supports model training/fine-tuning and deployment workflows, which the description implies."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of accepting community-contributed models, datasets, or metadata (insufficient evidence)."
+            }
+          },
+          "description_full": "Openfabric is a platform for building and connecting AI applications"
+        },
+        {
+          "record_id": "cb:8893bf6c-d6a1-4e13-bb88-3119fe31027c",
+          "name": "Epigos AI",
+          "domain": "epigos.ai",
+          "one_liner": "It's a platform that empowers you to annotate data, train and deploy cutting-edge custom computer vision models AI.",
+          "cosine": 0.4871,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches core workflows for training and deployment and provides developer-facing tooling (2/5), but lacks evidence of open-source software or a public model hub.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not indicate Epigos provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as a platform that empowers users to annotate data, train and deploy custom computer vision models, indicating developer/practitioner tooling."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Explicitly says it can annotate data, train and deploy custom computer vision models, matching training and deployment workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement about community contributions or user-submitted models/datasets in the description (insufficient evidence)."
+            }
+          },
+          "description_full": "It's a platform that empowers you to annotate data, train and deploy cutting-edge custom computer vision models AI."
+        },
+        {
+          "record_id": "cb:f8b7aeef-d6bc-b9ab-1514-59e8bb2f2a6a",
+          "name": "CrowdAI",
+          "domain": "crowdai.com",
+          "one_liner": "CrowdAI enables organizations to create and deploy custom models for visual AI and a code-free platform.",
+          "cosine": 0.4819,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Provides model creation and deployment workflows and tooling (2/5), making it a plausible peer for workflow-oriented capabilities but not an open-source model hub.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence in the description that CrowdAI provides open-source libraries or SDKs (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not mention hosting a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Enables organizations to create and deploy custom models on a platform, indicating tooling for practitioners and teams."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Explicitly references creating and deploying custom models, matching training and deployment workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions such as user-submitted models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "CrowdAI enables organizations to create and deploy custom models for visual AI and a code-free platform."
+        },
+        {
+          "record_id": "cb:7d1dda2d-2380-479d-9cb5-3b25be4d9e0c",
+          "name": "FriendliAI",
+          "domain": "friendli.ai",
+          "one_liner": "Software for Building and Serving Generative AI Models Simpler, Cheaper, and Faster",
+          "cosine": 0.4769,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches building and serving workflows and targets practitioners (2/5), but lacks evidence of open-source software or a public model hub.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not state FriendliAI distributes open-source libraries or SDKs (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as \"Software for Building and Serving Generative AI Models,\" indicating developer/practitioner-facing tooling."
+            },
+            "4": {
+              "match": true,
+              "evidence": "The phrasing \"Building and Serving\" explicitly points to training/build and deployment/serving workflows."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No information about community contributions or accepting user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "Software for Building and Serving Generative AI Models Simpler, Cheaper, and Faster"
+        },
+        {
+          "record_id": "cb:e40994da-e3a3-46a6-ac9e-68d75c003b56",
+          "name": "Palapa",
+          "domain": "palapa.ai",
+          "one_liner": "Social app for building computer vision AIs",
+          "cosine": 0.4728,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches 3/5 criteria (developer tooling, training/build workflows, community contributions) but lacks explicit open-source artifacts or a public model hub in the description.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not state Palapa provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as a \"Social app for building computer vision AIs,\" indicating tools aimed at people building models (developer/practitioner tooling)."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Being an app for building computer vision AIs implies it enables model-building and related workflows (training/deployment) for users."
+            },
+            "5": {
+              "match": true,
+              "evidence": "Presented as a social app, which implies community participation and user contributions to building models/datasets."
+            }
+          },
+          "description_full": "Social app for building computer vision AIs"
+        },
+        {
+          "record_id": "cb:f1fc07d6-b108-41b7-9a22-f7f49a5e5dda",
+          "name": "Gryfo",
+          "domain": "gryfo.com.br",
+          "one_liner": "Mobile and offline facial recognition platform",
+          "cosine": 0.4725,
+          "llm_tier": "tier_3",
+          "tier_rationale": "Matches deployment and developer/platform capabilities (2/5) but lacks open-source distribution or a public model hub.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence in the description that Gryfo provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not mention operating a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as a \"Mobile and offline facial recognition platform,\" indicating a developer-facing platform or SDK for deployment targets."
+            },
+            "4": {
+              "match": true,
+              "evidence": "Being an offline platform implies deployment workflows for models to run on-device."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions or user-submitted models/datasets in the description (insufficient evidence)."
+            }
+          },
+          "description_full": "Mobile and offline facial recognition platform"
+        }
+      ]
+    },
+    {
+      "tier_label": "Tier 4 \u2014 weakly related \u2014 Only matches the developer-facing tooling criterion (1/5); despite a high cosine score, it lacks the open-source/model-hub/community signals required to be a st",
+      "llm_tier": "tier_4",
+      "summary_rationale": "Only matches the developer-facing tooling criterion (1/5); despite a high cosine score, it lacks the open-source/model-hub/community signals required to be a strong peer.",
+      "criteria_matched": [
+        3
+      ],
+      "criteria_missing": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "candidates": [
+        {
+          "record_id": "cb:a440c746-fd20-4371-8a7c-af798cdbd369",
+          "name": "NLP Cloud",
+          "domain": "nlpcloud.io",
+          "one_liner": "NLP Cloud provides spaCy and hugging face transformer-based models.",
+          "cosine": 0.6021,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Only matches the developer-facing tooling criterion (1/5); despite a high cosine score, it lacks the open-source/model-hub/community signals required to be a strong peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description references spaCy and Hugging Face transformer-based models but does not state NLP Cloud itself provides open-source software (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No explicit mention of hosting a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Provides access to spaCy and Hugging Face transformer-based models, indicating developer-facing services or APIs."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description does not mention supporting training or fine-tuning workflows, only providing model-based services (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of accepting community contributions or user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "NLP Cloud provides spaCy and hugging face transformer-based models."
+        },
+        {
+          "record_id": "cb:23f183ba-42d6-41c0-b924-822d5c35d08f",
+          "name": "Generated Photos",
+          "domain": "generated.photos",
+          "one_liner": "AI-generated photorealistic headshots and full-body images. Apps to create and modify faces and humans. Datasets for training and research",
+          "cosine": 0.5705,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Provides datasets and generated content but lacks the open-source/model-hub/tooling/community signals that define a close peer to the seed (0/5 matches).",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description focuses on AI-generated images and apps but does not claim to provide open-source software or libraries (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No indication of hosting a public model repository or hub; they provide images and datasets instead."
+            },
+            "3": {
+              "match": false,
+              "evidence": "While they offer apps, the description does not specifically reference developer SDKs, APIs, or CLIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No mention of enabling training, fine-tuning, or deployment workflows for generative models in the description (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "Although they provide datasets for research, there is no statement that they accept community-submitted models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "AI-generated photorealistic headshots and full-body images. Apps to create and modify faces and humans. Datasets for training and research"
+        },
+        {
+          "record_id": "cb:86cfe811-6481-7332-fed2-1416c8bfc8c7",
+          "name": "Expressive",
+          "domain": "expressive.ai",
+          "one_liner": "The Face of AI. Turning CG Characters into AI interfaces.",
+          "cosine": 0.5343,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Adjacent/vertical company focused on AI-driven character interfaces with no signals of open-source/model-hub/tooling/community features required for a Hugging Face peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not indicate provision of open-source libraries or SDKs (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of hosting a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on turning CG characters into AI interfaces but does not mention developer SDKs/APIs/CLIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No evidence in the description of enabling training, fine-tuning, or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication of community contributions or user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "The Face of AI. Turning CG Characters into AI interfaces."
+        },
+        {
+          "record_id": "cb:9038e252-4567-4d91-9d11-799af3cacd6f",
+          "name": "AlgoFace",
+          "domain": "algoface.ai",
+          "one_liner": "AlgoFace develops technology at the intersection of artificial intelligence, computer vision, and augmented reality.",
+          "cosine": 0.5247,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Computer-vision/AR company with no explicit signals of open-source distribution, public model hub, or community-driven model hosting.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No claim of providing open-source libraries or frameworks in the description (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of operating a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on technology at the intersection of AI, computer vision and AR without stating developer SDKs/APIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit reference to training, fine-tuning, or deployment workflows in the description (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication that AlgoFace accepts community contributions of models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "AlgoFace develops technology at the intersection of artificial intelligence, computer vision, and augmented reality."
+        },
+        {
+          "record_id": "cb:bd64ddb7-25ac-4781-af30-349cd7ecde67",
+          "name": "FaceAll",
+          "domain": "faceall.cn",
+          "one_liner": "FaceAll engages in the research and development in artificial intelligence, computer vision and deep learning.",
+          "cosine": 0.5239,
+          "llm_tier": "tier_4",
+          "tier_rationale": "R&D-focused computer vision firm with no explicit developer-facing open-source or model-hub signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description states R&D in AI and deep learning but does not claim to publish open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "No explicit mention of developer-focused tooling such as SDKs, APIs, or CLIs in the description (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of training, fine-tuning, or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence of accepting community-contributed models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "FaceAll engages in the research and development in artificial intelligence, computer vision and deep learning."
+        },
+        {
+          "record_id": "cb:6aa9d6c7-9a42-4f23-8f86-15a30b68c466",
+          "name": "Homem Digital",
+          "domain": "homemdigital.com",
+          "one_liner": "Reshape real-time face analysis with AI and computer vision.",
+          "cosine": 0.5187,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Focused on face analysis capabilities; lacks clear signals of open-source distribution, a model hub, or community-driven model contributions.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No indication of open-source libraries or frameworks in the description (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not mention a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "The description discusses real-time face analysis but does not explicitly describe SDKs, APIs, or developer tooling (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of supporting training, fine-tuning, or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of accepting community contributions (insufficient evidence)."
+            }
+          },
+          "description_full": "Reshape real-time face analysis with AI and computer vision."
+        },
+        {
+          "record_id": "cb:760af7cb-8d11-43f6-ab27-9157006b9d31",
+          "name": "Fliption",
+          "domain": "fliption.com",
+          "one_liner": "Fliption develops an AI-driven face transformation engine for companies to create virtual humans.",
+          "cosine": 0.5105,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Enterprise-facing face-transformation product with no explicit open-source/model-hub/community signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not state Fliption provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Offers a face transformation engine for companies, but the description does not explicitly reference SDKs/APIs or other developer tooling (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of training/fine-tuning or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No indication of community contributions or user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "Fliption develops an AI-driven face transformation engine for companies to create virtual humans."
+        },
+        {
+          "record_id": "cb:2fec8848-ca3c-4674-8c0e-b71197a2fa9e",
+          "name": "Enface",
+          "domain": "enface.ai",
+          "one_liner": "Enface offers a marketplace for computer vision, face recognition, and AI solutions for developers.",
+          "cosine": 0.5093,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches developer-facing distribution (marketplace) but lacks explicit open-source, model hub, or community contribution signals (1/5).",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No indication in the description that Enface distributes open-source libraries or SDKs (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not explicitly say Enface operates a public model hub or model repository (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Offers a marketplace for computer vision, face recognition, and AI solutions \"for developers,\" indicating developer-focused tooling and distribution."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of training, fine-tuning, or deployment workflows in the description (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No explicit statement that the marketplace accepts community-submitted models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "Enface offers a marketplace for computer vision, face recognition, and AI solutions for developers."
+        },
+        {
+          "record_id": "cb:e7316f4e-a218-4be5-8b72-7c16edc24f53",
+          "name": "The Project AI",
+          "domain": "theprojectai.tech",
+          "one_liner": "The Project AI enables users to build a 3d model for their projects.",
+          "cosine": 0.5047,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Focused on 3D model creation rather than open-source ML libraries or a public model hub; lacks developer/ML community signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence it provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of hosting a public model repository or hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description says it enables users to build a 3D model but does not reference developer SDKs, APIs, or ML tooling (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No information about supporting training, fine-tuning, or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions or user-submitted datasets/models (insufficient evidence)."
+            }
+          },
+          "description_full": "The Project AI enables users to build a 3d model for their projects."
+        },
+        {
+          "record_id": "cb:0cd3d103-ae4f-4203-9852-dacbe676c03d",
+          "name": "Face-Int",
+          "domain": "face-int.com",
+          "one_liner": "Face-Int specializes in developing cutting-edge face recognition software using unique hash and AI algorithms.",
+          "cosine": 0.5011,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Specialized face recognition vendor without clear open-source or public hub attributes.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No indication of distributing open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub in the description (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on developing face recognition software but does not mention developer SDKs/APIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit reference to training/fine-tuning/deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No statement about accepting community contributions (insufficient evidence)."
+            }
+          },
+          "description_full": "Face-Int specializes in developing cutting-edge face recognition software using unique hash and AI algorithms."
+        },
+        {
+          "record_id": "cb:f8e7d3af-1aa4-48ab-8100-352621be15c3",
+          "name": "Genesis lab",
+          "domain": "genesislab.ai",
+          "one_liner": "Genesis lab AI solutions that understand human emotions using facial expressions, voices, and gestures.",
+          "cosine": 0.5,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Product/company focused on emotional-comprehension AI with no explicit open-source/model-hub/community attributes.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence the company provides open-source software or libraries (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description outlines emotion-understanding solutions but does not indicate developer SDKs/APIs or tooling (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of supporting training, fine-tuning, or deployment workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions in the description (insufficient evidence)."
+            }
+          },
+          "description_full": "Genesis lab AI solutions that understand human emotions using facial expressions, voices, and gestures."
+        },
+        {
+          "record_id": "cb:3d320581-0509-6518-e927-a9b2663adee6",
+          "name": "DeepAR",
+          "domain": "deepar.ai",
+          "one_liner": "AR as a Service: Add 3D Face Masks, Lenses + FX to any app with one simple SDK",
+          "cosine": 0.4939,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Matches the developer tooling criterion via an SDK but lacks open-source, model hub, and community contribution signals (1/5).",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No statement that DeepAR provides open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate operation of a public model repository or hub (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as \"AR as a Service\" with an SDK, directly indicating developer-focused tooling."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of training or fine-tuning workflows; focus is on SDK-based integration and runtime features (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community-submitted models, datasets, or metadata (insufficient evidence)."
+            }
+          },
+          "description_full": "AR as a Service: Add 3D Face Masks, Lenses + FX to any app with one simple SDK"
+        },
+        {
+          "record_id": "cb:6393d430-936b-4522-bfcc-b8dc4d680d0b",
+          "name": "Agora Brands Group",
+          "domain": "agorabrandsgroup.com",
+          "one_liner": "The Face of AI - AI Interactive Avatars for kiosks, websites, mobile devices, PC, social media platforms and globally.",
+          "cosine": 0.4934,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Avatar/interactive AI provider without explicit developer-facing open-source or model-hub offerings.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No claim of open-source libraries or frameworks in the description (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No indication of operating a public model hub or repository (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Provides AI interactive avatars but does not explicitly cite SDKs, APIs, or developer tooling (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No mention of training, fine-tuning, or deployment workflows in the description (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence of community-contributed models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "The Face of AI - AI Interactive Avatars for kiosks, websites, mobile devices, PC, social media platforms and globally."
+        },
+        {
+          "record_id": "cb:f0801602-2158-422c-9d20-7eac6a3bf2a1",
+          "name": "My3dMeta(Formerly My3dselfie)",
+          "domain": "my3dselfie.com",
+          "one_liner": "My3DSelfie leverages machine learning and 3D technology to create close to 90 percent accurate 3D assets.",
+          "cosine": 0.4802,
+          "llm_tier": "tier_4",
+          "tier_rationale": "3D asset generation company; lacks open-source/model-hub/tooling/community signals required to be considered a close Hugging Face peer.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence of providing open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Description focuses on using ML to create 3D assets and does not reference developer SDKs/APIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No mention of providing training, fine-tuning, or deployment workflows for generative/foundation models (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No evidence of accepting community contributions (insufficient evidence)."
+            }
+          },
+          "description_full": "My3DSelfie leverages machine learning and 3D technology to create close to 90 percent accurate 3D assets."
+        },
+        {
+          "record_id": "cb:b6d289da-4b8f-172d-9bb6-1893858c6c4b",
+          "name": "FaceCrunch",
+          "domain": "facecrunch.com",
+          "one_liner": "Facial Recognition-based Stock Image Curation Engine",
+          "cosine": 0.4762,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Niche image curation product with no open-source/model-hub/community signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No claim of offering open-source software or libraries in the description (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Described as a facial recognition-based stock image curation engine; the description does not mention developer SDKs/APIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No information on supporting training or fine-tuning workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community-submitted models or datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "Facial Recognition-based Stock Image Curation Engine"
+        },
+        {
+          "record_id": "cb:5d3b5798-c666-41cf-8912-75767a8ec71e",
+          "name": "HOOBOX Robotics",
+          "domain": "hoo-box.com",
+          "one_liner": "Face Recognition and Robotics",
+          "cosine": 0.4758,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Robotics and face recognition company without explicit open-source or public model hub capabilities.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "Description does not indicate providing open-source libraries or frameworks (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Focus is on face recognition and robotics; no explicit citation of developer SDKs/APIs/CLIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No clear evidence of offering training/fine-tuning/deployment workflows beyond robotics integration (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions or model/dataset submissions (insufficient evidence)."
+            }
+          },
+          "description_full": "Face Recognition and Robotics"
+        },
+        {
+          "record_id": "cb:6a3c0d61-837f-4ed0-84ab-8e574ecb9e6f",
+          "name": "ArtGe Technology",
+          "domain": "artge.net",
+          "one_liner": "ArtGe Technology is an IT company that develops face-capt face recognition systems and cloud computing face recognition.",
+          "cosine": 0.4742,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Enterprise face-recognition and cloud provider without explicit open-source/model hub/community signals.",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence of distributing open-source SDKs or frameworks in the description (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "Description does not indicate operation of a public model repository or hub (insufficient evidence)."
+            },
+            "3": {
+              "match": false,
+              "evidence": "Described as developing face recognition systems and cloud computing, but does not explicitly mention developer SDKs/APIs (insufficient evidence)."
+            },
+            "4": {
+              "match": false,
+              "evidence": "No explicit mention of training/fine-tuning/deployment workflows for foundation/generative models (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of community contributions or user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "ArtGe Technology is an IT company that develops face-capt face recognition systems and cloud computing face recognition."
+        },
+        {
+          "record_id": "cb:d1bc28b5-1f35-4ac2-bfba-fb1774bdcc14",
+          "name": "Facex Face Recognition API",
+          "domain": "facex.io",
+          "one_liner": "The Best Face Recognition APIs  for you",
+          "cosine": 0.4733,
+          "llm_tier": "tier_4",
+          "tier_rationale": "Only matches the developer-facing API criterion; lacks open-source, model hub, or community contribution signals (1/5).",
+          "evidence": {
+            "1": {
+              "match": false,
+              "evidence": "No evidence the company provides open-source frameworks or libraries (insufficient evidence)."
+            },
+            "2": {
+              "match": false,
+              "evidence": "No mention of a public model repository or model hub (insufficient evidence)."
+            },
+            "3": {
+              "match": true,
+              "evidence": "Described as providing face recognition APIs, which are developer-facing tools."
+            },
+            "4": {
+              "match": false,
+              "evidence": "Description focuses on APIs and does not mention training or fine-tuning workflows (insufficient evidence)."
+            },
+            "5": {
+              "match": false,
+              "evidence": "No mention of accepting community contributions or user-submitted models/datasets (insufficient evidence)."
+            }
+          },
+          "description_full": "The Best Face Recognition APIs  for you"
+        }
+      ]
+    }
+  ],
+  "candidate_count_total": 25,
+  "user_query": "show me open source AI tooling companies like Hugging Face",
+  "pipeline_seconds": 273.3,
+  "meta": {
+    "embed_top_k": 25,
+    "rerank_model": "gpt-5-mini-2025-08-07",
+    "crustdata_matched": true,
+    "n_candidates_prefilter": 35628,
+    "n_new_embeddings": 1532
+  }
+}

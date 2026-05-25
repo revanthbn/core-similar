@@ -1,0 +1,34 @@
+{
+  "seed_record_id": "cb:2cc3a5de-2303-aa00-cd1a-50bd96420392",
+  "seed_name": "Klarna",
+  "user_query": "European BNPL companies like Klarna",
+  "fingerprint": "58a61322c6ba7494",
+  "model": "gpt-5-mini-2025-08-07",
+  "criteria": [
+    {
+      "id": 1,
+      "text": "The company offers buy-now-pay-later (BNPL) consumer products that let shoppers defer payment or split purchases into installments at checkout.",
+      "rationale": "BNPL product capability is the core functional distinction between Klarna-like peers and generic payment or fintech firms that do not provide consumer installment credit at checkout."
+    },
+    {
+      "id": 2,
+      "text": "The company provides merchant-facing e-commerce integrations (for example checkout plugins, APIs, or SDKs) to embed BNPL at the point of sale.",
+      "rationale": "Klarna-like peers integrate directly into merchant checkouts; this separates platform/integration providers from consumer-only finance apps or banks that do not integrate with online merchants."
+    },
+    {
+      "id": 3,
+      "text": "The company serves e-commerce merchants and online shoppers as primary customers.",
+      "rationale": "Serving both merchants and consumers in e-commerce distinguishes BNPL vendors from lenders that focus only on consumers or payment processors that target non-retail verticals."
+    },
+    {
+      "id": 4,
+      "text": "The company operates in one or more European countries.",
+      "rationale": "The user explicitly requested European BNPLs; requiring European operations filters out geographically non-relevant BNPL providers."
+    },
+    {
+      "id": 5,
+      "text": "The company provides merchant settlement or a payment guarantee (i.e., it pays merchants for transactions while collecting repayment from consumers over time).",
+      "rationale": "Many Klarna-like competitors differentiate by taking merchant settlement risk or guaranteeing merchant payouts, which separates them from platforms that only broker third-party consumer credit without guaranteeing merchant payment."
+    }
+  ]
+}
