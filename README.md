@@ -6,13 +6,34 @@ Given a seed company, returns a ranked list of similar companies with per-criter
 
 ## TL;DR
 
-Plain-English query in, tiered ranked peers out, with per-criterion match badges and one-sentence evidence per candidate. Side-by-side hook against Crustdata Explore on the same 10 demo seeds.
+Plain-English query in, tiered ranked peers out, with per-criterion match badges and one-sentence evidence per candidate. Side-by-side hook against Crustdata Explore on a curated set of 9 demo seeds spanning healthcare AI, ML infra, fintech, vertical AI, dev tools, and consumer SaaS.
 
 ## Why I built this
 
 At Coldbean, I built a lead scoring module on top of Crustdata's People Search and Enrichment APIs. The flow was: take a customer's ICP, pull candidate leads via Crustdata Search, then score them down to the most relevant subset. I lived inside this pipeline for months. The piece that always hurt was the ICP modeling layer, figuring out which companies looked like the customer's best accounts. We hand-rolled it with brittle filters.
 
 When I saw the Founding ML Engineer JD, the bullet on entity resolution at scale stood out. But what I actually wanted to build was the version of company similarity I wished I'd had then. CoreSimilar is that. It sits on the gap Crustdata's Explore Companies feature leaves open: "companies like Function Health" returns Apollo Hospitals (a 38,000-person Indian hospital chain) because the underlying NL-to-filter system collapses the seed to an industry tag. The point of this artifact is to show what the layer above that looks like, and to tie the ML work directly to the product surface customers already use.
+
+## How to look at this
+
+Three entry points, in order of effort:
+
+1. **Loom walkthrough** (5 min): narrated tour of the architecture, side-by-side comparison with Explore Companies, and the ER design. Link in the message accompanying this repo.
+2. **Hosted UI**: nine pre-warmed queries (Function Health, Replicate, Mercury, Harvey, Hugging Face, Klarna, Wiz, Vercel, Notion). Click any chip to see the result instantly. Static deployment; new freeform queries require running the pipeline locally because the LLM mapper and pipeline don't run in the Vercel environment.
+3. **Run it locally**: clone, follow the "Data setup" section below, then `python -m pipeline.api "your query"`. Wall-clock ~30 to 90 seconds per new query, ~$0.03 in OpenAI API costs.
+
+## Data setup
+
+The pipeline expects three inputs:
+
+1. YC OSS data: `python scripts/fetch_yc.py` (runs in 30s, hits the public API)
+2. Crunchbase snapshot: place a Crunchbase company CSV at 
+   `data/raw/crunchbase.csv`. Any reasonably recent snapshot works; 
+   the schema we use is documented in `pipeline/load_crunchbase.py`.
+3. Build the unified corpus: `python scripts/build_corpus.py` 
+   (runs in ~10 min on a laptop, produces `data/raw/company_corpus.jsonl`)
+
+Embeddings are computed lazily on first query for each candidate; no precomputation needed. If you'd like the exact demo cache used in the Loom (corpus index plus precomputed embeddings, ~1.2GB), DM me and I'll share a Drive link.
 
 ## Architecture
 
@@ -90,7 +111,7 @@ Criterion 1's rationale explicitly excludes hospital labs, which is precisely th
 
 **CoreSimilar returns** (Tier 1 strong peers, 4-5 of 5 criteria matched): Replicate itself, Orchestra (ML model deployment platform), Together AI (cloud-based ML platform), Model Share AI (MLOps platform), ModelsLab (model-serving API). Every Tier 1 result is genuinely ML infrastructure.
 
-Funnel for this query: 2.8M corpus, ~350K demo trim, 38K candidates passing the categorical pre-filter, 25 candidates passing embedding cosine retrieval, 20 verified peers across the four tiers. 35,636 new embeddings computed for this query. Total pipeline wall-clock: 1,060 seconds.
+Funnel for this query: 2.8M corpus → 350K candidates after the pre-filter pass on size and active-status (a "demo trim" trimming closed and clearly-irrelevant companies for faster iteration), → 38K candidates after applying the industry-overlap filter, → 25 candidates after embedding cosine retrieval, → 20 verified peers across the four tiers. 35,636 new embeddings computed for this query. Total pipeline wall-clock: 1,060 seconds.
 
 A quantitative four-baseline eval (Recall@K, NDCG, MRR against hand-labeled peer sets across 15-25 seeds) is the next thing I would build on this. Time-budgeted out of the artifact.
 
@@ -252,4 +273,3 @@ Roadmap items beyond what shipped here. ER Tier 2 and Tier 3 are *not* on this l
 - **People similarity companion.** Same architecture, different features (titles, schools, employers, skills). Maps to JD bullet 6.
 - **MCP tool wrapper.** Expose `similar_companies(seed, k=10)` as an MCP server. Plugs into Claude Code workflows.
 - **Production scoring at scale.** FAISS HNSW over the 2.8M corpus for sub-second seed→top-K lookup. The architecture for this is in the Production Architecture section above.
-
